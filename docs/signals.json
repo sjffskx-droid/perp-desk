@@ -116,7 +116,8 @@
     1333.9
    ],
    "t": 1791126000000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1791126900000
   },
   {
    "id": "SOL/USDT:USDT|long|1791125100000",
@@ -132,7 +133,8 @@
     121.65
    ],
    "t": 1791126000000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1791136800000
   },
   {
    "id": "TRUMP/USDT:USDT|short|1791101700000",
@@ -148,7 +150,8 @@
     2.047
    ],
    "t": 1791126000000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1791126900000
   },
   {
    "id": "UNI/USDT:USDT|long|1791124200000",
@@ -180,7 +183,8 @@
     27.941
    ],
    "t": 1791126000000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1791132300000
   },
   {
    "id": "TRB/USDT:USDT|long|1791124200000",
@@ -196,10 +200,27 @@
     19.91
    ],
    "t": 1791126000000,
+   "status": "sl",
+   "closed": 1791127800000
+  },
+  {
+   "id": "FIL/USDT:USDT|short|1791133200000",
+   "symbol": "FIL/USDT:USDT",
+   "sym": "FIL",
+   "side": "short",
+   "tf": "15m",
+   "entry": 1.047,
+   "sl": 1.0529557142857142,
+   "tp": 1.0350885714285714,
+   "zone": [
+    1.0485,
+    1.0525
+   ],
+   "t": 1791137700000,
    "status": "open"
   }
  ],
- "updated": 1791126000000,
+ "updated": 1791136800000,
  "exchange": "okx",
  "tf": "15m"
 }
