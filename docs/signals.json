@@ -1,0 +1,39 @@
+{
+ "signals": [
+  {
+   "id": "UNI/USDT:USDT|long|1791099900000",
+   "symbol": "UNI/USDT:USDT",
+   "sym": "UNI",
+   "side": "long",
+   "tf": "15m",
+   "entry": 9.027,
+   "sl": 8.998378571428573,
+   "tp": 9.084242857142852,
+   "zone": [
+    9.002,
+    9.032
+   ],
+   "t": 1791103500000,
+   "status": "open"
+  },
+  {
+   "id": "SOXL/USDT:USDT|short|1791086400000",
+   "symbol": "SOXL/USDT:USDT",
+   "sym": "SOXL",
+   "side": "short",
+   "tf": "15m",
+   "entry": 164.2,
+   "sl": 164.4495714285714,
+   "tp": 163.70085714285716,
+   "zone": [
+    164.15,
+    164.42
+   ],
+   "t": 1791103500000,
+   "status": "open"
+  }
+ ],
+ "updated": 1791104400000,
+ "exchange": "okx",
+ "tf": "15m"
+}
