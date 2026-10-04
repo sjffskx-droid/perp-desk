@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="th"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Perp Desk</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+Thai:wght@400;500;600&display=swap">
+<style>
+:root{
+  --bg:#f2f4f7;--surface:#ffffff;--line:#d9dee6;--fg:#101826;--mute:#5b6676;
+  --accent:#d9480f;--accent-fg:#ffffff;--up:#16794a;--dn:#c0262d;
+  --warn-bg:#fff1e6;--chip:#e9edf3;--focus:#1b6ef3;
+  --font-display:"Archivo","Noto Sans Thai",system-ui,sans-serif;
+  --font-body:"Noto Sans Thai",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --font-data:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0d131c;--surface:#151d29;--line:#263142;--fg:#e8edf4;--mute:#93a0b3;
+    --accent:#ff8a4c;--accent-fg:#1a0d04;--up:#3ccf8e;--dn:#ff6b72;
+    --warn-bg:#2a1b10;--chip:#1f2a3a;--focus:#6ea8ff;color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0d131c;--surface:#151d29;--line:#263142;--fg:#e8edf4;--mute:#93a0b3;
+  --accent:#ff8a4c;--accent-fg:#1a0d04;--up:#3ccf8e;--dn:#ff6b72;
+  --warn-bg:#2a1b10;--chip:#1f2a3a;--focus:#6ea8ff;color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--font-body);font-size:14px;line-height:1.55;padding-inline:16px;padding-block:0 40px}
+.wrap{max-width:1180px;margin-inline:auto}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+button,input{font:inherit;color:inherit}
+header.bar{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);margin-inline:-16px;padding:12px 16px}
+.bar-in{max-width:1180px;margin-inline:auto;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.brand{font-family:var(--font-display);font-weight:800;font-size:20px;letter-spacing:-.01em;margin-right:auto}
+.brand small{font-family:var(--font-data);font-weight:500;font-size:11px;color:var(--mute);margin-left:8px;letter-spacing:.04em;text-transform:uppercase}
+.status{font-family:var(--font-data);font-size:12px;color:var(--mute);display:flex;align-items:center;gap:6px}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--mute)}
+.dot.live{background:var(--up)}
+.btn{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:6px 12px;cursor:pointer;font-weight:500}
+.btn:hover{border-color:var(--mute)}
+.btn.primary{background:var(--accent);color:var(--accent-fg);border-color:var(--accent);font-weight:600}
+a.btn{text-decoration:none;display:inline-block}
+.notice{margin-top:16px;background:var(--warn-bg);border:1px solid var(--line);border-radius:6px;padding:10px 14px;font-size:13px}
+.notice b{font-weight:600}
+.summary{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:16px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:12px 14px;min-width:0}
+.stat .k{font-size:12px;color:var(--mute)}
+.stat .v{font-family:var(--font-data);font-size:22px;font-weight:600;margin-top:2px;font-variant-numeric:tabular-nums}
+.stat .s{font-size:12px;color:var(--mute);margin-top:2px}
+.grid{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:16px;margin-top:16px;align-items:start}
+@media (max-width:900px){.grid{grid-template-columns:minmax(0,1fr)}}
+section.panel{background:var(--surface);border:1px solid var(--line);border-radius:8px;min-width:0}
+.panel-h{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:12px 14px;border-bottom:1px solid var(--line)}
+.panel-h h2{font-family:var(--font-display);font-size:16px;font-weight:700;margin:0 auto 0 0}
+.search{background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:6px 10px;width:150px;max-width:100%}
+.tscroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums;min-width:640px}
+th,td{padding:9px 14px;text-align:right;border-bottom:1px solid var(--line);white-space:nowrap}
+th:first-child,td:first-child{text-align:left}
+td{font-family:var(--font-data);font-size:13px}
+td:first-child{font-weight:600}
+tbody tr:last-child td{border-bottom:0}
+th{font-weight:500;font-size:12px;color:var(--mute);padding-block:0}
+th button{background:none;border:0;cursor:pointer;color:inherit;padding:9px 0;font-size:12px;display:inline-flex;gap:4px;align-items:center}
+th button:hover{color:var(--fg)}
+th[aria-sort="ascending"] button::after{content:"▲";font-size:9px}
+th[aria-sort="descending"] button::after{content:"▼";font-size:9px}
+th[aria-sort] button{color:var(--fg)}
+.up{color:var(--up)}.dn{color:var(--dn)}
+.pill{display:inline-block;font-family:var(--font-body);font-size:11px;font-weight:500;padding:1px 8px;border-radius:99px;background:var(--chip);color:var(--mute)}
+.pill.hot{background:var(--warn-bg);color:var(--accent);border:1px solid var(--accent)}
+.pill.cold{background:var(--chip);color:var(--dn);border:1px solid var(--dn)}
+.legend{padding:10px 14px;font-size:12px;color:var(--mute);border-top:1px solid var(--line)}
+.calc{padding:14px;position:sticky;top:70px}
+@media (max-width:900px){.calc{position:static}}
+.calc h2{font-family:var(--font-display);font-size:16px;margin:0 0 10px}
+.field{display:block;margin-bottom:10px}
+.field span{display:block;font-size:12px;color:var(--mute);margin-bottom:3px}
+.field input{width:100%;background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:7px 10px;font-family:var(--font-data);font-variant-numeric:tabular-nums}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.result{border-top:1px solid var(--line);margin-top:6px;padding-top:10px;display:grid;gap:6px}
+.result div{display:flex;justify-content:space-between;gap:12px}
+.result dt{color:var(--mute)}
+.result dd{margin:0;font-family:var(--font-data);font-weight:600;font-variant-numeric:tabular-nums;text-align:right}
+.side-tag{display:inline-block;font-size:11px;font-weight:600;padding:1px 8px;border-radius:4px;color:var(--accent-fg)}
+.side-tag.long{background:var(--up)}.side-tag.short{background:var(--dn)}
+.err{color:var(--dn);font-size:12px;min-height:18px}
+.foot{margin-top:20px;font-size:12px;color:var(--mute)}
+.block{margin-top:16px}
+table.sig{min-width:620px}
+.join{padding:14px}
+.payinfo a{color:var(--accent);font-weight:600}
+.payinfo a.btn{color:var(--accent-fg)}
+.muted{color:var(--mute)}
+</style></head><body>
+<header class="bar"><div class="bar-in">
+  <div class="brand">Perp Desk<small>Binance Futures</small></div>
+  <div class="status"><span class="dot" id="dot"></span><span id="stat">ข้อมูลตัวอย่าง</span></div>
+  <button class="btn primary" id="live" type="button">ดึงข้อมูลสด</button>
+  <a class="btn" href="#join">รับสัญญาณฟรี</a>
+  <button class="btn" id="theme" type="button" aria-label="สลับธีมสว่าง/มืด">ธีม</button>
+</div></header>
+
+<div class="wrap">
+  <div class="notice" id="notice"><b>กำลังเชื่อมต่อ Binance</b> ถ้าข้อความนี้ค้างอยู่ แสดงว่าดึงข้อมูลสดไม่ได้ ตารางจะเป็นข้อมูลตัวอย่าง ไม่ใช่ราคาตลาดจริง</div>
+  <div class="summary" id="summary"></div>
+
+  <div class="grid">
+    <section class="panel" aria-labelledby="wl">
+      <div class="panel-h">
+        <h2 id="wl">Funding / OI / 24 ชม.</h2>
+        <input class="search" id="q" type="search" placeholder="ค้นหาเหรียญ" aria-label="ค้นหาเหรียญ">
+      </div>
+      <div class="tscroll"><table>
+        <thead><tr id="head"></tr></thead>
+        <tbody id="rows"></tbody>
+      </table></div>
+      <div class="legend">Funding ต่อ 8 ชม. · สูงกว่า +0.030% = ฝั่งลองหนาแน่น เสี่ยงโดนล้าง · ต่ำกว่า −0.010% = ฝั่งชอร์ตหนาแน่น · OI และ Vol หน่วยล้านดอลลาร์</div>
+    </section>
+
+    <section class="panel calc" aria-labelledby="cc">
+      <h2 id="cc">คำนวณขนาดไม้</h2>
+      <label class="field"><span>ทุน (USDT)</span><input id="bal" type="number" inputmode="decimal" value="1000" min="0" step="any"></label>
+      <label class="field"><span>ความเสี่ยงต่อไม้ (%)</span><input id="rk" type="number" inputmode="decimal" value="1" min="0" step="0.1"></label>
+      <div class="row2">
+        <label class="field"><span>ราคา Entry</span><input id="en" type="number" inputmode="decimal" value="64250" step="any"></label>
+        <label class="field"><span>ราคา Stop Loss</span><input id="sl" type="number" inputmode="decimal" value="63800" step="any"></label>
+      </div>
+      <label class="field"><span>ราคา Take Profit (ไม่บังคับ)</span><input id="tp" type="number" inputmode="decimal" value="65150" step="any"></label>
+      <div class="err" id="err" role="status"></div>
+      <dl class="result" id="res" style="margin:0"></dl>
+    </section>
+  </div>
+
+  <section class="panel block" aria-labelledby="sg">
+    <div class="panel-h"><h2 id="sg">สัญญาณล่าสุด</h2><span class="pill" id="sigmeta">กำลังโหลด</span></div>
+    <div class="tscroll"><table class="sig">
+      <thead><tr><th style="text-align:left;padding:9px 14px">เหรียญ</th><th>ทิศทาง</th><th>TF</th><th>Entry</th><th>SL</th><th>TP (RR 2)</th><th>เวลา</th><th>สถานะ</th></tr></thead>
+      <tbody id="sigrows"></tbody>
+    </table></div>
+    <div class="legend" id="sigleg"></div>
+  </section>
+
+  <section class="panel block" id="join" aria-labelledby="jn">
+    <div class="panel-h"><h2 id="jn">รับสัญญาณฟรี</h2></div>
+    <div class="join"><div class="payinfo" id="payinfo"></div></div>
+  </section>
+
+  <p class="foot">เครื่องมือช่วยคำนวณและดูภาพรวมตลาดเท่านั้น ไม่ใช่คำแนะนำการลงทุน</p>
+</div>
+
+<script>
+var CONFIG={
+  telegram:"",
+  referral:""
+};
+var SIGNALS=[],SIGMETA=null;
+var SAMPLE=[
+ {s:"BTC",p:64250,c:1.42,f:0.0100,o:6820,v:18400},
+ {s:"ETH",p:3185.4,c:2.18,f:0.0120,o:3410,v:9650},
+ {s:"SOL",p:158.62,c:-1.35,f:0.0085,o:1280,v:3120},
+ {s:"BNB",p:582.9,c:0.46,f:0.0100,o:540,v:980},
+ {s:"XRP",p:0.5412,c:-0.82,f:0.0060,o:690,v:1540},
+ {s:"DOGE",p:0.1264,c:4.71,f:0.0420,o:410,v:1760},
+ {s:"ADA",p:0.4108,c:-2.06,f:-0.0140,o:260,v:520},
+ {s:"AVAX",p:27.35,c:0.93,f:0.0100,o:230,v:410},
+ {s:"LINK",p:13.88,c:3.27,f:0.0310,o:290,v:640},
+ {s:"SUI",p:1.742,c:6.15,f:0.0560,o:350,v:890},
+ {s:"ARB",p:0.6021,c:-3.44,f:-0.0220,o:120,v:260},
+ {s:"WIF",p:1.936,c:8.82,f:0.0780,o:150,v:430}
+];
+var data=SAMPLE.slice(),live=false,key="v",dir=-1,timer=null;
+var COLS=[["s","เหรียญ"],["p","ราคา"],["c","24 ชม. %"],["f","Funding %"],["o","OI (M$)"],["v","Vol (M$)"]];
+var $=function(id){return document.getElementById(id)};
+
+function fmtP(n){var d=n>=1000?2:n>=10?3:n>=1?4:5;return n.toLocaleString("en-US",{minimumFractionDigits:d,maximumFractionDigits:d})}
+function fmtN(n,d){return n.toLocaleString("en-US",{minimumFractionDigits:d,maximumFractionDigits:d})}
+function sign(n,d){return (n>0?"+":"")+n.toFixed(d)}
+
+function head(){
+  $("head").innerHTML=COLS.map(function(c){
+    var a=key===c[0]?(dir>0?' aria-sort="ascending"':' aria-sort="descending"'):"";
+    return '<th'+a+'><button type="button" data-k="'+c[0]+'">'+c[1]+'</button></th>';
+  }).join("")+'<th style="text-align:right">สถานะ</th>';
+}
+function state(f){
+  if(f>0.03)return '<span class="pill hot">ลองหนาแน่น</span>';
+  if(f<-0.01)return '<span class="pill cold">ชอร์ตหนาแน่น</span>';
+  return '<span class="pill">ปกติ</span>';
+}
+function draw(){
+  var q=$("q").value.trim().toUpperCase();
+  var r=data.filter(function(x){return !q||x.s.indexOf(q)>-1}).sort(function(a,b){
+    var A=a[key],B=b[key];if(typeof A==="string")return dir*A.localeCompare(B);return dir*(A-B)});
+  $("rows").innerHTML=r.map(function(x){
+    return "<tr><td>"+x.s+"</td><td>"+fmtP(x.p)+"</td>"+
+     '<td class="'+(x.c>=0?"up":"dn")+'">'+sign(x.c,2)+"</td>"+
+     '<td class="'+(x.f>=0?"up":"dn")+'">'+sign(x.f,4)+"</td>"+
+     "<td>"+fmtN(x.o,0)+"</td><td>"+fmtN(x.v,0)+"</td><td>"+state(x.f)+"</td></tr>";
+  }).join("")||'<tr><td colspan="7" style="text-align:center;font-family:var(--font-body);color:var(--mute)">ไม่พบเหรียญที่ค้นหา</td></tr>';
+  head();
+}
+function summary(){
+  var hot=data.slice().sort(function(a,b){return b.f-a.f})[0];
+  var cold=data.slice().sort(function(a,b){return a.f-b.f})[0];
+  var oi=data.slice().sort(function(a,b){return b.o-a.o})[0];
+  var tot=data.reduce(function(s,x){return s+x.o},0);
+  $("summary").innerHTML=
+   '<div class="stat"><div class="k">Funding สูงสุด</div><div class="v up">'+sign(hot.f,4)+'%</div><div class="s">'+hot.s+' · ลองจ่ายชอร์ต</div></div>'+
+   '<div class="stat"><div class="k">Funding ต่ำสุด</div><div class="v '+(cold.f<0?"dn":"up")+'">'+sign(cold.f,4)+'%</div><div class="s">'+cold.s+(cold.f<0?" · ชอร์ตจ่ายลอง":" · ยังเป็นบวก")+'</div></div>'+
+   '<div class="stat"><div class="k">OI รวมในตาราง</div><div class="v">$'+fmtN(tot/1000,2)+'B</div><div class="s">มากสุด '+oi.s+' $'+fmtN(oi.o,0)+'M</div></div>';
+}
+
+function calc(){
+  var b=+$("bal").value,r=+$("rk").value/100,e=+$("en").value,s=+$("sl").value,t=+$("tp").value;
+  var err="";
+  if(!(b>0&&r>0))err="ใส่ทุนและความเสี่ยงให้มากกว่า 0";
+  else if(!(e>0&&s>0))err="ใส่ราคา Entry และ Stop Loss";
+  else if(e===s)err="Entry กับ Stop Loss ต้องไม่เท่ากัน";
+  $("err").textContent=err;
+  if(err){$("res").innerHTML="";return}
+  var long=e>s,risk=b*r,q=risk/Math.abs(e-s),n=q*e;
+  var html='<div><dt>ทิศทาง</dt><dd><span class="side-tag '+(long?"long":"short")+'">'+(long?"LONG":"SHORT")+'</span></dd></div>'+
+   '<div><dt>เสี่ยงสูงสุด</dt><dd>'+fmtN(risk,2)+' USDT</dd></div>'+
+   '<div><dt>ขนาดไม้</dt><dd>'+fmtN(q,4)+'</dd></div>'+
+   '<div><dt>มูลค่าสถานะ</dt><dd>'+fmtN(n,2)+' USDT</dd></div>'+
+   '<div><dt>เลเวอเรจขั้นต่ำ</dt><dd>'+fmtN(n/b,2)+'x</dd></div>';
+  if(t>0){
+    var ok=long?t>e:t<e;
+    if(ok){var rr=Math.abs(t-e)/Math.abs(e-s);
+      html+='<div><dt>RR</dt><dd>1 : '+fmtN(rr,2)+'</dd></div><div><dt>กำไรถ้าถึง TP</dt><dd class="up">+'+fmtN(risk*rr,2)+' USDT</dd></div>';
+    }else html+='<div><dt>Take Profit</dt><dd class="dn">อยู่ผิดฝั่ง</dd></div>';
+  }
+  $("res").innerHTML=html;
+}
+
+function setStatus(on,txt){$("dot").className="dot"+(on?" live":"");$("stat").textContent=txt}
+async function loadLive(){
+  var B="https://fapi.binance.com/fapi/v1/";
+  var res=await Promise.all([fetch(B+"premiumIndex").then(function(r){return r.json()}),fetch(B+"ticker/24hr").then(function(r){return r.json()})]);
+  var tm={};res[1].forEach(function(x){tm[x.symbol]=x});
+  var top=res[0].filter(function(x){return /USDT$/.test(x.symbol)&&tm[x.symbol]})
+    .sort(function(a,b){return tm[b.symbol].quoteVolume-tm[a.symbol].quoteVolume}).slice(0,30);
+  var rows=await Promise.all(top.map(async function(x){
+    var t=tm[x.symbol],oi=0;
+    try{var j=await fetch(B+"openInterest?symbol="+x.symbol).then(function(r){return r.json()});oi=j.openInterest*x.markPrice/1e6}catch(e){}
+    return{s:x.symbol.replace("USDT",""),p:+x.markPrice,c:+t.priceChangePercent,f:x.lastFundingRate*100,o:oi,v:t.quoteVolume/1e6};
+  }));
+  data=rows;live=true;
+  setStatus(true,"สด · "+new Date().toLocaleTimeString("th-TH"));
+  $("notice").hidden=true;
+  $("wl").textContent="Funding / OI / 24 ชม. (30 เหรียญสภาพคล่องสูงสุด)";
+  summary();draw();
+}
+$("live").addEventListener("click",async function(){
+  var btn=$("live");btn.disabled=true;btn.textContent="กำลังเชื่อมต่อ...";
+  try{
+    await loadLive();
+    if(!timer)timer=setInterval(function(){loadLive().catch(function(){setStatus(false,"อัปเดตไม่สำเร็จ")})},30000);
+    btn.textContent="รีเฟรชตอนนี้";
+  }catch(e){
+    setStatus(false,"ข้อมูลตัวอย่าง · เชื่อมต่อไม่ได้");
+    $("notice").hidden=false;
+    $("notice").innerHTML="<b>เชื่อมต่อ Binance ไม่ได้</b> ตารางเป็นข้อมูลตัวอย่าง ไม่ใช่ราคาตลาดจริง (บางเครือข่ายหรือบางประเทศถูกบล็อก Binance ลองปิด VPN หรือเปลี่ยนเครือข่าย)";
+    btn.textContent="ลองอีกครั้ง";
+  }
+  btn.disabled=false;
+});
+$("head").addEventListener("click",function(e){
+  var k=e.target.getAttribute&&e.target.getAttribute("data-k");if(!k)return;
+  if(key===k)dir=-dir;else{key=k;dir=k==="s"?1:-1}draw();
+});
+$("q").addEventListener("input",draw);
+["bal","rk","en","sl","tp"].forEach(function(id){$(id).addEventListener("input",calc)});
+$("theme").addEventListener("click",function(){
+  var root=document.documentElement,cur=root.getAttribute("data-theme");
+  if(!cur)cur=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";
+  root.setAttribute("data-theme",cur==="dark"?"light":"dark");
+});
+function hhmm(ms){var d=new Date(ms);return d.toLocaleString("th-TH",{day:"2-digit",month:"short",hour:"2-digit",minute:"2-digit"})}
+var STT={open:["เปิดอยู่",""],tp:["ถึง TP","color:var(--up);border-color:var(--up)"],sl:["ชน SL","color:var(--dn);border-color:var(--dn)"],exp:["หมดอายุ",""]};
+function sigDraw(){
+  var list=SIGNALS.slice().sort(function(a,b){return b.t-a.t}).slice(0,30);
+  $("sigrows").innerHTML=list.map(function(x){
+    var st=STT[x.status]||STT.open;
+    return "<tr><td>"+x.sym+'</td><td><span class="side-tag '+x.side+'">'+x.side.toUpperCase()+"</span></td><td>"+x.tf+"</td><td>"+fmtP(x.entry)+"</td><td>"+fmtP(x.sl)+"</td><td>"+fmtP(x.tp)+"</td><td>"+hhmm(x.t)+'</td><td><span class="pill" style="'+st[1]+'">'+st[0]+"</span></td></tr>";
+  }).join("")||'<tr><td colspan="8" style="text-align:center;font-family:var(--font-body);color:var(--mute);padding:18px">ยังไม่มีสัญญาณ สแกนเนอร์จะเพิ่มแถวเมื่อพบจุดเข้า</td></tr>';
+  var tp=SIGNALS.filter(function(x){return x.status==="tp"}).length,sl=SIGNALS.filter(function(x){return x.status==="sl"}).length,n=tp+sl;
+  $("sigmeta").textContent=SIGMETA&&SIGMETA.updated?("สแกนล่าสุด ~"+new Date(SIGMETA.updated).toLocaleTimeString("th-TH",{hour:"2-digit",minute:"2-digit"})+" · "+SIGMETA.exchange+" · "+SIGMETA.tf):"ยังไม่มีข้อมูลสแกน";
+  $("sigleg").textContent=n?("สัญญาณที่ปิดแล้ว "+n+" · ถึง TP "+tp+" · ชน SL "+sl+" · อัตราชนะ "+Math.round(tp/n*100)+"% · รวม "+(2*tp-sl)+"R (ยังไม่หักค่าธรรมเนียม) ผลจริงจากสแกนเนอร์ ไม่ใช่การรับประกันอนาคต"):"สัญญาณจริงจากสแกนเนอร์ SMC (BOS → Order Block → รอรีเทสต์) เข้า SL/TP ที่ RR 2 สถิติจะแสดงเมื่อมีสัญญาณที่ปิดแล้ว";
+}
+async function loadSignals(){
+  try{
+    var r=await fetch("signals.json?t="+Date.now());if(!r.ok)throw 0;
+    var j=await r.json();SIGNALS=j.signals||[];SIGMETA=j;
+  }catch(e){SIGNALS=[];SIGMETA=null}
+  sigDraw();
+}
+function joinDraw(){
+  var h="",tg=CONFIG.telegram.replace(/^https?:\/\/t\.me\//,"").replace(/^@/,"");
+  if(!tg)h='<p class="muted" style="margin:0">ใส่ชื่อช่อง Telegram ใน CONFIG แล้วปุ่มเข้าร่วมจะแสดงที่นี่</p>';
+  else h='<p style="margin:0 0 10px">รับสัญญาณทุกครั้งที่สแกนเนอร์เจอจุดเข้าเทรด ไม่มีค่าสมัคร</p><a class="btn primary" href="https://t.me/'+tg+'" target="_blank" rel="noopener">เข้าช่อง Telegram</a>';
+  if(CONFIG.referral)h+='<p class="muted" style="margin:14px 0 0">ยังไม่มีบัญชีเทรด? <a href="'+CONFIG.referral+'" target="_blank" rel="noopener">เปิดบัญชีผ่านลิงก์นี้</a> (ผู้จัดทำอาจได้รับค่าแนะนำจากกระดานเทรด โดยคุณไม่เสียค่าใช้จ่ายเพิ่ม)</p>';
+  $("payinfo").innerHTML=h;
+}
+summary();draw();calc();joinDraw();loadSignals();setInterval(loadSignals,60000);$("live").click();
+</script>
+</body></html>
