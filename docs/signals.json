@@ -217,10 +217,43 @@
     1.0525
    ],
    "t": 1791137700000,
+   "status": "sl",
+   "closed": 1791140400000
+  },
+  {
+   "id": "ICP/USDT:USDT|long|1791139500000",
+   "symbol": "ICP/USDT:USDT",
+   "sym": "ICP",
+   "side": "long",
+   "tf": "15m",
+   "entry": 3.367,
+   "sl": 3.355264285714286,
+   "tp": 3.390471428571428,
+   "zone": [
+    3.357,
+    3.366
+   ],
+   "t": 1791149400000,
+   "status": "open"
+  },
+  {
+   "id": "XPD/USDT:USDT|long|1791148500000",
+   "symbol": "XPD/USDT:USDT",
+   "sym": "XPD",
+   "side": "long",
+   "tf": "15m",
+   "entry": 1174.9,
+   "sl": 1174.6814285714286,
+   "tp": 1175.3371428571431,
+   "zone": [
+    1174.7,
+    1175.0
+   ],
+   "t": 1791149400000,
    "status": "open"
   }
  ],
- "updated": 1791136800000,
+ "updated": 1791147600000,
  "exchange": "okx",
  "tf": "15m"
 }
