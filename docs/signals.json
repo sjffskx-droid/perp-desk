@@ -14,7 +14,8 @@
     9.032
    ],
    "t": 1791103500000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1791113400000
   },
   {
    "id": "SOXL/USDT:USDT|short|1791086400000",
@@ -30,7 +31,8 @@
     164.42
    ],
    "t": 1791103500000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1791113400000
   },
   {
    "id": "ICP/USDT:USDT|short|1791106200000",
@@ -46,7 +48,8 @@
     3.352
    ],
    "t": 1791107100000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1791108000000
   },
   {
    "id": "INJ/USDT:USDT|short|1791106200000",
@@ -62,7 +65,8 @@
     7.579
    ],
    "t": 1791107100000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1791111600000
   },
   {
    "id": "COAI/USDT:USDT|long|1791106200000",
@@ -78,7 +82,8 @@
     0.3502
    ],
    "t": 1791107100000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1791117900000
   },
   {
    "id": "ORDI/USDT:USDT|long|1791088200000",
@@ -94,10 +99,107 @@
     4.533
    ],
    "t": 1791107100000,
+   "status": "sl",
+   "closed": 1791109800000
+  },
+  {
+   "id": "ZEC/USDT:USDT|short|1791122400000",
+   "symbol": "ZEC/USDT:USDT",
+   "sym": "ZEC",
+   "side": "short",
+   "tf": "15m",
+   "entry": 1329.12,
+   "sl": 1334.4382142857144,
+   "tp": 1318.483571428571,
+   "zone": [
+    1329.09,
+    1333.9
+   ],
+   "t": 1791126000000,
+   "status": "open"
+  },
+  {
+   "id": "SOL/USDT:USDT|long|1791125100000",
+   "symbol": "SOL/USDT:USDT",
+   "sym": "SOL",
+   "side": "long",
+   "tf": "15m",
+   "entry": 121.93,
+   "sl": 121.31557142857142,
+   "tp": 123.15885714285719,
+   "zone": [
+    121.35,
+    121.65
+   ],
+   "t": 1791126000000,
+   "status": "open"
+  },
+  {
+   "id": "TRUMP/USDT:USDT|short|1791101700000",
+   "symbol": "TRUMP/USDT:USDT",
+   "sym": "TRUMP",
+   "side": "short",
+   "tf": "15m",
+   "entry": 2.044,
+   "sl": 2.0477000000000003,
+   "tp": 2.0365999999999995,
+   "zone": [
+    2.043,
+    2.047
+   ],
+   "t": 1791126000000,
+   "status": "open"
+  },
+  {
+   "id": "UNI/USDT:USDT|long|1791124200000",
+   "symbol": "UNI/USDT:USDT",
+   "sym": "UNI",
+   "side": "long",
+   "tf": "15m",
+   "entry": 9.035,
+   "sl": 8.970957142857143,
+   "tp": 9.163085714285714,
+   "zone": [
+    8.974,
+    9.009
+   ],
+   "t": 1791126000000,
+   "status": "open"
+  },
+  {
+   "id": "VVV/USDT:USDT|short|1791122400000",
+   "symbol": "VVV/USDT:USDT",
+   "sym": "VVV",
+   "side": "short",
+   "tf": "15m",
+   "entry": 27.836,
+   "sl": 27.953521428571428,
+   "tp": 27.60095714285714,
+   "zone": [
+    27.888,
+    27.941
+   ],
+   "t": 1791126000000,
+   "status": "open"
+  },
+  {
+   "id": "TRB/USDT:USDT|long|1791124200000",
+   "symbol": "TRB/USDT:USDT",
+   "sym": "TRB",
+   "side": "long",
+   "tf": "15m",
+   "entry": 19.91,
+   "sl": 19.822142857142854,
+   "tp": 20.085714285714293,
+   "zone": [
+    19.83,
+    19.91
+   ],
+   "t": 1791126000000,
    "status": "open"
   }
  ],
- "updated": 1791108000000,
+ "updated": 1791126000000,
  "exchange": "okx",
  "tf": "15m"
 }
