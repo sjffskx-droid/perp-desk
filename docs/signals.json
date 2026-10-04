@@ -31,9 +31,73 @@
    ],
    "t": 1791103500000,
    "status": "open"
+  },
+  {
+   "id": "ICP/USDT:USDT|short|1791106200000",
+   "symbol": "ICP/USDT:USDT",
+   "sym": "ICP",
+   "side": "short",
+   "tf": "15m",
+   "entry": 3.336,
+   "sl": 3.3537214285714283,
+   "tp": 3.300557142857143,
+   "zone": [
+    3.343,
+    3.352
+   ],
+   "t": 1791107100000,
+   "status": "open"
+  },
+  {
+   "id": "INJ/USDT:USDT|short|1791106200000",
+   "symbol": "INJ/USDT:USDT",
+   "sym": "INJ",
+   "side": "short",
+   "tf": "15m",
+   "entry": 7.552,
+   "sl": 7.582285714285714,
+   "tp": 7.491428571428571,
+   "zone": [
+    7.526,
+    7.579
+   ],
+   "t": 1791107100000,
+   "status": "open"
+  },
+  {
+   "id": "COAI/USDT:USDT|long|1791106200000",
+   "symbol": "COAI/USDT:USDT",
+   "sym": "COAI",
+   "side": "long",
+   "tf": "15m",
+   "entry": 0.3488,
+   "sl": 0.34391999999999995,
+   "tp": 0.3585600000000001,
+   "zone": [
+    0.3445,
+    0.3502
+   ],
+   "t": 1791107100000,
+   "status": "open"
+  },
+  {
+   "id": "ORDI/USDT:USDT|long|1791088200000",
+   "symbol": "ORDI/USDT:USDT",
+   "sym": "ORDI",
+   "side": "long",
+   "tf": "15m",
+   "entry": 4.531,
+   "sl": 4.522578571428571,
+   "tp": 4.547842857142856,
+   "zone": [
+    4.524,
+    4.533
+   ],
+   "t": 1791107100000,
+   "status": "open"
   }
  ],
- "updated": 1791104400000,
+ "updated": 1791108000000,
  "exchange": "okx",
  "tf": "15m"
 }
