@@ -320,7 +320,8 @@
     1329.31
    ],
    "t": 1791210600000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1791211500000
   },
   {
    "id": "OKB/USDT:USDT|long|1791194400000",
@@ -336,7 +337,8 @@
     126.25
    ],
    "t": 1791210600000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1791216900000
   },
   {
    "id": "TAO/USDT:USDT|long|1791186300000",
@@ -352,7 +354,8 @@
     300.1
    ],
    "t": 1791210600000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1791211500000
   },
   {
    "id": "LTC/USDT:USDT|long|1791208800000",
@@ -368,10 +371,43 @@
     71.02
    ],
    "t": 1791210600000,
+   "status": "sl",
+   "closed": 1791214200000
+  },
+  {
+   "id": "ETH/USDT:USDT|short|1791210600000",
+   "symbol": "ETH/USDT:USDT",
+   "sym": "ETH",
+   "side": "short",
+   "tf": "15m",
+   "entry": 2714.65,
+   "sl": 2730.0892142857147,
+   "tp": 2683.771571428571,
+   "zone": [
+    2716.06,
+    2729.76
+   ],
+   "t": 1791235800000,
+   "status": "open"
+  },
+  {
+   "id": "STRK/USDT:USDT|long|1791234900000",
+   "symbol": "STRK/USDT:USDT",
+   "sym": "STRK",
+   "side": "long",
+   "tf": "15m",
+   "entry": 0.05317,
+   "sl": 0.05282357142857143,
+   "tp": 0.05386285714285715,
+   "zone": [
+    0.05287,
+    0.0533
+   ],
+   "t": 1791235800000,
    "status": "open"
   }
  ],
- "updated": 1791208800000,
+ "updated": 1791234000000,
  "exchange": "okx",
  "tf": "15m"
 }
