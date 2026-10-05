@@ -167,7 +167,8 @@
     9.009
    ],
    "t": 1791126000000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1791166500000
   },
   {
    "id": "VVV/USDT:USDT|short|1791122400000",
@@ -268,10 +269,43 @@
     167.24
    ],
    "t": 1791159300000,
+   "status": "tp",
+   "closed": 1791163800000
+  },
+  {
+   "id": "VVV/USDT:USDT|short|1791177300000",
+   "symbol": "VVV/USDT:USDT",
+   "sym": "VVV",
+   "side": "short",
+   "tf": "15m",
+   "entry": 29.463,
+   "sl": 29.671535714285714,
+   "tp": 29.045928571428576,
+   "zone": [
+    29.488,
+    29.652
+   ],
+   "t": 1791179100000,
+   "status": "open"
+  },
+  {
+   "id": "LINK/USDT:USDT|short|1791175500000",
+   "symbol": "LINK/USDT:USDT",
+   "sym": "LINK",
+   "side": "short",
+   "tf": "15m",
+   "entry": 14.128,
+   "sl": 14.192785714285714,
+   "tp": 13.998428571428573,
+   "zone": [
+    14.122,
+    14.187
+   ],
+   "t": 1791179100000,
    "status": "open"
   }
  ],
- "updated": 1791158400000,
+ "updated": 1791180000000,
  "exchange": "okx",
  "tf": "15m"
 }
