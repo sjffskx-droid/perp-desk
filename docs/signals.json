@@ -286,7 +286,8 @@
     29.652
    ],
    "t": 1791179100000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1791182700000
   },
   {
    "id": "LINK/USDT:USDT|short|1791175500000",
@@ -302,10 +303,75 @@
     14.187
    ],
    "t": 1791179100000,
+   "status": "sl",
+   "closed": 1791180000000
+  },
+  {
+   "id": "ZEC/USDT:USDT|long|1791206100000",
+   "symbol": "ZEC/USDT:USDT",
+   "sym": "ZEC",
+   "side": "long",
+   "tf": "15m",
+   "entry": 1334.22,
+   "sl": 1318.950857142857,
+   "tp": 1364.7582857142859,
+   "zone": [
+    1320.28,
+    1329.31
+   ],
+   "t": 1791210600000,
+   "status": "open"
+  },
+  {
+   "id": "OKB/USDT:USDT|long|1791194400000",
+   "symbol": "OKB/USDT:USDT",
+   "sym": "OKB",
+   "side": "long",
+   "tf": "15m",
+   "entry": 126.3,
+   "sl": 125.61578571428572,
+   "tp": 127.66842857142855,
+   "zone": [
+    125.7,
+    126.25
+   ],
+   "t": 1791210600000,
+   "status": "open"
+  },
+  {
+   "id": "TAO/USDT:USDT|long|1791186300000",
+   "symbol": "TAO/USDT:USDT",
+   "sym": "TAO",
+   "side": "long",
+   "tf": "15m",
+   "entry": 299.6,
+   "sl": 298.3564285714286,
+   "tp": 302.0871428571429,
+   "zone": [
+    298.6,
+    300.1
+   ],
+   "t": 1791210600000,
+   "status": "open"
+  },
+  {
+   "id": "LTC/USDT:USDT|long|1791208800000",
+   "symbol": "LTC/USDT:USDT",
+   "sym": "LTC",
+   "side": "long",
+   "tf": "15m",
+   "entry": 71.09,
+   "sl": 70.69742857142857,
+   "tp": 71.87514285714286,
+   "zone": [
+    70.73,
+    71.02
+   ],
+   "t": 1791210600000,
    "status": "open"
   }
  ],
- "updated": 1791180000000,
+ "updated": 1791208800000,
  "exchange": "okx",
  "tf": "15m"
 }
