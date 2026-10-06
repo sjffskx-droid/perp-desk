@@ -421,7 +421,8 @@
     306.5
    ],
    "t": 1791251100000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1791257400000
   },
   {
    "id": "WLD/USDT:USDT|short|1791250200000",
@@ -437,10 +438,59 @@
     0.5772
    ],
    "t": 1791251100000,
+   "status": "tp",
+   "closed": 1791263700000
+  },
+  {
+   "id": "BNB/USDT:USDT|short|1791266400000",
+   "symbol": "BNB/USDT:USDT",
+   "sym": "BNB",
+   "side": "short",
+   "tf": "15m",
+   "entry": 781.7,
+   "sl": 782.7392857142858,
+   "tp": 779.6214285714286,
+   "zone": [
+    781.6,
+    782.6
+   ],
+   "t": 1791275400000,
+   "status": "open"
+  },
+  {
+   "id": "XPT/USDT:USDT|short|1791251100000",
+   "symbol": "XPT/USDT:USDT",
+   "sym": "XPT",
+   "side": "short",
+   "tf": "15m",
+   "entry": 1724.7,
+   "sl": 1732.1914285714286,
+   "tp": 1709.717142857143,
+   "zone": [
+    1725.2,
+    1731.8
+   ],
+   "t": 1791275400000,
+   "status": "open"
+  },
+  {
+   "id": "MU/USDT:USDT|long|1791273600000",
+   "symbol": "MU/USDT:USDT",
+   "sym": "MU",
+   "side": "long",
+   "tf": "15m",
+   "entry": 1057.74,
+   "sl": 1055.8430714285714,
+   "tp": 1061.5338571428572,
+   "zone": [
+    1056.02,
+    1058.07
+   ],
+   "t": 1791275400000,
    "status": "open"
   }
  ],
- "updated": 1791252000000,
+ "updated": 1791273600000,
  "exchange": "okx",
  "tf": "15m"
 }
