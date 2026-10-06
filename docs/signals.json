@@ -388,7 +388,8 @@
     2729.76
    ],
    "t": 1791235800000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1791314100000
   },
   {
    "id": "STRK/USDT:USDT|long|1791234900000",
@@ -522,7 +523,8 @@
     121.16
    ],
    "t": 1791300600000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1791301500000
   },
   {
    "id": "UMA/USDT:USDT|short|1791298800000",
@@ -538,10 +540,11 @@
     0.4508
    ],
    "t": 1791300600000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1791301500000
   }
  ],
- "updated": 1791298800000,
+ "updated": 1791316800000,
  "exchange": "okx",
  "tf": "15m"
 }
