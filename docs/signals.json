@@ -404,10 +404,43 @@
     0.0533
    ],
    "t": 1791235800000,
+   "status": "sl",
+   "closed": 1791236700000
+  },
+  {
+   "id": "TAO/USDT:USDT|short|1791250200000",
+   "symbol": "TAO/USDT:USDT",
+   "sym": "TAO",
+   "side": "short",
+   "tf": "15m",
+   "entry": 304.5,
+   "sl": 306.6664285714286,
+   "tp": 300.16714285714284,
+   "zone": [
+    304.5,
+    306.5
+   ],
+   "t": 1791251100000,
+   "status": "open"
+  },
+  {
+   "id": "WLD/USDT:USDT|short|1791250200000",
+   "symbol": "WLD/USDT:USDT",
+   "sym": "WLD",
+   "side": "short",
+   "tf": "15m",
+   "entry": 0.5723,
+   "sl": 0.5775564285714286,
+   "tp": 0.5617871428571428,
+   "zone": [
+    0.5732,
+    0.5772
+   ],
+   "t": 1791251100000,
    "status": "open"
   }
  ],
- "updated": 1791234000000,
+ "updated": 1791252000000,
  "exchange": "okx",
  "tf": "15m"
 }
