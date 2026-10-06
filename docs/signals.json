@@ -455,7 +455,8 @@
     782.6
    ],
    "t": 1791275400000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1791276300000
   },
   {
    "id": "XPT/USDT:USDT|short|1791251100000",
@@ -471,7 +472,8 @@
     1731.8
    ],
    "t": 1791275400000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1791280800000
   },
   {
    "id": "MU/USDT:USDT|long|1791273600000",
@@ -487,10 +489,59 @@
     1058.07
    ],
    "t": 1791275400000,
+   "status": "tp",
+   "closed": 1791281700000
+  },
+  {
+   "id": "ICP/USDT:USDT|short|1791299700000",
+   "symbol": "ICP/USDT:USDT",
+   "sym": "ICP",
+   "side": "short",
+   "tf": "15m",
+   "entry": 3.429,
+   "sl": 3.476957142857143,
+   "tp": 3.3330857142857133,
+   "zone": [
+    3.446,
+    3.475
+   ],
+   "t": 1791300600000,
+   "status": "open"
+  },
+  {
+   "id": "SOL/USDT:USDT|long|1791297000000",
+   "symbol": "SOL/USDT:USDT",
+   "sym": "SOL",
+   "side": "long",
+   "tf": "15m",
+   "entry": 120.96,
+   "sl": 120.47164285714285,
+   "tp": 121.93671428571427,
+   "zone": [
+    120.52,
+    121.16
+   ],
+   "t": 1791300600000,
+   "status": "open"
+  },
+  {
+   "id": "UMA/USDT:USDT|short|1791298800000",
+   "symbol": "UMA/USDT:USDT",
+   "sym": "UMA",
+   "side": "short",
+   "tf": "15m",
+   "entry": 0.4502,
+   "sl": 0.4513864285714286,
+   "tp": 0.4478271428571428,
+   "zone": [
+    0.4463,
+    0.4508
+   ],
+   "t": 1791300600000,
    "status": "open"
   }
  ],
- "updated": 1791273600000,
+ "updated": 1791298800000,
  "exchange": "okx",
  "tf": "15m"
 }
