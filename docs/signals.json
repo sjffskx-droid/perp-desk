@@ -542,9 +542,41 @@
    "t": 1791300600000,
    "status": "sl",
    "closed": 1791301500000
+  },
+  {
+   "id": "FIL/USDT:USDT|short|1791330300000",
+   "symbol": "FIL/USDT:USDT",
+   "sym": "FIL",
+   "side": "short",
+   "tf": "15m",
+   "entry": 1.1553,
+   "sl": 1.1609028571428572,
+   "tp": 1.1440942857142855,
+   "zone": [
+    1.1555,
+    1.1604
+   ],
+   "t": 1791331200000,
+   "status": "open"
+  },
+  {
+   "id": "MRVL/USDT:USDT|long|1791327600000",
+   "symbol": "MRVL/USDT:USDT",
+   "sym": "MRVL",
+   "side": "long",
+   "tf": "15m",
+   "entry": 287.75,
+   "sl": 286.9144285714286,
+   "tp": 289.42114285714285,
+   "zone": [
+    286.98,
+    287.53
+   ],
+   "t": 1791331200000,
+   "status": "open"
   }
  ],
- "updated": 1791316800000,
+ "updated": 1791331200000,
  "exchange": "okx",
  "tf": "15m"
 }
