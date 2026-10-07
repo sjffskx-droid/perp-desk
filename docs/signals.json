@@ -507,7 +507,8 @@
     3.475
    ],
    "t": 1791300600000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1791332100000
   },
   {
    "id": "SOL/USDT:USDT|long|1791297000000",
@@ -557,7 +558,8 @@
     1.1604
    ],
    "t": 1791331200000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1791336600000
   },
   {
    "id": "MRVL/USDT:USDT|long|1791327600000",
@@ -573,10 +575,27 @@
     287.53
    ],
    "t": 1791331200000,
+   "status": "sl",
+   "closed": 1791333000000
+  },
+  {
+   "id": "XAG/USDT:USDT|short|1791351900000",
+   "symbol": "XAG/USDT:USDT",
+   "sym": "XAG",
+   "side": "short",
+   "tf": "15m",
+   "entry": 60.75,
+   "sl": 60.83114285714286,
+   "tp": 60.587714285714284,
+   "zone": [
+    60.71,
+    60.82
+   ],
+   "t": 1791352800000,
    "status": "open"
   }
  ],
- "updated": 1791331200000,
+ "updated": 1791352800000,
  "exchange": "okx",
  "tf": "15m"
 }
