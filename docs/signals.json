@@ -592,10 +592,59 @@
     60.82
    ],
    "t": 1791352800000,
+   "status": "tp",
+   "closed": 1791354600000
+  },
+  {
+   "id": "SNDK/USDT:USDT|long|1791374400000",
+   "symbol": "SNDK/USDT:USDT",
+   "sym": "SNDK",
+   "side": "long",
+   "tf": "15m",
+   "entry": 1621.4,
+   "sl": 1617.9035714285712,
+   "tp": 1628.3928571428578,
+   "zone": [
+    1618.6,
+    1624.3
+   ],
+   "t": 1791378900000,
+   "status": "open"
+  },
+  {
+   "id": "TRB/USDT:USDT|short|1791376200000",
+   "symbol": "TRB/USDT:USDT",
+   "sym": "TRB",
+   "side": "short",
+   "tf": "15m",
+   "entry": 20.01,
+   "sl": 20.240499999999997,
+   "tp": 19.54900000000001,
+   "zone": [
+    20.05,
+    20.22
+   ],
+   "t": 1791378900000,
+   "status": "open"
+  },
+  {
+   "id": "MU/USDT:USDT|long|1791378000000",
+   "symbol": "MU/USDT:USDT",
+   "sym": "MU",
+   "side": "long",
+   "tf": "15m",
+   "entry": 1018.53,
+   "sl": 1015.3928571428571,
+   "tp": 1024.8042857142857,
+   "zone": [
+    1015.8,
+    1019.59
+   ],
+   "t": 1791378900000,
    "status": "open"
   }
  ],
- "updated": 1791352800000,
+ "updated": 1791378000000,
  "exchange": "okx",
  "tf": "15m"
 }
