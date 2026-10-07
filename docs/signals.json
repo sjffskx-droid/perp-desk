@@ -660,7 +660,8 @@
     2572.31
    ],
    "t": 1791400500000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1791403200000
   },
   {
    "id": "HYPE/USDT:USDT|short|1791390600000",
@@ -676,10 +677,27 @@
     88.711
    ],
    "t": 1791400500000,
+   "status": "tp",
+   "closed": 1791402300000
+  },
+  {
+   "id": "YFI/USDT:USDT|long|1791411300000",
+   "symbol": "YFI/USDT:USDT",
+   "sym": "YFI",
+   "side": "long",
+   "tf": "15m",
+   "entry": 2407.0,
+   "sl": 2399.35,
+   "tp": 2422.3,
+   "zone": [
+    2400.0,
+    2403.0
+   ],
+   "t": 1791415800000,
    "status": "open"
   }
  ],
- "updated": 1791399600000,
+ "updated": 1791414000000,
  "exchange": "okx",
  "tf": "15m"
 }
