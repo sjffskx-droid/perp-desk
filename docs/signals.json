@@ -609,7 +609,8 @@
     1624.3
    ],
    "t": 1791378900000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1791379800000
   },
   {
    "id": "TRB/USDT:USDT|short|1791376200000",
@@ -625,7 +626,8 @@
     20.22
    ],
    "t": 1791378900000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1791380700000
   },
   {
    "id": "MU/USDT:USDT|long|1791378000000",
@@ -641,10 +643,43 @@
     1019.59
    ],
    "t": 1791378900000,
+   "status": "sl",
+   "closed": 1791379800000
+  },
+  {
+   "id": "ETH/USDT:USDT|short|1791394200000",
+   "symbol": "ETH/USDT:USDT",
+   "sym": "ETH",
+   "side": "short",
+   "tf": "15m",
+   "entry": 2565.61,
+   "sl": 2573.3269999999998,
+   "tp": 2550.176000000001,
+   "zone": [
+    2566.65,
+    2572.31
+   ],
+   "t": 1791400500000,
+   "status": "open"
+  },
+  {
+   "id": "HYPE/USDT:USDT|short|1791390600000",
+   "symbol": "HYPE/USDT:USDT",
+   "sym": "HYPE",
+   "side": "short",
+   "tf": "15m",
+   "entry": 88.308,
+   "sl": 88.76382857142858,
+   "tp": 87.39634285714287,
+   "zone": [
+    88.409,
+    88.711
+   ],
+   "t": 1791400500000,
    "status": "open"
   }
  ],
- "updated": 1791378000000,
+ "updated": 1791399600000,
  "exchange": "okx",
  "tf": "15m"
 }
