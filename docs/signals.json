@@ -796,7 +796,8 @@
     1.0394
    ],
    "t": 1791432900000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1791461700000
   },
   {
    "id": "SOXL/USDT:USDT|short|1791430200000",
@@ -829,7 +830,8 @@
     7.257
    ],
    "t": 1791432900000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1791471600000
   },
   {
    "id": "MU/USDT:USDT|short|1791430200000",
@@ -913,7 +915,8 @@
     82726.1
    ],
    "t": 1791458100000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1791463500000
   },
   {
    "id": "MET/USDT:USDT|long|1791441000000",
@@ -929,7 +932,8 @@
     0.4728
    ],
    "t": 1791458100000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1791462600000
   },
   {
    "id": "MU/USDT:USDT|short|1791457200000",
@@ -945,7 +949,8 @@
     1068.45
    ],
    "t": 1791458100000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1791459000000
   },
   {
    "id": "SUI/USDT:USDT|short|1791457200000",
@@ -961,7 +966,8 @@
     1.1266
    ],
    "t": 1791458100000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1791460800000
   },
   {
    "id": "ORDI/USDT:USDT|short|1791457200000",
@@ -977,10 +983,27 @@
     4.405
    ],
    "t": 1791458100000,
+   "status": "tp",
+   "closed": 1791462600000
+  },
+  {
+   "id": "QUANT/USDT:USDT|short|1791480600000",
+   "symbol": "QUANT/USDT:USDT",
+   "sym": "QUANT",
+   "side": "short",
+   "tf": "15m",
+   "entry": 222.8,
+   "sl": 227.12142857142857,
+   "tp": 214.1571428571429,
+   "zone": [
+    222.1,
+    226.6
+   ],
+   "t": 1791481500000,
    "status": "open"
   }
  ],
- "updated": 1791457200000,
+ "updated": 1791482400000,
  "exchange": "okx",
  "tf": "15m"
 }
