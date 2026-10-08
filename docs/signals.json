@@ -694,10 +694,203 @@
     2403.0
    ],
    "t": 1791415800000,
+   "status": "sl",
+   "closed": 1791423000000
+  },
+  {
+   "id": "BTC/USDT:USDT|short|1791432000000",
+   "symbol": "BTC/USDT:USDT",
+   "sym": "BTC",
+   "side": "short",
+   "tf": "15m",
+   "entry": 82838.4,
+   "sl": 83024.74571428572,
+   "tp": 82465.70857142855,
+   "zone": [
+    82592.7,
+    82999.0
+   ],
+   "t": 1791432900000,
+   "status": "open"
+  },
+  {
+   "id": "BNB/USDT:USDT|long|1791387000000",
+   "symbol": "BNB/USDT:USDT",
+   "sym": "BNB",
+   "side": "long",
+   "tf": "15m",
+   "entry": 768.1,
+   "sl": 764.7942857142857,
+   "tp": 774.7114285714287,
+   "zone": [
+    765.0,
+    767.1
+   ],
+   "t": 1791432900000,
+   "status": "open"
+  },
+  {
+   "id": "DASH/USDT:USDT|long|1791414900000",
+   "symbol": "DASH/USDT:USDT",
+   "sym": "DASH",
+   "side": "long",
+   "tf": "15m",
+   "entry": 53.57,
+   "sl": 53.45435714285715,
+   "tp": 53.801285714285704,
+   "zone": [
+    53.49,
+    53.65
+   ],
+   "t": 1791432900000,
+   "status": "open"
+  },
+  {
+   "id": "ICP/USDT:USDT|long|1791401400000",
+   "symbol": "ICP/USDT:USDT",
+   "sym": "ICP",
+   "side": "long",
+   "tf": "15m",
+   "entry": 3.19,
+   "sl": 3.138935714285714,
+   "tp": 3.2921285714285715,
+   "zone": [
+    3.141,
+    3.158
+   ],
+   "t": 1791432900000,
+   "status": "open"
+  },
+  {
+   "id": "SNDK/USDT:USDT|short|1791430200000",
+   "symbol": "SNDK/USDT:USDT",
+   "sym": "SNDK",
+   "side": "short",
+   "tf": "15m",
+   "entry": 1700.8,
+   "sl": 1708.1921428571427,
+   "tp": 1686.0157142857145,
+   "zone": [
+    1701.1,
+    1707.6
+   ],
+   "t": 1791432900000,
+   "status": "open"
+  },
+  {
+   "id": "FIL/USDT:USDT|long|1791410400000",
+   "symbol": "FIL/USDT:USDT",
+   "sym": "FIL",
+   "side": "long",
+   "tf": "15m",
+   "entry": 1.0505,
+   "sl": 1.0324207142857142,
+   "tp": 1.0866585714285715,
+   "zone": [
+    1.0332,
+    1.0394
+   ],
+   "t": 1791432900000,
+   "status": "open"
+  },
+  {
+   "id": "SOXL/USDT:USDT|short|1791430200000",
+   "symbol": "SOXL/USDT:USDT",
+   "sym": "SOXL",
+   "side": "short",
+   "tf": "15m",
+   "entry": 158.82,
+   "sl": 159.7202142857143,
+   "tp": 157.0195714285714,
+   "zone": [
+    158.68,
+    159.6
+   ],
+   "t": 1791432900000,
+   "status": "open"
+  },
+  {
+   "id": "INJ/USDT:USDT|long|1791389700000",
+   "symbol": "INJ/USDT:USDT",
+   "sym": "INJ",
+   "side": "long",
+   "tf": "15m",
+   "entry": 7.364,
+   "sl": 7.196228571428572,
+   "tp": 7.699542857142856,
+   "zone": [
+    7.202,
+    7.257
+   ],
+   "t": 1791432900000,
+   "status": "open"
+  },
+  {
+   "id": "MU/USDT:USDT|short|1791430200000",
+   "symbol": "MU/USDT:USDT",
+   "sym": "MU",
+   "side": "short",
+   "tf": "15m",
+   "entry": 1087.03,
+   "sl": 1088.8814285714284,
+   "tp": 1083.3271428571431,
+   "zone": [
+    1086.2,
+    1088.62
+   ],
+   "t": 1791432900000,
+   "status": "open"
+  },
+  {
+   "id": "UNI/USDT:USDT|long|1791413100000",
+   "symbol": "UNI/USDT:USDT",
+   "sym": "UNI",
+   "side": "long",
+   "tf": "15m",
+   "entry": 7.848,
+   "sl": 7.724057142857143,
+   "tp": 8.095885714285714,
+   "zone": [
+    7.73,
+    7.757
+   ],
+   "t": 1791432900000,
+   "status": "open"
+  },
+  {
+   "id": "SUI/USDT:USDT|long|1791414900000",
+   "symbol": "SUI/USDT:USDT",
+   "sym": "SUI",
+   "side": "long",
+   "tf": "15m",
+   "entry": 1.1344,
+   "sl": 1.1187699999999998,
+   "tp": 1.1656600000000006,
+   "zone": [
+    1.1196,
+    1.1226
+   ],
+   "t": 1791432900000,
+   "status": "open"
+  },
+  {
+   "id": "TRB/USDT:USDT|long|1791414900000",
+   "symbol": "TRB/USDT:USDT",
+   "sym": "TRB",
+   "side": "long",
+   "tf": "15m",
+   "entry": 19.62,
+   "sl": 19.334142857142858,
+   "tp": 20.191714285714287,
+   "zone": [
+    19.35,
+    19.53
+   ],
+   "t": 1791432900000,
    "status": "open"
   }
  ],
- "updated": 1791414000000,
+ "updated": 1791432000000,
  "exchange": "okx",
  "tf": "15m"
 }
