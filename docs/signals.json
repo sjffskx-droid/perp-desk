@@ -1017,10 +1017,59 @@
     171.26
    ],
    "t": 1791500400000,
+   "status": "sl",
+   "closed": 1791501300000
+  },
+  {
+   "id": "AAVE/USDT:USDT|short|1791512100000",
+   "symbol": "AAVE/USDT:USDT",
+   "sym": "AAVE",
+   "side": "short",
+   "tf": "15m",
+   "entry": 165.55,
+   "sl": 167.6837857142857,
+   "tp": 161.28242857142862,
+   "zone": [
+    165.96,
+    167.57
+   ],
+   "t": 1791513900000,
+   "status": "open"
+  },
+  {
+   "id": "UNI/USDT:USDT|short|1791503100000",
+   "symbol": "UNI/USDT:USDT",
+   "sym": "UNI",
+   "side": "short",
+   "tf": "15m",
+   "entry": 7.325,
+   "sl": 7.38575,
+   "tp": 7.203500000000001,
+   "zone": [
+    7.361,
+    7.378
+   ],
+   "t": 1791513900000,
+   "status": "open"
+  },
+  {
+   "id": "SKHY/USDT:USDT|long|1791513000000",
+   "symbol": "SKHY/USDT:USDT",
+   "sym": "SKHY",
+   "side": "long",
+   "tf": "15m",
+   "entry": 172.99,
+   "sl": 172.45307142857143,
+   "tp": 174.06385714285716,
+   "zone": [
+    172.51,
+    173.17
+   ],
+   "t": 1791513900000,
    "status": "open"
   }
  ],
- "updated": 1791500400000,
+ "updated": 1791514800000,
  "exchange": "okx",
  "tf": "15m"
 }
