@@ -1136,7 +1136,8 @@
     1156.1
    ],
    "t": 1791564300000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1791593100000
   },
   {
    "id": "BCH/USDT:USDT|short|1791573300000",
@@ -1152,10 +1153,43 @@
     275.9
    ],
    "t": 1791580500000,
+   "status": "sl",
+   "closed": 1791585000000
+  },
+  {
+   "id": "FIL/USDT:USDT|short|1791593100000",
+   "symbol": "FIL/USDT:USDT",
+   "sym": "FIL",
+   "side": "short",
+   "tf": "15m",
+   "entry": 1.0836,
+   "sl": 1.0845885714285715,
+   "tp": 1.0816228571428568,
+   "zone": [
+    1.0802,
+    1.084
+   ],
+   "t": 1791594000000,
+   "status": "open"
+  },
+  {
+   "id": "CRCL/USDT:USDT|long|1791591300000",
+   "symbol": "CRCL/USDT:USDT",
+   "sym": "CRCL",
+   "side": "long",
+   "tf": "15m",
+   "entry": 85.03,
+   "sl": 84.83042857142857,
+   "tp": 85.42914285714286,
+   "zone": [
+    84.84,
+    84.96
+   ],
+   "t": 1791594000000,
    "status": "open"
   }
  ],
- "updated": 1791579600000,
+ "updated": 1791594000000,
  "exchange": "okx",
  "tf": "15m"
 }
