@@ -1425,7 +1425,8 @@
     7.575
    ],
    "t": 1791667800000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1791679500000
   },
   {
    "id": "AXS/USDT:USDT|short|1791666900000",
@@ -1441,7 +1442,8 @@
     1.2457
    ],
    "t": 1791667800000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1791681300000
   },
   {
    "id": "MINA/USDT:USDT|short|1791648900000",
@@ -1474,7 +1476,8 @@
     1223.21
    ],
    "t": 1791677700000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1791679500000
   },
   {
    "id": "OKB/USDT:USDT|long|1791675900000",
@@ -1490,7 +1493,8 @@
     126.04
    ],
    "t": 1791677700000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1791679500000
   },
   {
    "id": "XAG/USDT:USDT|short|1791676800000",
@@ -1522,10 +1526,11 @@
     1.791
    ],
    "t": 1791677700000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1791682200000
   }
  ],
- "updated": 1791676800000,
+ "updated": 1791698400000,
  "exchange": "okx",
  "tf": "15m"
 }
