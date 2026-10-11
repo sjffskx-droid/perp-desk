@@ -1374,7 +1374,8 @@
     1.1246
    ],
    "t": 1791667800000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1791669600000
   },
   {
    "id": "SOL/USDT:USDT|short|1791666900000",
@@ -1390,7 +1391,8 @@
     110.39
    ],
    "t": 1791667800000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1791671400000
   },
   {
    "id": "INJ/USDT:USDT|long|1791665100000",
@@ -1406,7 +1408,8 @@
     7.593
    ],
    "t": 1791667800000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1791676800000
   },
   {
    "id": "UNI/USDT:USDT|long|1791666900000",
@@ -1454,10 +1457,75 @@
     0.08625
    ],
    "t": 1791667800000,
+   "status": "tp",
+   "closed": 1791670500000
+  },
+  {
+   "id": "ZEC/USDT:USDT|short|1791676800000",
+   "symbol": "ZEC/USDT:USDT",
+   "sym": "ZEC",
+   "side": "short",
+   "tf": "15m",
+   "entry": 1219.19,
+   "sl": 1223.5529285714285,
+   "tp": 1210.464142857143,
+   "zone": [
+    1219.53,
+    1223.21
+   ],
+   "t": 1791677700000,
+   "status": "open"
+  },
+  {
+   "id": "OKB/USDT:USDT|long|1791675900000",
+   "symbol": "OKB/USDT:USDT",
+   "sym": "OKB",
+   "side": "long",
+   "tf": "15m",
+   "entry": 126.09,
+   "sl": 125.88885714285713,
+   "tp": 126.49228571428574,
+   "zone": [
+    125.91,
+    126.04
+   ],
+   "t": 1791677700000,
+   "status": "open"
+  },
+  {
+   "id": "XAG/USDT:USDT|short|1791676800000",
+   "symbol": "XAG/USDT:USDT",
+   "sym": "XAG",
+   "side": "short",
+   "tf": "15m",
+   "entry": 60.77,
+   "sl": 60.791714285714285,
+   "tp": 60.72657142857144,
+   "zone": [
+    60.78,
+    60.79
+   ],
+   "t": 1791677700000,
+   "status": "open"
+  },
+  {
+   "id": "LPT/USDT:USDT|short|1791676800000",
+   "symbol": "LPT/USDT:USDT",
+   "sym": "LPT",
+   "side": "short",
+   "tf": "15m",
+   "entry": 1.775,
+   "sl": 1.7918642857142857,
+   "tp": 1.7412714285714284,
+   "zone": [
+    1.782,
+    1.791
+   ],
+   "t": 1791677700000,
    "status": "open"
   }
  ],
- "updated": 1791666000000,
+ "updated": 1791676800000,
  "exchange": "okx",
  "tf": "15m"
 }
