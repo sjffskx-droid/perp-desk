@@ -1510,7 +1510,8 @@
     60.79
    ],
    "t": 1791677700000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1791699300000
   },
   {
    "id": "LPT/USDT:USDT|short|1791676800000",
@@ -1528,9 +1529,41 @@
    "t": 1791677700000,
    "status": "sl",
    "closed": 1791682200000
+  },
+  {
+   "id": "BTC/USDT:USDT|long|1791719100000",
+   "symbol": "BTC/USDT:USDT",
+   "sym": "BTC",
+   "side": "long",
+   "tf": "15m",
+   "entry": 83054.0,
+   "sl": 82993.56214285715,
+   "tp": 83174.8757142857,
+   "zone": [
+    83000.0,
+    83029.5
+   ],
+   "t": 1791723600000,
+   "status": "open"
+  },
+  {
+   "id": "TIA/USDT:USDT|short|1791720000000",
+   "symbol": "TIA/USDT:USDT",
+   "sym": "TIA",
+   "side": "short",
+   "tf": "15m",
+   "entry": 0.5804,
+   "sl": 0.5916621428571428,
+   "tp": 0.5578757142857145,
+   "zone": [
+    0.5806,
+    0.5909
+   ],
+   "t": 1791723600000,
+   "status": "open"
   }
  ],
- "updated": 1791698400000,
+ "updated": 1791723600000,
  "exchange": "okx",
  "tf": "15m"
 }
