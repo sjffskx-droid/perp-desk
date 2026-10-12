@@ -1645,7 +1645,8 @@
     83659.6
    ],
    "t": 1791756000000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1791759600000
   },
   {
    "id": "XAU/USDT:USDT|long|1791702900000",
@@ -1661,7 +1662,8 @@
     4194.1
    ],
    "t": 1791756000000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1791756900000
   },
   {
    "id": "TAO/USDT:USDT|short|1791753300000",
@@ -1677,7 +1679,8 @@
     292.7
    ],
    "t": 1791756000000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1791757800000
   },
   {
    "id": "SUI/USDT:USDT|short|1791752400000",
@@ -1693,7 +1696,8 @@
     1.1267
    ],
    "t": 1791756000000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1791759600000
   },
   {
    "id": "SOXL/USDT:USDT|long|1791732600000",
@@ -1709,10 +1713,59 @@
     140.23
    ],
    "t": 1791756000000,
+   "status": "sl",
+   "closed": 1791767700000
+  },
+  {
+   "id": "QUANT/USDT:USDT|short|1791752400000",
+   "symbol": "QUANT/USDT:USDT",
+   "sym": "QUANT",
+   "side": "short",
+   "tf": "15m",
+   "entry": 239.0,
+   "sl": 242.73714285714286,
+   "tp": 231.5257142857143,
+   "zone": [
+    241.2,
+    242.6
+   ],
+   "t": 1791767700000,
+   "status": "open"
+  },
+  {
+   "id": "SOXL/USDT:USDT|long|1791729000000",
+   "symbol": "SOXL/USDT:USDT",
+   "sym": "SOXL",
+   "side": "long",
+   "tf": "15m",
+   "entry": 139.8,
+   "sl": 139.67671428571427,
+   "tp": 140.0465714285715,
+   "zone": [
+    139.79,
+    139.9
+   ],
+   "t": 1791767700000,
+   "status": "open"
+  },
+  {
+   "id": "W/USDT:USDT|long|1791766800000",
+   "symbol": "W/USDT:USDT",
+   "sym": "W",
+   "side": "long",
+   "tf": "15m",
+   "entry": 0.022223,
+   "sl": 0.021775642857142855,
+   "tp": 0.02311771428571429,
+   "zone": [
+    0.02183,
+    0.022263
+   ],
+   "t": 1791767700000,
    "status": "open"
   }
  ],
- "updated": 1791756000000,
+ "updated": 1791766800000,
  "exchange": "okx",
  "tf": "15m"
 }
