@@ -1801,9 +1801,73 @@
    "t": 1791790200000,
    "status": "sl",
    "closed": 1791804600000
+  },
+  {
+   "id": "ETH/USDT:USDT|short|1791823500000",
+   "symbol": "ETH/USDT:USDT",
+   "sym": "ETH",
+   "side": "short",
+   "tf": "15m",
+   "entry": 2527.8,
+   "sl": 2535.000785714286,
+   "tp": 2513.3984285714287,
+   "zone": [
+    2528.59,
+    2533.86
+   ],
+   "t": 1791868500000,
+   "status": "open"
+  },
+  {
+   "id": "TAO/USDT:USDT|short|1791841500000",
+   "symbol": "TAO/USDT:USDT",
+   "sym": "TAO",
+   "side": "short",
+   "tf": "15m",
+   "entry": 282.7,
+   "sl": 283.28357142857146,
+   "tp": 281.53285714285704,
+   "zone": [
+    282.3,
+    283.1
+   ],
+   "t": 1791868500000,
+   "status": "open"
+  },
+  {
+   "id": "BCH/USDT:USDT|short|1791840600000",
+   "symbol": "BCH/USDT:USDT",
+   "sym": "BCH",
+   "side": "short",
+   "tf": "15m",
+   "entry": 272.5,
+   "sl": 273.93142857142857,
+   "tp": 269.63714285714286,
+   "zone": [
+    273.2,
+    273.8
+   ],
+   "t": 1791868500000,
+   "status": "open"
+  },
+  {
+   "id": "ORDI/USDT:USDT|short|1791840600000",
+   "symbol": "ORDI/USDT:USDT",
+   "sym": "ORDI",
+   "side": "short",
+   "tf": "15m",
+   "entry": 4.169,
+   "sl": 4.189914285714286,
+   "tp": 4.127171428571427,
+   "zone": [
+    4.177,
+    4.187
+   ],
+   "t": 1791868500000,
+   "status": "open"
   }
  ],
- "updated": 1791846000000,
+ "updated": 1791867600000,
  "exchange": "okx",
  "tf": "15m"
 }
