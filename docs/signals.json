@@ -1884,10 +1884,59 @@
     153.06
    ],
    "t": 1791894600000,
+   "status": "sl",
+   "closed": 1791898200000
+  },
+  {
+   "id": "QUANT/USDT:USDT|short|1791889200000",
+   "symbol": "QUANT/USDT:USDT",
+   "sym": "QUANT",
+   "side": "short",
+   "tf": "15m",
+   "entry": 221.0,
+   "sl": 223.34142857142857,
+   "tp": 216.31714285714287,
+   "zone": [
+    221.7,
+    223.0
+   ],
+   "t": 1791919800000,
+   "status": "open"
+  },
+  {
+   "id": "OKB/USDT:USDT|long|1791918000000",
+   "symbol": "OKB/USDT:USDT",
+   "sym": "OKB",
+   "side": "long",
+   "tf": "15m",
+   "entry": 121.57,
+   "sl": 121.25985714285714,
+   "tp": 122.1902857142857,
+   "zone": [
+    121.29,
+    121.57
+   ],
+   "t": 1791919800000,
+   "status": "open"
+  },
+  {
+   "id": "GIGGLE/USDT:USDT|long|1791918000000",
+   "symbol": "GIGGLE/USDT:USDT",
+   "sym": "GIGGLE",
+   "side": "long",
+   "tf": "15m",
+   "entry": 35.26,
+   "sl": 35.09164285714286,
+   "tp": 35.59671428571428,
+   "zone": [
+    35.11,
+    35.26
+   ],
+   "t": 1791919800000,
    "status": "open"
   }
  ],
- "updated": 1791892800000,
+ "updated": 1791918000000,
  "exchange": "okx",
  "tf": "15m"
 }
