@@ -1901,7 +1901,8 @@
     223.0
    ],
    "t": 1791919800000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1791923400000
   },
   {
    "id": "OKB/USDT:USDT|long|1791918000000",
@@ -1917,7 +1918,8 @@
     121.57
    ],
    "t": 1791919800000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1791932400000
   },
   {
    "id": "GIGGLE/USDT:USDT|long|1791918000000",
@@ -1933,10 +1935,123 @@
     35.26
    ],
    "t": 1791919800000,
+   "status": "tp",
+   "closed": 1791922500000
+  },
+  {
+   "id": "BTC/USDT:USDT|long|1791924300000",
+   "symbol": "BTC/USDT:USDT",
+   "sym": "BTC",
+   "side": "long",
+   "tf": "15m",
+   "entry": 83240.1,
+   "sl": 83141.53714285714,
+   "tp": 83437.22571428574,
+   "zone": [
+    83153.0,
+    83231.4
+   ],
+   "t": 1791932400000,
+   "status": "open"
+  },
+  {
+   "id": "OKB/USDT:USDT|long|1791931500000",
+   "symbol": "OKB/USDT:USDT",
+   "sym": "OKB",
+   "side": "long",
+   "tf": "15m",
+   "entry": 121.95,
+   "sl": 121.4885,
+   "tp": 122.873,
+   "zone": [
+    121.51,
+    121.78
+   ],
+   "t": 1791932400000,
+   "status": "open"
+  },
+  {
+   "id": "AAVE/USDT:USDT|long|1791931500000",
+   "symbol": "AAVE/USDT:USDT",
+   "sym": "AAVE",
+   "side": "long",
+   "tf": "15m",
+   "entry": 160.26,
+   "sl": 159.84678571428572,
+   "tp": 161.08642857142854,
+   "zone": [
+    159.9,
+    160.49
+   ],
+   "t": 1791932400000,
+   "status": "open"
+  },
+  {
+   "id": "BCH/USDT:USDT|long|1791931500000",
+   "symbol": "BCH/USDT:USDT",
+   "sym": "BCH",
+   "side": "long",
+   "tf": "15m",
+   "entry": 273.7,
+   "sl": 273.41785714285714,
+   "tp": 274.2642857142857,
+   "zone": [
+    273.5,
+    274.6
+   ],
+   "t": 1791932400000,
+   "status": "open"
+  },
+  {
+   "id": "SKHYNIX/USDT:USDT|long|1791920700000",
+   "symbol": "SKHYNIX/USDT:USDT",
+   "sym": "SKHYNIX",
+   "side": "long",
+   "tf": "15m",
+   "entry": 1106.0,
+   "sl": 1104.1992857142857,
+   "tp": 1109.6014285714286,
+   "zone": [
+    1104.6,
+    1107.7
+   ],
+   "t": 1791932400000,
+   "status": "open"
+  },
+  {
+   "id": "SPCX/USDT:USDT|long|1791931500000",
+   "symbol": "SPCX/USDT:USDT",
+   "sym": "SPCX",
+   "side": "long",
+   "tf": "15m",
+   "entry": 157.43,
+   "sl": 157.17442857142856,
+   "tp": 157.9411428571429,
+   "zone": [
+    157.2,
+    157.37
+   ],
+   "t": 1791932400000,
+   "status": "open"
+  },
+  {
+   "id": "KORU/USDT:USDT|long|1791920700000",
+   "symbol": "KORU/USDT:USDT",
+   "sym": "KORU",
+   "side": "long",
+   "tf": "15m",
+   "entry": 14.66,
+   "sl": 14.4785,
+   "tp": 15.023,
+   "zone": [
+    14.49,
+    14.6
+   ],
+   "t": 1791932400000,
    "status": "open"
   }
  ],
- "updated": 1791918000000,
+ "updated": 1791932400000,
  "exchange": "okx",
  "tf": "15m"
 }
