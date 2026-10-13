@@ -1816,7 +1816,8 @@
     2533.86
    ],
    "t": 1791868500000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1791873900000
   },
   {
    "id": "TAO/USDT:USDT|short|1791841500000",
@@ -1832,7 +1833,8 @@
     283.1
    ],
    "t": 1791868500000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1791869400000
   },
   {
    "id": "BCH/USDT:USDT|short|1791840600000",
@@ -1848,7 +1850,8 @@
     273.8
    ],
    "t": 1791868500000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1791870300000
   },
   {
    "id": "ORDI/USDT:USDT|short|1791840600000",
@@ -1864,10 +1867,27 @@
     4.187
    ],
    "t": 1791868500000,
+   "status": "sl",
+   "closed": 1791873900000
+  },
+  {
+   "id": "SKHY/USDT:USDT|short|1791893700000",
+   "symbol": "SKHY/USDT:USDT",
+   "sym": "SKHY",
+   "side": "short",
+   "tf": "15m",
+   "entry": 152.41,
+   "sl": 153.13157142857142,
+   "tp": 150.96685714285715,
+   "zone": [
+    152.5,
+    153.06
+   ],
+   "t": 1791894600000,
    "status": "open"
   }
  ],
- "updated": 1791867600000,
+ "updated": 1791892800000,
  "exchange": "okx",
  "tf": "15m"
 }
