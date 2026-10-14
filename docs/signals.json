@@ -2141,9 +2141,73 @@
    "t": 1791962100000,
    "status": "tp",
    "closed": 1791970200000
+  },
+  {
+   "id": "BZ/USDT:USDT|short|1792011600000",
+   "symbol": "BZ/USDT:USDT",
+   "sym": "BZ",
+   "side": "short",
+   "tf": "15m",
+   "entry": 103.43,
+   "sl": 103.51764285714286,
+   "tp": 103.2547142857143,
+   "zone": [
+    103.39,
+    103.5
+   ],
+   "t": 1792012500000,
+   "status": "open"
+  },
+  {
+   "id": "CL/USDT:USDT|short|1792011600000",
+   "symbol": "CL/USDT:USDT",
+   "sym": "CL",
+   "side": "short",
+   "tf": "15m",
+   "entry": 94.06,
+   "sl": 94.08114285714286,
+   "tp": 94.01771428571428,
+   "zone": [
+    93.96,
+    94.06
+   ],
+   "t": 1792012500000,
+   "status": "open"
+  },
+  {
+   "id": "TRUMP/USDT:USDT|short|1792009800000",
+   "symbol": "TRUMP/USDT:USDT",
+   "sym": "TRUMP",
+   "side": "short",
+   "tf": "15m",
+   "entry": 1.878,
+   "sl": 1.8870928571428571,
+   "tp": 1.8598142857142854,
+   "zone": [
+    1.877,
+    1.886
+   ],
+   "t": 1792012500000,
+   "status": "open"
+  },
+  {
+   "id": "SUI/USDT:USDT|short|1792011600000",
+   "symbol": "SUI/USDT:USDT",
+   "sym": "SUI",
+   "side": "short",
+   "tf": "15m",
+   "entry": 1.0207,
+   "sl": 1.0221500000000001,
+   "tp": 1.0177999999999996,
+   "zone": [
+    1.0148,
+    1.0216
+   ],
+   "t": 1792012500000,
+   "status": "open"
   }
  ],
- "updated": 1792000800000,
+ "updated": 1792011600000,
  "exchange": "okx",
  "tf": "15m"
 }
