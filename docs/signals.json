@@ -1952,7 +1952,8 @@
     83231.4
    ],
    "t": 1791932400000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1791933300000
   },
   {
    "id": "OKB/USDT:USDT|long|1791931500000",
@@ -1968,7 +1969,8 @@
     121.78
    ],
    "t": 1791932400000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1791936000000
   },
   {
    "id": "AAVE/USDT:USDT|long|1791931500000",
@@ -1984,7 +1986,8 @@
     160.49
    ],
    "t": 1791932400000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1791936000000
   },
   {
    "id": "BCH/USDT:USDT|long|1791931500000",
@@ -2000,7 +2003,8 @@
     274.6
    ],
    "t": 1791932400000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1791933300000
   },
   {
    "id": "SKHYNIX/USDT:USDT|long|1791920700000",
@@ -2016,7 +2020,8 @@
     1107.7
    ],
    "t": 1791932400000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1791933300000
   },
   {
    "id": "SPCX/USDT:USDT|long|1791931500000",
@@ -2032,7 +2037,8 @@
     157.37
    ],
    "t": 1791932400000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1791934200000
   },
   {
    "id": "KORU/USDT:USDT|long|1791920700000",
@@ -2048,10 +2054,75 @@
     14.6
    ],
    "t": 1791932400000,
+   "status": "sl",
+   "closed": 1791934200000
+  },
+  {
+   "id": "XAU/USDT:USDT|short|1791941400000",
+   "symbol": "XAU/USDT:USDT",
+   "sym": "XAU",
+   "side": "short",
+   "tf": "15m",
+   "entry": 4160.3,
+   "sl": 4171.075,
+   "tp": 4138.750000000001,
+   "zone": [
+    4153.5,
+    4170.4
+   ],
+   "t": 1791942300000,
+   "status": "open"
+  },
+  {
+   "id": "XAG/USDT:USDT|short|1791941400000",
+   "symbol": "XAG/USDT:USDT",
+   "sym": "XAG",
+   "side": "short",
+   "tf": "15m",
+   "entry": 59.11,
+   "sl": 59.34,
+   "tp": 58.64999999999999,
+   "zone": [
+    58.9,
+    59.32
+   ],
+   "t": 1791942300000,
+   "status": "open"
+  },
+  {
+   "id": "QUANT/USDT:USDT|short|1791933300000",
+   "symbol": "QUANT/USDT:USDT",
+   "sym": "QUANT",
+   "side": "short",
+   "tf": "15m",
+   "entry": 214.0,
+   "sl": 216.41214285714284,
+   "tp": 209.17571428571432,
+   "zone": [
+    214.2,
+    216.2
+   ],
+   "t": 1791942300000,
+   "status": "open"
+  },
+  {
+   "id": "UNI/USDT:USDT|short|1791941400000",
+   "symbol": "UNI/USDT:USDT",
+   "sym": "UNI",
+   "side": "short",
+   "tf": "15m",
+   "entry": 7.509,
+   "sl": 7.575664285714286,
+   "tp": 7.3756714285714295,
+   "zone": [
+    7.528,
+    7.571
+   ],
+   "t": 1791942300000,
    "status": "open"
   }
  ],
- "updated": 1791932400000,
+ "updated": 1791943200000,
  "exchange": "okx",
  "tf": "15m"
 }
