@@ -2292,7 +2292,8 @@
     56.17
    ],
    "t": 1792037700000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792040400000
   },
   {
    "id": "SNDK/USDT:USDT|short|1792035900000",
@@ -2308,7 +2309,8 @@
     1362.9
    ],
    "t": 1792037700000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1792041300000
   },
   {
    "id": "BERA/USDT:USDT|short|1792035000000",
@@ -2324,7 +2326,8 @@
     0.2412
    ],
    "t": 1792037700000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792038600000
   },
   {
    "id": "SNXX/USDT:USDT|short|1792035900000",
@@ -2340,10 +2343,27 @@
     10.04
    ],
    "t": 1792037700000,
+   "status": "sl",
+   "closed": 1792039500000
+  },
+  {
+   "id": "ICP/USDT:USDT|long|1792052100000",
+   "symbol": "ICP/USDT:USDT",
+   "sym": "ICP",
+   "side": "long",
+   "tf": "15m",
+   "entry": 2.928,
+   "sl": 2.8927,
+   "tp": 2.9985999999999997,
+   "zone": [
+    2.895,
+    2.921
+   ],
+   "t": 1792054800000,
    "status": "open"
   }
  ],
- "updated": 1792036800000,
+ "updated": 1792054800000,
  "exchange": "okx",
  "tf": "15m"
 }
