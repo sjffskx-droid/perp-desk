@@ -2480,9 +2480,25 @@
    ],
    "t": 1792088100000,
    "status": "open"
+  },
+  {
+   "id": "AAVE/USDT:USDT|long|1792098000000",
+   "symbol": "AAVE/USDT:USDT",
+   "sym": "AAVE",
+   "side": "long",
+   "tf": "15m",
+   "entry": 158.03,
+   "sl": 156.048,
+   "tp": 161.994,
+   "zone": [
+    156.12,
+    157.38
+   ],
+   "t": 1792098900000,
+   "status": "open"
   }
  ],
- "updated": 1792087200000,
+ "updated": 1792098000000,
  "exchange": "okx",
  "tf": "15m"
 }
