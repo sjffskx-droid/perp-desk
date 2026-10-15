@@ -2360,10 +2360,107 @@
     2.921
    ],
    "t": 1792054800000,
+   "status": "sl",
+   "closed": 1792058400000
+  },
+  {
+   "id": "BTC/USDT:USDT|short|1792068300000",
+   "symbol": "BTC/USDT:USDT",
+   "sym": "BTC",
+   "side": "short",
+   "tf": "15m",
+   "entry": 81021.5,
+   "sl": 81184.45357142857,
+   "tp": 80695.59285714285,
+   "zone": [
+    80933.3,
+    81142.0
+   ],
+   "t": 1792072800000,
+   "status": "open"
+  },
+  {
+   "id": "ETH/USDT:USDT|short|1792067400000",
+   "symbol": "ETH/USDT:USDT",
+   "sym": "ETH",
+   "side": "short",
+   "tf": "15m",
+   "entry": 2368.74,
+   "sl": 2373.238714285714,
+   "tp": 2359.742571428571,
+   "zone": [
+    2363.5,
+    2371.56
+   ],
+   "t": 1792072800000,
+   "status": "open"
+  },
+  {
+   "id": "BNB/USDT:USDT|short|1792068300000",
+   "symbol": "BNB/USDT:USDT",
+   "sym": "BNB",
+   "side": "short",
+   "tf": "15m",
+   "entry": 721.3,
+   "sl": 722.6178571428571,
+   "tp": 718.6642857142856,
+   "zone": [
+    720.1,
+    722.3
+   ],
+   "t": 1792072800000,
+   "status": "open"
+  },
+  {
+   "id": "SOL/USDT:USDT|short|1792043100000",
+   "symbol": "SOL/USDT:USDT",
+   "sym": "SOL",
+   "side": "short",
+   "tf": "15m",
+   "entry": 103.04,
+   "sl": 104.36992857142857,
+   "tp": 100.38014285714287,
+   "zone": [
+    103.59,
+    104.29
+   ],
+   "t": 1792072800000,
+   "status": "open"
+  },
+  {
+   "id": "FIL/USDT:USDT|short|1792069200000",
+   "symbol": "FIL/USDT:USDT",
+   "sym": "FIL",
+   "side": "short",
+   "tf": "15m",
+   "entry": 1.0271,
+   "sl": 1.0394214285714285,
+   "tp": 1.0024571428571427,
+   "zone": [
+    1.0296,
+    1.0383
+   ],
+   "t": 1792072800000,
+   "status": "open"
+  },
+  {
+   "id": "BCH/USDT:USDT|short|1792029600000",
+   "symbol": "BCH/USDT:USDT",
+   "sym": "BCH",
+   "side": "short",
+   "tf": "15m",
+   "entry": 268.6,
+   "sl": 269.64214285714286,
+   "tp": 266.51571428571435,
+   "zone": [
+    267.5,
+    269.4
+   ],
+   "t": 1792072800000,
    "status": "open"
   }
  ],
- "updated": 1792054800000,
+ "updated": 1792072800000,
  "exchange": "okx",
  "tf": "15m"
 }
