@@ -2479,7 +2479,8 @@
     103.17
    ],
    "t": 1792088100000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792100700000
   },
   {
    "id": "AAVE/USDT:USDT|long|1792098000000",
@@ -2496,9 +2497,41 @@
    ],
    "t": 1792098900000,
    "status": "open"
+  },
+  {
+   "id": "XAG/USDT:USDT|long|1792090800000",
+   "symbol": "XAG/USDT:USDT",
+   "sym": "XAG",
+   "side": "long",
+   "tf": "15m",
+   "entry": 57.22,
+   "sl": 57.14364285714286,
+   "tp": 57.37271428571428,
+   "zone": [
+    57.15,
+    57.21
+   ],
+   "t": 1792107000000,
+   "status": "open"
+  },
+  {
+   "id": "XPD/USDT:USDT|short|1792106100000",
+   "symbol": "XPD/USDT:USDT",
+   "sym": "XPD",
+   "side": "short",
+   "tf": "15m",
+   "entry": 1132.4,
+   "sl": 1135.3028571428572,
+   "tp": 1126.594285714286,
+   "zone": [
+    1134.1,
+    1135.2
+   ],
+   "t": 1792107000000,
+   "status": "open"
   }
  ],
- "updated": 1792098000000,
+ "updated": 1792105200000,
  "exchange": "okx",
  "tf": "15m"
 }
