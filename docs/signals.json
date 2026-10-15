@@ -2224,7 +2224,8 @@
     1155.86
    ],
    "t": 1792021500000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792022400000
   },
   {
    "id": "FIL/USDT:USDT|long|1792017900000",
@@ -2240,7 +2241,8 @@
     1.0932
    ],
    "t": 1792021500000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792028700000
   },
   {
    "id": "ICP/USDT:USDT|long|1792018800000",
@@ -2256,7 +2258,8 @@
     3.05
    ],
    "t": 1792021500000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792026900000
   },
   {
    "id": "TRUMP/USDT:USDT|long|1792013400000",
@@ -2272,10 +2275,75 @@
     1.875
    ],
    "t": 1792021500000,
+   "status": "sl",
+   "closed": 1792025100000
+  },
+  {
+   "id": "XAG/USDT:USDT|short|1792036800000",
+   "symbol": "XAG/USDT:USDT",
+   "sym": "XAG",
+   "side": "short",
+   "tf": "15m",
+   "entry": 56.14,
+   "sl": 56.18964285714286,
+   "tp": 56.04071428571429,
+   "zone": [
+    56.02,
+    56.17
+   ],
+   "t": 1792037700000,
+   "status": "open"
+  },
+  {
+   "id": "SNDK/USDT:USDT|short|1792035900000",
+   "symbol": "SNDK/USDT:USDT",
+   "sym": "SNDK",
+   "side": "short",
+   "tf": "15m",
+   "entry": 1357.7,
+   "sl": 1364.1135714285715,
+   "tp": 1344.8728571428571,
+   "zone": [
+    1355.8,
+    1362.9
+   ],
+   "t": 1792037700000,
+   "status": "open"
+  },
+  {
+   "id": "BERA/USDT:USDT|short|1792035000000",
+   "symbol": "BERA/USDT:USDT",
+   "sym": "BERA",
+   "side": "short",
+   "tf": "15m",
+   "entry": 0.239,
+   "sl": 0.24188785714285713,
+   "tp": 0.23322428571428572,
+   "zone": [
+    0.2368,
+    0.2412
+   ],
+   "t": 1792037700000,
+   "status": "open"
+  },
+  {
+   "id": "SNXX/USDT:USDT|short|1792035900000",
+   "symbol": "SNXX/USDT:USDT",
+   "sym": "SNXX",
+   "side": "short",
+   "tf": "15m",
+   "entry": 9.98,
+   "sl": 10.057642857142856,
+   "tp": 9.82471428571429,
+   "zone": [
+    9.94,
+    10.04
+   ],
+   "t": 1792037700000,
    "status": "open"
   }
  ],
- "updated": 1792022400000,
+ "updated": 1792036800000,
  "exchange": "okx",
  "tf": "15m"
 }
