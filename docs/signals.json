@@ -2512,7 +2512,8 @@
     57.21
    ],
    "t": 1792107000000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1792111500000
   },
   {
    "id": "XPD/USDT:USDT|short|1792106100000",
@@ -2528,10 +2529,59 @@
     1135.2
    ],
    "t": 1792107000000,
+   "status": "tp",
+   "closed": 1792110600000
+  },
+  {
+   "id": "BZ/USDT:USDT|short|1792116900000",
+   "symbol": "BZ/USDT:USDT",
+   "sym": "BZ",
+   "side": "short",
+   "tf": "15m",
+   "entry": 102.77,
+   "sl": 103.20964285714285,
+   "tp": 101.89071428571428,
+   "zone": [
+    102.85,
+    103.19
+   ],
+   "t": 1792118700000,
+   "status": "open"
+  },
+  {
+   "id": "CL/USDT:USDT|short|1792116900000",
+   "symbol": "CL/USDT:USDT",
+   "sym": "CL",
+   "side": "short",
+   "tf": "15m",
+   "entry": 95.9,
+   "sl": 96.30892857142858,
+   "tp": 95.08214285714286,
+   "zone": [
+    95.97,
+    96.29
+   ],
+   "t": 1792118700000,
+   "status": "open"
+  },
+  {
+   "id": "AAVE/USDT:USDT|long|1792116000000",
+   "symbol": "AAVE/USDT:USDT",
+   "sym": "AAVE",
+   "side": "long",
+   "tf": "15m",
+   "entry": 158.31,
+   "sl": 158.0957857142857,
+   "tp": 158.73842857142859,
+   "zone": [
+    158.17,
+    158.49
+   ],
+   "t": 1792118700000,
    "status": "open"
   }
  ],
- "updated": 1792105200000,
+ "updated": 1792119600000,
  "exchange": "okx",
  "tf": "15m"
 }
