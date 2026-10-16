@@ -2734,10 +2734,43 @@
     1635.4
    ],
    "t": 1792170900000,
+   "status": "sl",
+   "closed": 1792171800000
+  },
+  {
+   "id": "SPCX/USDT:USDT|short|1792174500000",
+   "symbol": "SPCX/USDT:USDT",
+   "sym": "SPCX",
+   "side": "short",
+   "tf": "15m",
+   "entry": 146.34,
+   "sl": 146.56642857142856,
+   "tp": 145.8871428571429,
+   "zone": [
+    146.07,
+    146.48
+   ],
+   "t": 1792179900000,
+   "status": "open"
+  },
+  {
+   "id": "RIVER/USDT:USDT|short|1792175400000",
+   "symbol": "RIVER/USDT:USDT",
+   "sym": "RIVER",
+   "side": "short",
+   "tf": "15m",
+   "entry": 1.086,
+   "sl": 1.1078857142857144,
+   "tp": 1.0422285714285715,
+   "zone": [
+    1.093,
+    1.106
+   ],
+   "t": 1792179900000,
    "status": "open"
   }
  ],
- "updated": 1792170000000,
+ "updated": 1792180800000,
  "exchange": "okx",
  "tf": "15m"
 }
