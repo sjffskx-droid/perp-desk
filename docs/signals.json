@@ -2751,7 +2751,8 @@
     146.48
    ],
    "t": 1792179900000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792180800000
   },
   {
    "id": "RIVER/USDT:USDT|short|1792175400000",
@@ -2767,10 +2768,27 @@
     1.106
    ],
    "t": 1792179900000,
+   "status": "sl",
+   "closed": 1792186200000
+  },
+  {
+   "id": "AAVE/USDT:USDT|short|1792187100000",
+   "symbol": "AAVE/USDT:USDT",
+   "sym": "AAVE",
+   "side": "short",
+   "tf": "15m",
+   "entry": 154.95,
+   "sl": 155.672,
+   "tp": 153.50599999999997,
+   "zone": [
+    155.17,
+    155.6
+   ],
+   "t": 1792189800000,
    "status": "open"
   }
  ],
- "updated": 1792180800000,
+ "updated": 1792188000000,
  "exchange": "okx",
  "tf": "15m"
 }
