@@ -2496,7 +2496,8 @@
     157.38
    ],
    "t": 1792098900000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1792146600000
   },
   {
    "id": "XAG/USDT:USDT|long|1792090800000",
@@ -2546,7 +2547,8 @@
     103.19
    ],
    "t": 1792118700000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792147500000
   },
   {
    "id": "CL/USDT:USDT|short|1792116900000",
@@ -2562,7 +2564,8 @@
     96.29
    ],
    "t": 1792118700000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792150200000
   },
   {
    "id": "AAVE/USDT:USDT|long|1792116000000",
@@ -2580,9 +2583,137 @@
    "t": 1792118700000,
    "status": "tp",
    "closed": 1792119600000
+  },
+  {
+   "id": "XAG/USDT:USDT|short|1792154700000",
+   "symbol": "XAG/USDT:USDT",
+   "sym": "XAG",
+   "side": "short",
+   "tf": "15m",
+   "entry": 57.63,
+   "sl": 58.04407142857143,
+   "tp": 56.80185714285715,
+   "zone": [
+    57.82,
+    58.03
+   ],
+   "t": 1792155600000,
+   "status": "open"
+  },
+  {
+   "id": "BNB/USDT:USDT|short|1792154700000",
+   "symbol": "BNB/USDT:USDT",
+   "sym": "BNB",
+   "side": "short",
+   "tf": "15m",
+   "entry": 727.9,
+   "sl": 730.4857142857143,
+   "tp": 722.7285714285714,
+   "zone": [
+    728.4,
+    730.3
+   ],
+   "t": 1792155600000,
+   "status": "open"
+  },
+  {
+   "id": "QUANT/USDT:USDT|long|1792147500000",
+   "symbol": "QUANT/USDT:USDT",
+   "sym": "QUANT",
+   "side": "long",
+   "tf": "15m",
+   "entry": 208.0,
+   "sl": 204.69,
+   "tp": 214.62,
+   "zone": [
+    204.9,
+    206.6
+   ],
+   "t": 1792155600000,
+   "status": "open"
+  },
+  {
+   "id": "SNDK/USDT:USDT|short|1792154700000",
+   "symbol": "SNDK/USDT:USDT",
+   "sym": "SNDK",
+   "side": "short",
+   "tf": "15m",
+   "entry": 1360.7,
+   "sl": 1368.4635714285714,
+   "tp": 1345.1728571428573,
+   "zone": [
+    1361.8,
+    1367.7
+   ],
+   "t": 1792155600000,
+   "status": "open"
+  },
+  {
+   "id": "SOL/USDT:USDT|long|1792125900000",
+   "symbol": "SOL/USDT:USDT",
+   "sym": "SOL",
+   "side": "long",
+   "tf": "15m",
+   "entry": 105.64,
+   "sl": 104.87771428571429,
+   "tp": 107.16457142857142,
+   "zone": [
+    104.93,
+    105.32
+   ],
+   "t": 1792155600000,
+   "status": "open"
+  },
+  {
+   "id": "SOXL/USDT:USDT|short|1792154700000",
+   "symbol": "SOXL/USDT:USDT",
+   "sym": "SOXL",
+   "side": "short",
+   "tf": "15m",
+   "entry": 102.83,
+   "sl": 104.08978571428571,
+   "tp": 100.31042857142857,
+   "zone": [
+    103.09,
+    103.99
+   ],
+   "t": 1792155600000,
+   "status": "open"
+  },
+  {
+   "id": "AAVE/USDT:USDT|long|1792146600000",
+   "symbol": "AAVE/USDT:USDT",
+   "sym": "AAVE",
+   "side": "long",
+   "tf": "15m",
+   "entry": 161.54,
+   "sl": 160.4375,
+   "tp": 163.74499999999998,
+   "zone": [
+    160.56,
+    160.98
+   ],
+   "t": 1792155600000,
+   "status": "open"
+  },
+  {
+   "id": "SNXX/USDT:USDT|short|1792154700000",
+   "symbol": "SNXX/USDT:USDT",
+   "sym": "SNXX",
+   "side": "short",
+   "tf": "15m",
+   "entry": 10.02,
+   "sl": 10.111071428571428,
+   "tp": 9.837857142857143,
+   "zone": [
+    10.04,
+    10.1
+   ],
+   "t": 1792155600000,
+   "status": "open"
   }
  ],
- "updated": 1792137600000,
+ "updated": 1792155600000,
  "exchange": "okx",
  "tf": "15m"
 }
