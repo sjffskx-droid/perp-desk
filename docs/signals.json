@@ -2598,7 +2598,8 @@
     58.03
    ],
    "t": 1792155600000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792160100000
   },
   {
    "id": "BNB/USDT:USDT|short|1792154700000",
@@ -2614,7 +2615,8 @@
     730.3
    ],
    "t": 1792155600000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792160100000
   },
   {
    "id": "QUANT/USDT:USDT|long|1792147500000",
@@ -2630,7 +2632,8 @@
     206.6
    ],
    "t": 1792155600000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792162800000
   },
   {
    "id": "SNDK/USDT:USDT|short|1792154700000",
@@ -2646,7 +2649,8 @@
     1367.7
    ],
    "t": 1792155600000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1792157400000
   },
   {
    "id": "SOL/USDT:USDT|long|1792125900000",
@@ -2662,7 +2666,8 @@
     105.32
    ],
    "t": 1792155600000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792162800000
   },
   {
    "id": "SOXL/USDT:USDT|short|1792154700000",
@@ -2678,7 +2683,8 @@
     103.99
    ],
    "t": 1792155600000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1792157400000
   },
   {
    "id": "AAVE/USDT:USDT|long|1792146600000",
@@ -2694,7 +2700,8 @@
     160.98
    ],
    "t": 1792155600000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792157400000
   },
   {
    "id": "SNXX/USDT:USDT|short|1792154700000",
@@ -2710,10 +2717,27 @@
     10.1
    ],
    "t": 1792155600000,
+   "status": "tp",
+   "closed": 1792157400000
+  },
+  {
+   "id": "XPT/USDT:USDT|short|1792170000000",
+   "symbol": "XPT/USDT:USDT",
+   "sym": "XPT",
+   "side": "short",
+   "tf": "15m",
+   "entry": 1633.4,
+   "sl": 1635.8657142857144,
+   "tp": 1628.4685714285715,
+   "zone": [
+    1633.5,
+    1635.4
+   ],
+   "t": 1792170900000,
    "status": "open"
   }
  ],
- "updated": 1792155600000,
+ "updated": 1792170000000,
  "exchange": "okx",
  "tf": "15m"
 }
