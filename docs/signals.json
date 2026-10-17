@@ -3124,7 +3124,8 @@
     81557.3
    ],
    "t": 1792260900000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1792263600000
   },
   {
    "id": "BCH/USDT:USDT|short|1792255500000",
@@ -3140,7 +3141,8 @@
     275.3
    ],
    "t": 1792260900000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792262700000
   },
   {
    "id": "SKHYNIX/USDT:USDT|short|1792251000000",
@@ -3156,10 +3158,27 @@
     919.2
    ],
    "t": 1792260900000,
+   "status": "sl",
+   "closed": 1792261800000
+  },
+  {
+   "id": "BNB/USDT:USDT|short|1792250100000",
+   "symbol": "BNB/USDT:USDT",
+   "sym": "BNB",
+   "side": "short",
+   "tf": "15m",
+   "entry": 719.6,
+   "sl": 722.6164285714285,
+   "tp": 713.567142857143,
+   "zone": [
+    720.5,
+    722.5
+   ],
+   "t": 1792269900000,
    "status": "open"
   }
  ],
- "updated": 1792260000000,
+ "updated": 1792270800000,
  "exchange": "okx",
  "tf": "15m"
 }
