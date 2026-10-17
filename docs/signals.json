@@ -2938,7 +2938,8 @@
     275.5
    ],
    "t": 1792228500000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792229400000
   },
   {
    "id": "STRK/USDT:USDT|long|1792227600000",
@@ -2954,7 +2955,8 @@
     0.07186
    ],
    "t": 1792228500000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792229400000
   },
   {
    "id": "VVV/USDT:USDT|long|1792227600000",
@@ -2970,7 +2972,8 @@
     23.244
    ],
    "t": 1792228500000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792235700000
   },
   {
    "id": "UNI/USDT:USDT|long|1792227600000",
@@ -2986,10 +2989,59 @@
     7.326
    ],
    "t": 1792228500000,
+   "status": "sl",
+   "closed": 1792237500000
+  },
+  {
+   "id": "ZEC/USDT:USDT|long|1792213200000",
+   "symbol": "ZEC/USDT:USDT",
+   "sym": "ZEC",
+   "side": "long",
+   "tf": "15m",
+   "entry": 1158.08,
+   "sl": 1149.4552142857142,
+   "tp": 1175.3295714285714,
+   "zone": [
+    1150.1,
+    1157.49
+   ],
+   "t": 1792241100000,
+   "status": "open"
+  },
+  {
+   "id": "SKHYNIX/USDT:USDT|long|1792194300000",
+   "symbol": "SKHYNIX/USDT:USDT",
+   "sym": "SKHYNIX",
+   "side": "long",
+   "tf": "15m",
+   "entry": 920.2,
+   "sl": 915.2049999999999,
+   "tp": 930.1900000000003,
+   "zone": [
+    915.4,
+    917.3
+   ],
+   "t": 1792241100000,
+   "status": "open"
+  },
+  {
+   "id": "TSLA/USDT:USDT|short|1792240200000",
+   "symbol": "TSLA/USDT:USDT",
+   "sym": "TSLA",
+   "side": "short",
+   "tf": "15m",
+   "entry": 353.15,
+   "sl": 353.729,
+   "tp": 351.99199999999996,
+   "zone": [
+    353.45,
+    353.69
+   ],
+   "t": 1792241100000,
    "status": "open"
   }
  ],
- "updated": 1792227600000,
+ "updated": 1792242000000,
  "exchange": "okx",
  "tf": "15m"
 }
