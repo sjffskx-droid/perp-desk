@@ -3057,7 +3057,8 @@
     2238.0
    ],
    "t": 1792252800000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1792256400000
   },
   {
    "id": "SOL/USDT:USDT|short|1792251900000",
@@ -3073,7 +3074,8 @@
     104.07
    ],
    "t": 1792252800000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1792255500000
   },
   {
    "id": "ICP/USDT:USDT|short|1792251900000",
@@ -3089,7 +3091,8 @@
     2.939
    ],
    "t": 1792252800000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1792255500000
   },
   {
    "id": "TIA/USDT:USDT|short|1792248300000",
@@ -3106,9 +3109,57 @@
    ],
    "t": 1792252800000,
    "status": "open"
+  },
+  {
+   "id": "BTC/USDT:USDT|short|1792251900000",
+   "symbol": "BTC/USDT:USDT",
+   "sym": "BTC",
+   "side": "short",
+   "tf": "15m",
+   "entry": 81521.9,
+   "sl": 81568.15928571428,
+   "tp": 81429.38142857142,
+   "zone": [
+    81509.0,
+    81557.3
+   ],
+   "t": 1792260900000,
+   "status": "open"
+  },
+  {
+   "id": "BCH/USDT:USDT|short|1792255500000",
+   "symbol": "BCH/USDT:USDT",
+   "sym": "BCH",
+   "side": "short",
+   "tf": "15m",
+   "entry": 274.4,
+   "sl": 275.415,
+   "tp": 272.3699999999999,
+   "zone": [
+    274.6,
+    275.3
+   ],
+   "t": 1792260900000,
+   "status": "open"
+  },
+  {
+   "id": "SKHYNIX/USDT:USDT|short|1792251000000",
+   "symbol": "SKHYNIX/USDT:USDT",
+   "sym": "SKHYNIX",
+   "side": "short",
+   "tf": "15m",
+   "entry": 918.6,
+   "sl": 919.4192857142857,
+   "tp": 916.9614285714287,
+   "zone": [
+    918.4,
+    919.2
+   ],
+   "t": 1792260900000,
+   "status": "open"
   }
  ],
- "updated": 1792252800000,
+ "updated": 1792260000000,
  "exchange": "okx",
  "tf": "15m"
 }
