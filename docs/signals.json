@@ -2802,7 +2802,8 @@
     2418.05
    ],
    "t": 1792197900000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1792222200000
   },
   {
    "id": "YFI/USDT:USDT|short|1792197000000",
@@ -2852,7 +2853,8 @@
     57.18
    ],
    "t": 1792214100000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792215900000
   },
   {
    "id": "INJ/USDT:USDT|long|1792206000000",
@@ -2868,7 +2870,8 @@
     8.827
    ],
    "t": 1792214100000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792224900000
   },
   {
    "id": "BCH/USDT:USDT|long|1792202400000",
@@ -2884,7 +2887,8 @@
     277.8
    ],
    "t": 1792214100000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792228500000
   },
   {
    "id": "SOXL/USDT:USDT|long|1792213200000",
@@ -2900,7 +2904,8 @@
     94.45
    ],
    "t": 1792214100000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792215900000
   },
   {
    "id": "SKHYNIX/USDT:USDT|long|1792213200000",
@@ -2916,10 +2921,75 @@
     926.7
    ],
    "t": 1792214100000,
+   "status": "sl",
+   "closed": 1792215900000
+  },
+  {
+   "id": "BCH/USDT:USDT|long|1792193400000",
+   "symbol": "BCH/USDT:USDT",
+   "sym": "BCH",
+   "side": "long",
+   "tf": "15m",
+   "entry": 275.8,
+   "sl": 274.8135714285714,
+   "tp": 277.7728571428573,
+   "zone": [
+    274.9,
+    275.5
+   ],
+   "t": 1792228500000,
+   "status": "open"
+  },
+  {
+   "id": "STRK/USDT:USDT|long|1792227600000",
+   "symbol": "STRK/USDT:USDT",
+   "sym": "STRK",
+   "side": "long",
+   "tf": "15m",
+   "entry": 0.07213,
+   "sl": 0.07135635714285714,
+   "tp": 0.07367728571428572,
+   "zone": [
+    0.07142,
+    0.07186
+   ],
+   "t": 1792228500000,
+   "status": "open"
+  },
+  {
+   "id": "VVV/USDT:USDT|long|1792227600000",
+   "symbol": "VVV/USDT:USDT",
+   "sym": "VVV",
+   "side": "long",
+   "tf": "15m",
+   "entry": 23.288,
+   "sl": 23.10927142857143,
+   "tp": 23.645457142857143,
+   "zone": [
+    23.121,
+    23.244
+   ],
+   "t": 1792228500000,
+   "status": "open"
+  },
+  {
+   "id": "UNI/USDT:USDT|long|1792227600000",
+   "symbol": "UNI/USDT:USDT",
+   "sym": "UNI",
+   "side": "long",
+   "tf": "15m",
+   "entry": 7.331,
+   "sl": 7.278478571428571,
+   "tp": 7.436042857142859,
+   "zone": [
+    7.281,
+    7.326
+   ],
+   "t": 1792228500000,
    "status": "open"
   }
  ],
- "updated": 1792213200000,
+ "updated": 1792227600000,
  "exchange": "okx",
  "tf": "15m"
 }
