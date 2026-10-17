@@ -3175,10 +3175,43 @@
     722.5
    ],
    "t": 1792269900000,
+   "status": "tp",
+   "closed": 1792272600000
+  },
+  {
+   "id": "CL/USDT:USDT|long|1792272600000",
+   "symbol": "CL/USDT:USDT",
+   "sym": "CL",
+   "side": "long",
+   "tf": "15m",
+   "entry": 99.15,
+   "sl": 99.06478571428572,
+   "tp": 99.32042857142858,
+   "zone": [
+    99.08,
+    99.15
+   ],
+   "t": 1792277100000,
+   "status": "open"
+  },
+  {
+   "id": "STRK/USDT:USDT|short|1792271700000",
+   "symbol": "STRK/USDT:USDT",
+   "sym": "STRK",
+   "side": "short",
+   "tf": "15m",
+   "entry": 0.06486,
+   "sl": 0.06559392857142857,
+   "tp": 0.06339214285714287,
+   "zone": [
+    0.06506,
+    0.06552
+   ],
+   "t": 1792277100000,
    "status": "open"
   }
  ],
- "updated": 1792270800000,
+ "updated": 1792278000000,
  "exchange": "okx",
  "tf": "15m"
 }
