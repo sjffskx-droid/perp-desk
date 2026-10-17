@@ -2786,9 +2786,57 @@
    ],
    "t": 1792189800000,
    "status": "open"
+  },
+  {
+   "id": "ETH/USDT:USDT|long|1792188000000",
+   "symbol": "ETH/USDT:USDT",
+   "sym": "ETH",
+   "side": "long",
+   "tf": "15m",
+   "entry": 2422.26,
+   "sl": 2414.659357142857,
+   "tp": 2437.4612857142865,
+   "zone": [
+    2415.08,
+    2418.05
+   ],
+   "t": 1792197900000,
+   "status": "open"
+  },
+  {
+   "id": "YFI/USDT:USDT|short|1792197000000",
+   "symbol": "YFI/USDT:USDT",
+   "sym": "YFI",
+   "side": "short",
+   "tf": "15m",
+   "entry": 2302.0,
+   "sl": 2308.5857142857144,
+   "tp": 2288.828571428571,
+   "zone": [
+    2299.0,
+    2308.0
+   ],
+   "t": 1792197900000,
+   "status": "open"
+  },
+  {
+   "id": "XPT/USDT:USDT|long|1792196100000",
+   "symbol": "XPT/USDT:USDT",
+   "sym": "XPT",
+   "side": "long",
+   "tf": "15m",
+   "entry": 1638.7,
+   "sl": 1638.315,
+   "tp": 1639.47,
+   "zone": [
+    1638.4,
+    1639.3
+   ],
+   "t": 1792197900000,
+   "status": "open"
   }
  ],
- "updated": 1792188000000,
+ "updated": 1792198800000,
  "exchange": "okx",
  "tf": "15m"
 }
