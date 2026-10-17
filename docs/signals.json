@@ -2785,7 +2785,8 @@
     155.6
    ],
    "t": 1792189800000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792206900000
   },
   {
    "id": "ETH/USDT:USDT|long|1792188000000",
@@ -2817,7 +2818,8 @@
     2308.0
    ],
    "t": 1792197900000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1792204200000
   },
   {
    "id": "XPT/USDT:USDT|long|1792196100000",
@@ -2833,10 +2835,91 @@
     1639.3
    ],
    "t": 1792197900000,
+   "status": "sl",
+   "closed": 1792198800000
+  },
+  {
+   "id": "XAG/USDT:USDT|long|1792207800000",
+   "symbol": "XAG/USDT:USDT",
+   "sym": "XAG",
+   "side": "long",
+   "tf": "15m",
+   "entry": 57.16,
+   "sl": 57.13542857142857,
+   "tp": 57.20914285714285,
+   "zone": [
+    57.14,
+    57.18
+   ],
+   "t": 1792214100000,
+   "status": "open"
+  },
+  {
+   "id": "INJ/USDT:USDT|long|1792206000000",
+   "symbol": "INJ/USDT:USDT",
+   "sym": "INJ",
+   "side": "long",
+   "tf": "15m",
+   "entry": 8.826,
+   "sl": 8.749471428571427,
+   "tp": 8.979057142857148,
+   "zone": [
+    8.758,
+    8.827
+   ],
+   "t": 1792214100000,
+   "status": "open"
+  },
+  {
+   "id": "BCH/USDT:USDT|long|1792202400000",
+   "symbol": "BCH/USDT:USDT",
+   "sym": "BCH",
+   "side": "long",
+   "tf": "15m",
+   "entry": 277.9,
+   "sl": 276.3364285714286,
+   "tp": 281.02714285714274,
+   "zone": [
+    276.5,
+    277.8
+   ],
+   "t": 1792214100000,
+   "status": "open"
+  },
+  {
+   "id": "SOXL/USDT:USDT|long|1792213200000",
+   "symbol": "SOXL/USDT:USDT",
+   "sym": "SOXL",
+   "side": "long",
+   "tf": "15m",
+   "entry": 94.43,
+   "sl": 94.15992857142857,
+   "tp": 94.97014285714289,
+   "zone": [
+    94.21,
+    94.45
+   ],
+   "t": 1792214100000,
+   "status": "open"
+  },
+  {
+   "id": "SKHYNIX/USDT:USDT|long|1792213200000",
+   "symbol": "SKHYNIX/USDT:USDT",
+   "sym": "SKHYNIX",
+   "side": "long",
+   "tf": "15m",
+   "entry": 926.7,
+   "sl": 925.4771428571429,
+   "tp": 929.1457142857143,
+   "zone": [
+    925.7,
+    926.7
+   ],
+   "t": 1792214100000,
    "status": "open"
   }
  ],
- "updated": 1792198800000,
+ "updated": 1792213200000,
  "exchange": "okx",
  "tf": "15m"
 }
