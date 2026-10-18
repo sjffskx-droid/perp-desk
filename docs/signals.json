@@ -3331,9 +3331,105 @@
    "t": 1792317600000,
    "status": "sl",
    "closed": 1792328400000
+  },
+  {
+   "id": "ZEC/USDT:USDT|short|1792337400000",
+   "symbol": "ZEC/USDT:USDT",
+   "sym": "ZEC",
+   "side": "short",
+   "tf": "15m",
+   "entry": 1096.88,
+   "sl": 1105.517142857143,
+   "tp": 1079.6057142857144,
+   "zone": [
+    1096.29,
+    1104.44
+   ],
+   "t": 1792342800000,
+   "status": "open"
+  },
+  {
+   "id": "ETH/USDT:USDT|short|1792340100000",
+   "symbol": "ETH/USDT:USDT",
+   "sym": "ETH",
+   "side": "short",
+   "tf": "15m",
+   "entry": 2374.0,
+   "sl": 2380.4965714285713,
+   "tp": 2361.0068571428574,
+   "zone": [
+    2372.36,
+    2379.58
+   ],
+   "t": 1792342800000,
+   "status": "open"
+  },
+  {
+   "id": "TRUMP/USDT:USDT|short|1792341900000",
+   "symbol": "TRUMP/USDT:USDT",
+   "sym": "TRUMP",
+   "side": "short",
+   "tf": "15m",
+   "entry": 1.679,
+   "sl": 1.692107142857143,
+   "tp": 1.652785714285714,
+   "zone": [
+    1.68,
+    1.691
+   ],
+   "t": 1792342800000,
+   "status": "open"
+  },
+  {
+   "id": "BCH/USDT:USDT|short|1792340100000",
+   "symbol": "BCH/USDT:USDT",
+   "sym": "BCH",
+   "side": "short",
+   "tf": "15m",
+   "entry": 269.0,
+   "sl": 270.52642857142854,
+   "tp": 265.9471428571429,
+   "zone": [
+    269.4,
+    270.4
+   ],
+   "t": 1792342800000,
+   "status": "open"
+  },
+  {
+   "id": "MU/USDT:USDT|short|1792341900000",
+   "symbol": "MU/USDT:USDT",
+   "sym": "MU",
+   "side": "short",
+   "tf": "15m",
+   "entry": 860.48,
+   "sl": 863.0791428571429,
+   "tp": 855.2817142857143,
+   "zone": [
+    860.57,
+    862.86
+   ],
+   "t": 1792342800000,
+   "status": "open"
+  },
+  {
+   "id": "UNI/USDT:USDT|short|1792337400000",
+   "symbol": "UNI/USDT:USDT",
+   "sym": "UNI",
+   "side": "short",
+   "tf": "15m",
+   "entry": 7.022,
+   "sl": 7.065142857142857,
+   "tp": 6.935714285714287,
+   "zone": [
+    7.023,
+    7.06
+   ],
+   "t": 1792342800000,
+   "status": "open"
   }
  ],
- "updated": 1792332000000,
+ "updated": 1792342800000,
  "exchange": "okx",
  "tf": "15m"
 }
