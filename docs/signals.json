@@ -3192,7 +3192,8 @@
     99.15
    ],
    "t": 1792277100000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792278900000
   },
   {
    "id": "STRK/USDT:USDT|short|1792271700000",
@@ -3211,7 +3212,7 @@
    "status": "open"
   }
  ],
- "updated": 1792278000000,
+ "updated": 1792285200000,
  "exchange": "okx",
  "tf": "15m"
 }
