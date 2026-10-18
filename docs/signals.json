@@ -3108,7 +3108,8 @@
     0.6851
    ],
    "t": 1792252800000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1792301400000
   },
   {
    "id": "BTC/USDT:USDT|short|1792251900000",
@@ -3209,10 +3210,59 @@
     0.06552
    ],
    "t": 1792277100000,
+   "status": "tp",
+   "closed": 1792290600000
+  },
+  {
+   "id": "ETH/USDT:USDT|long|1792292400000",
+   "symbol": "ETH/USDT:USDT",
+   "sym": "ETH",
+   "side": "long",
+   "tf": "15m",
+   "entry": 2406.76,
+   "sl": 2403.9507857142858,
+   "tp": 2412.378428571429,
+   "zone": [
+    2404.52,
+    2410.27
+   ],
+   "t": 1792301400000,
+   "status": "open"
+  },
+  {
+   "id": "SOXL/USDT:USDT|long|1792298700000",
+   "symbol": "SOXL/USDT:USDT",
+   "sym": "SOXL",
+   "side": "long",
+   "tf": "15m",
+   "entry": 92.05,
+   "sl": 91.37114285714287,
+   "tp": 93.40771428571425,
+   "zone": [
+    91.43,
+    91.69
+   ],
+   "t": 1792301400000,
+   "status": "open"
+  },
+  {
+   "id": "TIA/USDT:USDT|short|1792300500000",
+   "symbol": "TIA/USDT:USDT",
+   "sym": "TIA",
+   "side": "short",
+   "tf": "15m",
+   "entry": 0.6251,
+   "sl": 0.6333214285714286,
+   "tp": 0.6086571428571428,
+   "zone": [
+    0.6268,
+    0.6328
+   ],
+   "t": 1792301400000,
    "status": "open"
   }
  ],
- "updated": 1792285200000,
+ "updated": 1792299600000,
  "exchange": "okx",
  "tf": "15m"
 }
