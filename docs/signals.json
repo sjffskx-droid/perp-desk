@@ -3346,7 +3346,8 @@
     1104.44
    ],
    "t": 1792342800000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1792350000000
   },
   {
    "id": "ETH/USDT:USDT|short|1792340100000",
@@ -3362,7 +3363,8 @@
     2379.58
    ],
    "t": 1792342800000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1792348200000
   },
   {
    "id": "TRUMP/USDT:USDT|short|1792341900000",
@@ -3378,7 +3380,8 @@
     1.691
    ],
    "t": 1792342800000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792349100000
   },
   {
    "id": "BCH/USDT:USDT|short|1792340100000",
@@ -3426,10 +3429,43 @@
     7.06
    ],
    "t": 1792342800000,
+   "status": "tp",
+   "closed": 1792350900000
+  },
+  {
+   "id": "OKB/USDT:USDT|short|1792350000000",
+   "symbol": "OKB/USDT:USDT",
+   "sym": "OKB",
+   "side": "short",
+   "tf": "15m",
+   "entry": 110.56,
+   "sl": 112.21392857142857,
+   "tp": 107.25214285714287,
+   "zone": [
+    111.51,
+    112.17
+   ],
+   "t": 1792350900000,
+   "status": "open"
+  },
+  {
+   "id": "CL/USDT:USDT|long|1792350000000",
+   "symbol": "CL/USDT:USDT",
+   "sym": "CL",
+   "side": "long",
+   "tf": "15m",
+   "entry": 99.01,
+   "sl": 98.92471428571429,
+   "tp": 99.18057142857144,
+   "zone": [
+    98.93,
+    98.98
+   ],
+   "t": 1792350900000,
    "status": "open"
   }
  ],
- "updated": 1792342800000,
+ "updated": 1792350000000,
  "exchange": "okx",
  "tf": "15m"
 }
