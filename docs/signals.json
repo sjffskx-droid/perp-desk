@@ -3567,7 +3567,8 @@
     4186.5
    ],
    "t": 1792399500000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1792416600000
   },
   {
    "id": "BZ/USDT:USDT|short|1792388700000",
@@ -3583,7 +3584,8 @@
     105.25
    ],
    "t": 1792399500000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792400400000
   },
   {
    "id": "SKHY/USDT:USDT|long|1792397700000",
@@ -3599,10 +3601,59 @@
     141.72
    ],
    "t": 1792399500000,
+   "status": "tp",
+   "closed": 1792404000000
+  },
+  {
+   "id": "XAU/USDT:USDT|short|1792424700000",
+   "symbol": "XAU/USDT:USDT",
+   "sym": "XAU",
+   "side": "short",
+   "tf": "15m",
+   "entry": 4152.1,
+   "sl": 4157.674285714285,
+   "tp": 4140.95142857143,
+   "zone": [
+    4151.4,
+    4157.0
+   ],
+   "t": 1792425600000,
+   "status": "open"
+  },
+  {
+   "id": "SKHYNIX/USDT:USDT|long|1792423800000",
+   "symbol": "SKHYNIX/USDT:USDT",
+   "sym": "SKHYNIX",
+   "side": "long",
+   "tf": "15m",
+   "entry": 978.7,
+   "sl": 970.3928571428571,
+   "tp": 995.3142857142859,
+   "zone": [
+    971.1,
+    977.9
+   ],
+   "t": 1792425600000,
+   "status": "open"
+  },
+  {
+   "id": "SKHY/USDT:USDT|long|1792422900000",
+   "symbol": "SKHY/USDT:USDT",
+   "sym": "SKHY",
+   "side": "long",
+   "tf": "15m",
+   "entry": 145.05,
+   "sl": 143.7214285714286,
+   "tp": 147.70714285714286,
+   "zone": [
+    143.83,
+    144.82
+   ],
+   "t": 1792425600000,
    "status": "open"
   }
  ],
- "updated": 1792400400000,
+ "updated": 1792425600000,
  "exchange": "okx",
  "tf": "15m"
 }
