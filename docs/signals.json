@@ -3634,7 +3634,8 @@
     977.9
    ],
    "t": 1792425600000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792428300000
   },
   {
    "id": "SKHY/USDT:USDT|long|1792422900000",
@@ -3650,10 +3651,43 @@
     144.82
    ],
    "t": 1792425600000,
+   "status": "sl",
+   "closed": 1792429200000
+  },
+  {
+   "id": "BNB/USDT:USDT|long|1792440900000",
+   "symbol": "BNB/USDT:USDT",
+   "sym": "BNB",
+   "side": "long",
+   "tf": "15m",
+   "entry": 728.3,
+   "sl": 726.1835714285713,
+   "tp": 732.5328571428572,
+   "zone": [
+    726.3,
+    727.9
+   ],
+   "t": 1792442700000,
+   "status": "open"
+  },
+  {
+   "id": "VVV/USDT:USDT|long|1792435500000",
+   "symbol": "VVV/USDT:USDT",
+   "sym": "VVV",
+   "side": "long",
+   "tf": "15m",
+   "entry": 24.081,
+   "sl": 23.82655714285714,
+   "tp": 24.589885714285717,
+   "zone": [
+    23.848,
+    24.058
+   ],
+   "t": 1792442700000,
    "status": "open"
   }
  ],
- "updated": 1792425600000,
+ "updated": 1792443600000,
  "exchange": "okx",
  "tf": "15m"
 }
