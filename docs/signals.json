@@ -3516,10 +3516,43 @@
     22.643
    ],
    "t": 1792366200000,
+   "status": "tp",
+   "closed": 1792373400000
+  },
+  {
+   "id": "HYPE/USDT:USDT|long|1792377900000",
+   "symbol": "HYPE/USDT:USDT",
+   "sym": "HYPE",
+   "side": "long",
+   "tf": "15m",
+   "entry": 79.476,
+   "sl": 79.07184285714285,
+   "tp": 80.28431428571429,
+   "zone": [
+    79.103,
+    79.442
+   ],
+   "t": 1792378800000,
+   "status": "open"
+  },
+  {
+   "id": "QUANT/USDT:USDT|long|1792373400000",
+   "symbol": "QUANT/USDT:USDT",
+   "sym": "QUANT",
+   "side": "long",
+   "tf": "15m",
+   "entry": 193.1,
+   "sl": 189.84571428571428,
+   "tp": 199.60857142857142,
+   "zone": [
+    190.0,
+    191.6
+   ],
+   "t": 1792378800000,
    "status": "open"
   }
  ],
- "updated": 1792364400000,
+ "updated": 1792378800000,
  "exchange": "okx",
  "tf": "15m"
 }
