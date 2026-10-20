@@ -3839,7 +3839,8 @@
     1149.49
    ],
    "t": 1792471500000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792474200000
   },
   {
    "id": "HYPE/USDT:USDT|long|1792470600000",
@@ -3855,7 +3856,8 @@
     79.6
    ],
    "t": 1792471500000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792472400000
   },
   {
    "id": "FIL/USDT:USDT|long|1792467900000",
@@ -3871,7 +3873,8 @@
     1.0182
    ],
    "t": 1792471500000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792474200000
   },
   {
    "id": "INJ/USDT:USDT|long|1792467900000",
@@ -3887,7 +3890,8 @@
     8.539
    ],
    "t": 1792471500000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792475100000
   },
   {
    "id": "BCH/USDT:USDT|long|1792467900000",
@@ -3903,10 +3907,59 @@
     279.1
    ],
    "t": 1792471500000,
+   "status": "sl",
+   "closed": 1792474200000
+  },
+  {
+   "id": "SOXL/USDT:USDT|short|1792486800000",
+   "symbol": "SOXL/USDT:USDT",
+   "sym": "SOXL",
+   "side": "short",
+   "tf": "15m",
+   "entry": 95.35,
+   "sl": 96.54607142857144,
+   "tp": 92.95785714285711,
+   "zone": [
+    95.47,
+    96.43
+   ],
+   "t": 1792489500000,
+   "status": "open"
+  },
+  {
+   "id": "SOXS/USDT:USDT|long|1792486800000",
+   "symbol": "SOXS/USDT:USDT",
+   "sym": "SOXS",
+   "side": "long",
+   "tf": "15m",
+   "entry": 48.35,
+   "sl": 47.78564285714286,
+   "tp": 49.47871428571428,
+   "zone": [
+    47.84,
+    48.31
+   ],
+   "t": 1792489500000,
+   "status": "open"
+  },
+  {
+   "id": "UNI/USDT:USDT|short|1792488600000",
+   "symbol": "UNI/USDT:USDT",
+   "sym": "UNI",
+   "side": "short",
+   "tf": "15m",
+   "entry": 7.124,
+   "sl": 7.159457142857143,
+   "tp": 7.0530857142857135,
+   "zone": [
+    7.118,
+    7.156
+   ],
+   "t": 1792489500000,
    "status": "open"
   }
  ],
- "updated": 1792472400000,
+ "updated": 1792490400000,
  "exchange": "okx",
  "tf": "15m"
 }
