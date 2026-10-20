@@ -3686,7 +3686,8 @@
     24.058
    ],
    "t": 1792442700000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792458000000
   },
   {
    "id": "BTC/USDT:USDT|short|1792453500000",
@@ -3702,7 +3703,8 @@
     82074.7
    ],
    "t": 1792454400000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792467900000
   },
   {
    "id": "ETH/USDT:USDT|long|1792447200000",
@@ -3718,7 +3720,8 @@
     2402.76
    ],
    "t": 1792454400000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792455300000
   },
   {
    "id": "BNB/USDT:USDT|long|1792447200000",
@@ -3734,7 +3737,8 @@
     729.8
    ],
    "t": 1792454400000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792455300000
   },
   {
    "id": "YFI/USDT:USDT|long|1792447200000",
@@ -3750,7 +3754,8 @@
     2202.0
    ],
    "t": 1792454400000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792455300000
   },
   {
    "id": "OKB/USDT:USDT|long|1792447200000",
@@ -3766,7 +3771,8 @@
     113.61
    ],
    "t": 1792454400000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792455300000
   },
   {
    "id": "SOL/USDT:USDT|long|1792447200000",
@@ -3782,7 +3788,8 @@
     104.72
    ],
    "t": 1792454400000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792455300000
   },
   {
    "id": "BCH/USDT:USDT|long|1792452600000",
@@ -3798,7 +3805,8 @@
     279.5
    ],
    "t": 1792454400000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792455300000
   },
   {
    "id": "GIGGLE/USDT:USDT|long|1792444500000",
@@ -3814,10 +3822,91 @@
     31.94
    ],
    "t": 1792454400000,
+   "status": "sl",
+   "closed": 1792455300000
+  },
+  {
+   "id": "ZEC/USDT:USDT|long|1792470600000",
+   "symbol": "ZEC/USDT:USDT",
+   "sym": "ZEC",
+   "side": "long",
+   "tf": "15m",
+   "entry": 1149.01,
+   "sl": 1140.0890714285715,
+   "tp": 1166.851857142857,
+   "zone": [
+    1141.0,
+    1149.49
+   ],
+   "t": 1792471500000,
+   "status": "open"
+  },
+  {
+   "id": "HYPE/USDT:USDT|long|1792470600000",
+   "symbol": "HYPE/USDT:USDT",
+   "sym": "HYPE",
+   "side": "long",
+   "tf": "15m",
+   "entry": 79.485,
+   "sl": 79.34962857142857,
+   "tp": 79.75574285714286,
+   "zone": [
+    79.378,
+    79.6
+   ],
+   "t": 1792471500000,
+   "status": "open"
+  },
+  {
+   "id": "FIL/USDT:USDT|long|1792467900000",
+   "symbol": "FIL/USDT:USDT",
+   "sym": "FIL",
+   "side": "long",
+   "tf": "15m",
+   "entry": 1.0173,
+   "sl": 1.012472142857143,
+   "tp": 1.0269557142857142,
+   "zone": [
+    1.0132,
+    1.0182
+   ],
+   "t": 1792471500000,
+   "status": "open"
+  },
+  {
+   "id": "INJ/USDT:USDT|long|1792467900000",
+   "symbol": "INJ/USDT:USDT",
+   "sym": "INJ",
+   "side": "long",
+   "tf": "15m",
+   "entry": 8.537,
+   "sl": 8.492642857142856,
+   "tp": 8.62571428571429,
+   "zone": [
+    8.501,
+    8.539
+   ],
+   "t": 1792471500000,
+   "status": "open"
+  },
+  {
+   "id": "BCH/USDT:USDT|long|1792467900000",
+   "symbol": "BCH/USDT:USDT",
+   "sym": "BCH",
+   "side": "long",
+   "tf": "15m",
+   "entry": 279.0,
+   "sl": 278.05642857142857,
+   "tp": 280.88714285714286,
+   "zone": [
+    278.2,
+    279.1
+   ],
+   "t": 1792471500000,
    "status": "open"
   }
  ],
- "updated": 1792454400000,
+ "updated": 1792472400000,
  "exchange": "okx",
  "tf": "15m"
 }
