@@ -3924,7 +3924,8 @@
     96.43
    ],
    "t": 1792489500000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1792497600000
   },
   {
    "id": "SOXS/USDT:USDT|long|1792486800000",
@@ -3940,7 +3941,8 @@
     48.31
    ],
    "t": 1792489500000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1792497600000
   },
   {
    "id": "UNI/USDT:USDT|short|1792488600000",
@@ -3956,10 +3958,11 @@
     7.156
    ],
    "t": 1792489500000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792494000000
   }
  ],
- "updated": 1792490400000,
+ "updated": 1792508400000,
  "exchange": "okx",
  "tf": "15m"
 }
