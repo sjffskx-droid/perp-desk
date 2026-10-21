@@ -4077,7 +4077,8 @@
     4131.5
    ],
    "t": 1792577700000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792578600000
   },
   {
    "id": "ZEC/USDT:USDT|short|1792576800000",
@@ -4093,7 +4094,8 @@
     1272.67
    ],
    "t": 1792577700000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792578600000
   },
   {
    "id": "YFI/USDT:USDT|short|1792576800000",
@@ -4109,7 +4111,8 @@
     2238.0
    ],
    "t": 1792577700000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792583100000
   },
   {
    "id": "HYPE/USDT:USDT|long|1792566000000",
@@ -4125,7 +4128,8 @@
     80.847
    ],
    "t": 1792577700000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1792578600000
   },
   {
    "id": "ICP/USDT:USDT|long|1792565100000",
@@ -4157,7 +4161,8 @@
     196.4
    ],
    "t": 1792577700000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792589400000
   },
   {
    "id": "INJ/USDT:USDT|short|1792576800000",
@@ -4173,7 +4178,8 @@
     8.776
    ],
    "t": 1792577700000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792580400000
   },
   {
    "id": "WLD/USDT:USDT|short|1792576800000",
@@ -4189,7 +4195,8 @@
     0.5825
    ],
    "t": 1792577700000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792578600000
   },
   {
    "id": "SKHY/USDT:USDT|short|1792576800000",
@@ -4205,10 +4212,27 @@
     144.69
    ],
    "t": 1792577700000,
+   "status": "sl",
+   "closed": 1792579500000
+  },
+  {
+   "id": "BNB/USDT:USDT|long|1792594800000",
+   "symbol": "BNB/USDT:USDT",
+   "sym": "BNB",
+   "side": "long",
+   "tf": "15m",
+   "entry": 748.3,
+   "sl": 744.1028571428571,
+   "tp": 756.6942857142856,
+   "zone": [
+    744.3,
+    747.0
+   ],
+   "t": 1792595700000,
    "status": "open"
   }
  ],
- "updated": 1792576800000,
+ "updated": 1792594800000,
  "exchange": "okx",
  "tf": "15m"
 }
