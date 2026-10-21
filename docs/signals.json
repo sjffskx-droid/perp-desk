@@ -4145,7 +4145,8 @@
     2.913
    ],
    "t": 1792577700000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1792597500000
   },
   {
    "id": "QUANT/USDT:USDT|long|1792563300000",
@@ -4230,9 +4231,41 @@
    ],
    "t": 1792595700000,
    "status": "open"
+  },
+  {
+   "id": "SKHYNIX/USDT:USDT|short|1792608300000",
+   "symbol": "SKHYNIX/USDT:USDT",
+   "sym": "SKHYNIX",
+   "side": "short",
+   "tf": "15m",
+   "entry": 969.3,
+   "sl": 971.7492857142856,
+   "tp": 964.4014285714286,
+   "zone": [
+    968.8,
+    971.3
+   ],
+   "t": 1792610100000,
+   "status": "open"
+  },
+  {
+   "id": "KORU/USDT:USDT|short|1792608300000",
+   "symbol": "KORU/USDT:USDT",
+   "sym": "KORU",
+   "side": "short",
+   "tf": "15m",
+   "entry": 12.0,
+   "sl": 12.113714285714286,
+   "tp": 11.772571428571428,
+   "zone": [
+    11.97,
+    12.1
+   ],
+   "t": 1792610100000,
+   "status": "open"
   }
  ],
- "updated": 1792594800000,
+ "updated": 1792609200000,
  "exchange": "okx",
  "tf": "15m"
 }
