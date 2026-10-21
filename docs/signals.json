@@ -3975,10 +3975,27 @@
     0.6269
    ],
    "t": 1792522800000,
+   "status": "sl",
+   "closed": 1792537200000
+  },
+  {
+   "id": "YFI/USDT:USDT|long|1792541700000",
+   "symbol": "YFI/USDT:USDT",
+   "sym": "YFI",
+   "side": "long",
+   "tf": "15m",
+   "entry": 2244.0,
+   "sl": 2240.4,
+   "tp": 2251.2,
+   "zone": [
+    2241.0,
+    2245.0
+   ],
+   "t": 1792542600000,
    "status": "open"
   }
  ],
- "updated": 1792533600000,
+ "updated": 1792540800000,
  "exchange": "okx",
  "tf": "15m"
 }
