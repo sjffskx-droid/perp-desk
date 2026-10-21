@@ -4246,7 +4246,8 @@
     971.3
    ],
    "t": 1792610100000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1792612800000
   },
   {
    "id": "KORU/USDT:USDT|short|1792608300000",
@@ -4262,10 +4263,43 @@
     12.1
    ],
    "t": 1792610100000,
+   "status": "tp",
+   "closed": 1792618200000
+  },
+  {
+   "id": "XAU/USDT:USDT|long|1792615500000",
+   "symbol": "XAU/USDT:USDT",
+   "sym": "XAU",
+   "side": "long",
+   "tf": "15m",
+   "entry": 4140.5,
+   "sl": 4138.618571428571,
+   "tp": 4144.262857142858,
+   "zone": [
+    4139.0,
+    4141.7
+   ],
+   "t": 1792621800000,
+   "status": "open"
+  },
+  {
+   "id": "SUI/USDT:USDT|long|1792593900000",
+   "symbol": "SUI/USDT:USDT",
+   "sym": "SUI",
+   "side": "long",
+   "tf": "15m",
+   "entry": 1.0338,
+   "sl": 1.0266471428571426,
+   "tp": 1.0481057142857149,
+   "zone": [
+    1.0271,
+    1.0333
+   ],
+   "t": 1792621800000,
    "status": "open"
   }
  ],
- "updated": 1792609200000,
+ "updated": 1792620000000,
  "exchange": "okx",
  "tf": "15m"
 }
