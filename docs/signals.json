@@ -4230,7 +4230,8 @@
     747.0
    ],
    "t": 1792595700000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792632600000
   },
   {
    "id": "SKHYNIX/USDT:USDT|short|1792608300000",
@@ -4299,9 +4300,57 @@
    "t": 1792621800000,
    "status": "sl",
    "closed": 1792623600000
+  },
+  {
+   "id": "ETH/USDT:USDT|short|1792647000000",
+   "symbol": "ETH/USDT:USDT",
+   "sym": "ETH",
+   "side": "short",
+   "tf": "15m",
+   "entry": 2437.75,
+   "sl": 2447.5747857142856,
+   "tp": 2418.100428571429,
+   "zone": [
+    2439.0,
+    2446.89
+   ],
+   "t": 1792647900000,
+   "status": "open"
+  },
+  {
+   "id": "SNDK/USDT:USDT|short|1792647000000",
+   "symbol": "SNDK/USDT:USDT",
+   "sym": "SNDK",
+   "side": "short",
+   "tf": "15m",
+   "entry": 1335.9,
+   "sl": 1339.2864285714286,
+   "tp": 1329.127142857143,
+   "zone": [
+    1332.6,
+    1338.7
+   ],
+   "t": 1792647900000,
+   "status": "open"
+  },
+  {
+   "id": "AAVE/USDT:USDT|short|1792647000000",
+   "symbol": "AAVE/USDT:USDT",
+   "sym": "AAVE",
+   "side": "short",
+   "tf": "15m",
+   "entry": 149.36,
+   "sl": 150.43757142857143,
+   "tp": 147.20485714285718,
+   "zone": [
+    149.62,
+    150.36
+   ],
+   "t": 1792647900000,
+   "status": "open"
   }
  ],
- "updated": 1792630800000,
+ "updated": 1792648800000,
  "exchange": "okx",
  "tf": "15m"
 }
