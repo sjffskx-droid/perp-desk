@@ -4401,9 +4401,25 @@
    ],
    "t": 1792699200000,
    "status": "open"
+  },
+  {
+   "id": "SPCX/USDT:USDT|long|1792707300000",
+   "symbol": "SPCX/USDT:USDT",
+   "sym": "SPCX",
+   "side": "long",
+   "tf": "15m",
+   "entry": 147.1,
+   "sl": 146.0887857142857,
+   "tp": 149.12242857142857,
+   "zone": [
+    146.16,
+    146.94
+   ],
+   "t": 1792710900000,
+   "status": "open"
   }
  ],
- "updated": 1792699200000,
+ "updated": 1792710000000,
  "exchange": "okx",
  "tf": "15m"
 }
