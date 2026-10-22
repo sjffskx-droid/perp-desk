@@ -4366,7 +4366,8 @@
     1284.3
    ],
    "t": 1792668600000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1792687500000
   },
   {
    "id": "VVV/USDT:USDT|short|1792665900000",
@@ -4384,9 +4385,25 @@
    "t": 1792668600000,
    "status": "tp",
    "closed": 1792669500000
+  },
+  {
+   "id": "ICP/USDT:USDT|short|1792697400000",
+   "symbol": "ICP/USDT:USDT",
+   "sym": "ICP",
+   "side": "short",
+   "tf": "15m",
+   "entry": 2.711,
+   "sl": 2.733678571428572,
+   "tp": 2.665642857142856,
+   "zone": [
+    2.72,
+    2.732
+   ],
+   "t": 1792699200000,
+   "status": "open"
   }
  ],
- "updated": 1792684800000,
+ "updated": 1792699200000,
  "exchange": "okx",
  "tf": "15m"
 }
