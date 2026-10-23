@@ -4416,10 +4416,75 @@
     146.94
    ],
    "t": 1792710900000,
+   "status": "sl",
+   "closed": 1792711800000
+  },
+  {
+   "id": "BCH/USDT:USDT|long|1792718100000",
+   "symbol": "BCH/USDT:USDT",
+   "sym": "BCH",
+   "side": "long",
+   "tf": "15m",
+   "entry": 279.3,
+   "sl": 275.6007142857143,
+   "tp": 286.6985714285715,
+   "zone": [
+    275.7,
+    276.9
+   ],
+   "t": 1792719000000,
+   "status": "open"
+  },
+  {
+   "id": "WLD/USDT:USDT|long|1792718100000",
+   "symbol": "WLD/USDT:USDT",
+   "sym": "WLD",
+   "side": "long",
+   "tf": "15m",
+   "entry": 0.5574,
+   "sl": 0.5458078571428572,
+   "tp": 0.5805842857142857,
+   "zone": [
+    0.5463,
+    0.5515
+   ],
+   "t": 1792719000000,
+   "status": "open"
+  },
+  {
+   "id": "KORU/USDT:USDT|long|1792718100000",
+   "symbol": "KORU/USDT:USDT",
+   "sym": "KORU",
+   "side": "long",
+   "tf": "15m",
+   "entry": 10.39,
+   "sl": 10.145785714285715,
+   "tp": 10.878428571428572,
+   "zone": [
+    10.17,
+    10.42
+   ],
+   "t": 1792719000000,
+   "status": "open"
+  },
+  {
+   "id": "GIGGLE/USDT:USDT|long|1792718100000",
+   "symbol": "GIGGLE/USDT:USDT",
+   "sym": "GIGGLE",
+   "side": "long",
+   "tf": "15m",
+   "entry": 31.71,
+   "sl": 31.38392857142857,
+   "tp": 32.362142857142864,
+   "zone": [
+    31.4,
+    31.59
+   ],
+   "t": 1792719000000,
    "status": "open"
   }
  ],
- "updated": 1792710000000,
+ "updated": 1792717200000,
  "exchange": "okx",
  "tf": "15m"
 }
