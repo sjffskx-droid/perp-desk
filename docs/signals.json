@@ -4400,7 +4400,8 @@
     2.732
    ],
    "t": 1792699200000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792719900000
   },
   {
    "id": "SPCX/USDT:USDT|long|1792707300000",
@@ -4433,7 +4434,8 @@
     276.9
    ],
    "t": 1792719000000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1792722600000
   },
   {
    "id": "WLD/USDT:USDT|long|1792718100000",
@@ -4449,7 +4451,8 @@
     0.5515
    ],
    "t": 1792719000000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792730700000
   },
   {
    "id": "KORU/USDT:USDT|long|1792718100000",
@@ -4465,7 +4468,8 @@
     10.42
    ],
    "t": 1792719000000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792719900000
   },
   {
    "id": "GIGGLE/USDT:USDT|long|1792718100000",
@@ -4482,9 +4486,41 @@
    ],
    "t": 1792719000000,
    "status": "open"
+  },
+  {
+   "id": "INJ/USDT:USDT|short|1792736100000",
+   "symbol": "INJ/USDT:USDT",
+   "sym": "INJ",
+   "side": "short",
+   "tf": "15m",
+   "entry": 8.197,
+   "sl": 8.271142857142857,
+   "tp": 8.048714285714283,
+   "zone": [
+    8.189,
+    8.265
+   ],
+   "t": 1792737000000,
+   "status": "open"
+  },
+  {
+   "id": "SKHY/USDT:USDT|long|1792735200000",
+   "symbol": "SKHY/USDT:USDT",
+   "sym": "SKHY",
+   "side": "long",
+   "tf": "15m",
+   "entry": 139.5,
+   "sl": 138.36307142857143,
+   "tp": 141.77385714285714,
+   "zone": [
+    138.47,
+    139.31
+   ],
+   "t": 1792737000000,
+   "status": "open"
   }
  ],
- "updated": 1792717200000,
+ "updated": 1792735200000,
  "exchange": "okx",
  "tf": "15m"
 }
