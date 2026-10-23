@@ -4621,10 +4621,59 @@
     103.16
    ],
    "t": 1792786500000,
+   "status": "tp",
+   "closed": 1792795500000
+  },
+  {
+   "id": "BZ/USDT:USDT|long|1792796400000",
+   "symbol": "BZ/USDT:USDT",
+   "sym": "BZ",
+   "side": "long",
+   "tf": "15m",
+   "entry": 111.99,
+   "sl": 111.62578571428571,
+   "tp": 112.71842857142856,
+   "zone": [
+    111.67,
+    111.95
+   ],
+   "t": 1792797300000,
+   "status": "open"
+  },
+  {
+   "id": "CL/USDT:USDT|long|1792796400000",
+   "symbol": "CL/USDT:USDT",
+   "sym": "CL",
+   "side": "long",
+   "tf": "15m",
+   "entry": 103.85,
+   "sl": 103.4515,
+   "tp": 104.64699999999999,
+   "zone": [
+    103.49,
+    103.72
+   ],
+   "t": 1792797300000,
+   "status": "open"
+  },
+  {
+   "id": "VVV/USDT:USDT|short|1792794600000",
+   "symbol": "VVV/USDT:USDT",
+   "sym": "VVV",
+   "side": "short",
+   "tf": "15m",
+   "entry": 24.949,
+   "sl": 25.13567857142857,
+   "tp": 24.575642857142864,
+   "zone": [
+    24.982,
+    25.117
+   ],
+   "t": 1792797300000,
    "status": "open"
   }
  ],
- "updated": 1792785600000,
+ "updated": 1792796400000,
  "exchange": "okx",
  "tf": "15m"
 }
