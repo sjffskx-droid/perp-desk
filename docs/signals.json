@@ -4606,9 +4606,25 @@
    "t": 1792757700000,
    "status": "tp",
    "closed": 1792759500000
+  },
+  {
+   "id": "CL/USDT:USDT|long|1792780200000",
+   "symbol": "CL/USDT:USDT",
+   "sym": "CL",
+   "side": "long",
+   "tf": "15m",
+   "entry": 103.21,
+   "sl": 102.70949999999999,
+   "tp": 104.211,
+   "zone": [
+    102.74,
+    103.16
+   ],
+   "t": 1792786500000,
+   "status": "open"
   }
  ],
- "updated": 1792774800000,
+ "updated": 1792785600000,
  "exchange": "okx",
  "tf": "15m"
 }
