@@ -4536,7 +4536,8 @@
     81740.0
    ],
    "t": 1792757700000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792758600000
   },
   {
    "id": "YFI/USDT:USDT|short|1792756800000",
@@ -4552,7 +4553,8 @@
     2182.0
    ],
    "t": 1792757700000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792763100000
   },
   {
    "id": "INJ/USDT:USDT|short|1792756800000",
@@ -4568,7 +4570,8 @@
     7.998
    ],
    "t": 1792757700000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792758600000
   },
   {
    "id": "VVV/USDT:USDT|short|1792756800000",
@@ -4584,7 +4587,8 @@
     26.314
    ],
    "t": 1792757700000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792762200000
   },
   {
    "id": "MSTR/USDT:USDT|short|1792756800000",
@@ -4600,10 +4604,11 @@
     146.4
    ],
    "t": 1792757700000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1792759500000
   }
  ],
- "updated": 1792756800000,
+ "updated": 1792774800000,
  "exchange": "okx",
  "tf": "15m"
 }
