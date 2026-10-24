@@ -4654,7 +4654,8 @@
     103.72
    ],
    "t": 1792797300000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792806300000
   },
   {
    "id": "VVV/USDT:USDT|short|1792794600000",
@@ -4670,10 +4671,27 @@
     25.117
    ],
    "t": 1792797300000,
+   "status": "sl",
+   "closed": 1792800000000
+  },
+  {
+   "id": "QUANT/USDT:USDT|short|1792796400000",
+   "symbol": "QUANT/USDT:USDT",
+   "sym": "QUANT",
+   "side": "short",
+   "tf": "15m",
+   "entry": 182.7,
+   "sl": 185.06428571428572,
+   "tp": 177.97142857142853,
+   "zone": [
+    183.5,
+    184.9
+   ],
+   "t": 1792806300000,
    "status": "open"
   }
  ],
- "updated": 1792796400000,
+ "updated": 1792807200000,
  "exchange": "okx",
  "tf": "15m"
 }
