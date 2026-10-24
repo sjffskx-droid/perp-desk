@@ -4689,7 +4689,8 @@
     184.9
    ],
    "t": 1792806300000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1792833300000
   },
   {
    "id": "SNXX/USDT:USDT|short|1792823400000",
@@ -4705,10 +4706,27 @@
     8.208
    ],
    "t": 1792824300000,
+   "status": "tp",
+   "closed": 1792833300000
+  },
+  {
+   "id": "BCH/USDT:USDT|short|1792826100000",
+   "symbol": "BCH/USDT:USDT",
+   "sym": "BCH",
+   "side": "short",
+   "tf": "15m",
+   "entry": 277.6,
+   "sl": 278.6985714285714,
+   "tp": 275.4028571428572,
+   "zone": [
+    277.8,
+    278.6
+   ],
+   "t": 1792842300000,
    "status": "open"
   }
  ],
- "updated": 1792825200000,
+ "updated": 1792843200000,
  "exchange": "okx",
  "tf": "15m"
 }
