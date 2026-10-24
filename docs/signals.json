@@ -4638,7 +4638,8 @@
     111.95
    ],
    "t": 1792797300000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792810800000
   },
   {
    "id": "CL/USDT:USDT|long|1792796400000",
@@ -4689,9 +4690,25 @@
    ],
    "t": 1792806300000,
    "status": "open"
+  },
+  {
+   "id": "SNXX/USDT:USDT|short|1792823400000",
+   "symbol": "SNXX/USDT:USDT",
+   "sym": "SNXX",
+   "side": "short",
+   "tf": "15m",
+   "entry": 8.167,
+   "sl": 8.211278571428572,
+   "tp": 8.078442857142855,
+   "zone": [
+    8.134,
+    8.208
+   ],
+   "t": 1792824300000,
+   "status": "open"
   }
  ],
- "updated": 1792807200000,
+ "updated": 1792825200000,
  "exchange": "okx",
  "tf": "15m"
 }
