@@ -4740,10 +4740,43 @@
     7.593
    ],
    "t": 1792855800000,
+   "status": "sl",
+   "closed": 1792865700000
+  },
+  {
+   "id": "DASH/USDT:USDT|short|1792854900000",
+   "symbol": "DASH/USDT:USDT",
+   "sym": "DASH",
+   "side": "short",
+   "tf": "15m",
+   "entry": 50.17,
+   "sl": 50.55157142857143,
+   "tp": 49.40685714285715,
+   "zone": [
+    50.19,
+    50.5
+   ],
+   "t": 1792865700000,
+   "status": "open"
+  },
+  {
+   "id": "ORDI/USDT:USDT|short|1792854900000",
+   "symbol": "ORDI/USDT:USDT",
+   "sym": "ORDI",
+   "side": "short",
+   "tf": "15m",
+   "entry": 3.576,
+   "sl": 3.5897428571428573,
+   "tp": 3.5485142857142855,
+   "zone": [
+    3.566,
+    3.587
+   ],
+   "t": 1792865700000,
    "status": "open"
   }
  ],
- "updated": 1792854000000,
+ "updated": 1792864800000,
  "exchange": "okx",
  "tf": "15m"
 }
