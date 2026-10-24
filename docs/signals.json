@@ -4791,10 +4791,43 @@
     1547.4
    ],
    "t": 1792874700000,
+   "status": "sl",
+   "closed": 1792875600000
+  },
+  {
+   "id": "XPT/USDT:USDT|short|1792875600000",
+   "symbol": "XPT/USDT:USDT",
+   "sym": "XPT",
+   "side": "short",
+   "tf": "15m",
+   "entry": 1547.4,
+   "sl": 1547.9635714285714,
+   "tp": 1546.2728571428574,
+   "zone": [
+    1547.2,
+    1547.9
+   ],
+   "t": 1792882800000,
+   "status": "open"
+  },
+  {
+   "id": "ORDER/USDT:USDT|short|1792866600000",
+   "symbol": "ORDER/USDT:USDT",
+   "sym": "ORDER",
+   "side": "short",
+   "tf": "15m",
+   "entry": 0.06438,
+   "sl": 0.069649,
+   "tp": 0.053842000000000015,
+   "zone": [
+    0.06506,
+    0.06931
+   ],
+   "t": 1792882800000,
    "status": "open"
   }
  ],
- "updated": 1792875600000,
+ "updated": 1792882800000,
  "exchange": "okx",
  "tf": "15m"
 }
