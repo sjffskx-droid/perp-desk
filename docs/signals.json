@@ -4723,10 +4723,27 @@
     278.6
    ],
    "t": 1792842300000,
+   "status": "sl",
+   "closed": 1792844100000
+  },
+  {
+   "id": "INJ/USDT:USDT|short|1792854900000",
+   "symbol": "INJ/USDT:USDT",
+   "sym": "INJ",
+   "side": "short",
+   "tf": "15m",
+   "entry": 7.497,
+   "sl": 7.59915,
+   "tp": 7.2927,
+   "zone": [
+    7.441,
+    7.593
+   ],
+   "t": 1792855800000,
    "status": "open"
   }
  ],
- "updated": 1792843200000,
+ "updated": 1792854000000,
  "exchange": "okx",
  "tf": "15m"
 }
