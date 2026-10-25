@@ -1,40 +1,6 @@
 {
  "signals": [
   {
-   "id": "FIL/USDT:USDT|short|1791133200000",
-   "symbol": "FIL/USDT:USDT",
-   "sym": "FIL",
-   "side": "short",
-   "tf": "15m",
-   "entry": 1.047,
-   "sl": 1.0529557142857142,
-   "tp": 1.0350885714285714,
-   "zone": [
-    1.0485,
-    1.0525
-   ],
-   "t": 1791137700000,
-   "status": "sl",
-   "closed": 1791140400000
-  },
-  {
-   "id": "ICP/USDT:USDT|long|1791139500000",
-   "symbol": "ICP/USDT:USDT",
-   "sym": "ICP",
-   "side": "long",
-   "tf": "15m",
-   "entry": 3.367,
-   "sl": 3.355264285714286,
-   "tp": 3.390471428571428,
-   "zone": [
-    3.357,
-    3.366
-   ],
-   "t": 1791149400000,
-   "status": "sl",
-   "closed": 1791150300000
-  },
-  {
    "id": "XPD/USDT:USDT|long|1791148500000",
    "symbol": "XPD/USDT:USDT",
    "sym": "XPD",
@@ -5061,7 +5027,8 @@
     0.9226
    ],
    "t": 1792944000000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792944900000
   },
   {
    "id": "SNDK/USDT:USDT|long|1792943100000",
@@ -5093,10 +5060,43 @@
     1.011
    ],
    "t": 1792944000000,
+   "status": "sl",
+   "closed": 1792944900000
+  },
+  {
+   "id": "TAO/USDT:USDT|long|1792953000000",
+   "symbol": "TAO/USDT:USDT",
+   "sym": "TAO",
+   "side": "long",
+   "tf": "15m",
+   "entry": 254.3,
+   "sl": 253.37571428571428,
+   "tp": 256.1485714285715,
+   "zone": [
+    253.5,
+    254.5
+   ],
+   "t": 1792953900000,
+   "status": "open"
+  },
+  {
+   "id": "STRK/USDT:USDT|long|1792953000000",
+   "symbol": "STRK/USDT:USDT",
+   "sym": "STRK",
+   "side": "long",
+   "tf": "15m",
+   "entry": 0.04565,
+   "sl": 0.045392642857142854,
+   "tp": 0.0461647142857143,
+   "zone": [
+    0.04543,
+    0.0457
+   ],
+   "t": 1792953900000,
    "status": "open"
   }
  ],
- "updated": 1792944000000,
+ "updated": 1792954800000,
  "exchange": "okx",
  "tf": "15m"
 }
