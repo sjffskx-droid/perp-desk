@@ -1,91 +1,6 @@
 {
  "signals": [
   {
-   "id": "SOXL/USDT:USDT|long|1791158400000",
-   "symbol": "SOXL/USDT:USDT",
-   "sym": "SOXL",
-   "side": "long",
-   "tf": "15m",
-   "entry": 167.44,
-   "sl": 166.43728571428574,
-   "tp": 169.44542857142852,
-   "zone": [
-    166.55,
-    167.24
-   ],
-   "t": 1791159300000,
-   "status": "tp",
-   "closed": 1791163800000
-  },
-  {
-   "id": "VVV/USDT:USDT|short|1791177300000",
-   "symbol": "VVV/USDT:USDT",
-   "sym": "VVV",
-   "side": "short",
-   "tf": "15m",
-   "entry": 29.463,
-   "sl": 29.671535714285714,
-   "tp": 29.045928571428576,
-   "zone": [
-    29.488,
-    29.652
-   ],
-   "t": 1791179100000,
-   "status": "sl",
-   "closed": 1791182700000
-  },
-  {
-   "id": "LINK/USDT:USDT|short|1791175500000",
-   "symbol": "LINK/USDT:USDT",
-   "sym": "LINK",
-   "side": "short",
-   "tf": "15m",
-   "entry": 14.128,
-   "sl": 14.192785714285714,
-   "tp": 13.998428571428573,
-   "zone": [
-    14.122,
-    14.187
-   ],
-   "t": 1791179100000,
-   "status": "sl",
-   "closed": 1791180000000
-  },
-  {
-   "id": "ZEC/USDT:USDT|long|1791206100000",
-   "symbol": "ZEC/USDT:USDT",
-   "sym": "ZEC",
-   "side": "long",
-   "tf": "15m",
-   "entry": 1334.22,
-   "sl": 1318.950857142857,
-   "tp": 1364.7582857142859,
-   "zone": [
-    1320.28,
-    1329.31
-   ],
-   "t": 1791210600000,
-   "status": "sl",
-   "closed": 1791211500000
-  },
-  {
-   "id": "OKB/USDT:USDT|long|1791194400000",
-   "symbol": "OKB/USDT:USDT",
-   "sym": "OKB",
-   "side": "long",
-   "tf": "15m",
-   "entry": 126.3,
-   "sl": 125.61578571428572,
-   "tp": 127.66842857142855,
-   "zone": [
-    125.7,
-    126.25
-   ],
-   "t": 1791210600000,
-   "status": "sl",
-   "closed": 1791216900000
-  },
-  {
    "id": "TAO/USDT:USDT|long|1791186300000",
    "symbol": "TAO/USDT:USDT",
    "sym": "TAO",
@@ -5095,10 +5010,91 @@
     7.969
    ],
    "t": 1792963800000,
+   "status": "sl",
+   "closed": 1792965600000
+  },
+  {
+   "id": "ZEC/USDT:USDT|long|1792926900000",
+   "symbol": "ZEC/USDT:USDT",
+   "sym": "ZEC",
+   "side": "long",
+   "tf": "15m",
+   "entry": 1198.16,
+   "sl": 1181.1888571428572,
+   "tp": 1232.102285714286,
+   "zone": [
+    1182.23,
+    1186.93
+   ],
+   "t": 1792971000000,
+   "status": "open"
+  },
+  {
+   "id": "DASH/USDT:USDT|long|1792921500000",
+   "symbol": "DASH/USDT:USDT",
+   "sym": "DASH",
+   "side": "long",
+   "tf": "15m",
+   "entry": 51.52,
+   "sl": 50.825428571428574,
+   "tp": 52.90914285714286,
+   "zone": [
+    50.86,
+    51.22
+   ],
+   "t": 1792971000000,
+   "status": "open"
+  },
+  {
+   "id": "FIL/USDT:USDT|long|1792939500000",
+   "symbol": "FIL/USDT:USDT",
+   "sym": "FIL",
+   "side": "long",
+   "tf": "15m",
+   "entry": 0.9241,
+   "sl": 0.9092164285714286,
+   "tp": 0.9538671428571429,
+   "zone": [
+    0.9098,
+    0.9146
+   ],
+   "t": 1792971000000,
+   "status": "open"
+  },
+  {
+   "id": "BCH/USDT:USDT|long|1792946700000",
+   "symbol": "BCH/USDT:USDT",
+   "sym": "BCH",
+   "side": "long",
+   "tf": "15m",
+   "entry": 277.8,
+   "sl": 274.6542857142857,
+   "tp": 284.0914285714286,
+   "zone": [
+    274.8,
+    276.1
+   ],
+   "t": 1792971000000,
+   "status": "open"
+  },
+  {
+   "id": "UNI/USDT:USDT|long|1792946700000",
+   "symbol": "UNI/USDT:USDT",
+   "sym": "UNI",
+   "side": "long",
+   "tf": "15m",
+   "entry": 6.933,
+   "sl": 6.824542857142857,
+   "tp": 7.149914285714285,
+   "zone": [
+    6.829,
+    6.853
+   ],
+   "t": 1792971000000,
    "status": "open"
   }
  ],
- "updated": 1792962000000,
+ "updated": 1792969200000,
  "exchange": "okx",
  "tf": "15m"
 }
