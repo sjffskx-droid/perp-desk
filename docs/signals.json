@@ -1,23 +1,6 @@
 {
  "signals": [
   {
-   "id": "XPT/USDT:USDT|short|1791251100000",
-   "symbol": "XPT/USDT:USDT",
-   "sym": "XPT",
-   "side": "short",
-   "tf": "15m",
-   "entry": 1724.7,
-   "sl": 1732.1914285714286,
-   "tp": 1709.717142857143,
-   "zone": [
-    1725.2,
-    1731.8
-   ],
-   "t": 1791275400000,
-   "status": "tp",
-   "closed": 1791280800000
-  },
-  {
    "id": "MU/USDT:USDT|long|1791273600000",
    "symbol": "MU/USDT:USDT",
    "sym": "MU",
@@ -4757,7 +4740,8 @@
     0.04661
    ],
    "t": 1792928700000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1793027700000
   },
   {
    "id": "BERA/USDT:USDT|short|1792925100000",
@@ -5096,10 +5080,27 @@
     0.9239
    ],
    "t": 1793004300000,
+   "status": "sl",
+   "closed": 1793025900000
+  },
+  {
+   "id": "BCH/USDT:USDT|long|1793028600000",
+   "symbol": "BCH/USDT:USDT",
+   "sym": "BCH",
+   "side": "long",
+   "tf": "15m",
+   "entry": 277.91,
+   "sl": 277.0137857142857,
+   "tp": 279.7024285714287,
+   "zone": [
+    277.2,
+    278.61
+   ],
+   "t": 1793029500000,
    "status": "open"
   }
  ],
- "updated": 1793005200000,
+ "updated": 1793030400000,
  "exchange": "okx",
  "tf": "15m"
 }
