@@ -1,74 +1,6 @@
 {
  "signals": [
   {
-   "id": "MU/USDT:USDT|long|1791273600000",
-   "symbol": "MU/USDT:USDT",
-   "sym": "MU",
-   "side": "long",
-   "tf": "15m",
-   "entry": 1057.74,
-   "sl": 1055.8430714285714,
-   "tp": 1061.5338571428572,
-   "zone": [
-    1056.02,
-    1058.07
-   ],
-   "t": 1791275400000,
-   "status": "tp",
-   "closed": 1791281700000
-  },
-  {
-   "id": "ICP/USDT:USDT|short|1791299700000",
-   "symbol": "ICP/USDT:USDT",
-   "sym": "ICP",
-   "side": "short",
-   "tf": "15m",
-   "entry": 3.429,
-   "sl": 3.476957142857143,
-   "tp": 3.3330857142857133,
-   "zone": [
-    3.446,
-    3.475
-   ],
-   "t": 1791300600000,
-   "status": "tp",
-   "closed": 1791332100000
-  },
-  {
-   "id": "SOL/USDT:USDT|long|1791297000000",
-   "symbol": "SOL/USDT:USDT",
-   "sym": "SOL",
-   "side": "long",
-   "tf": "15m",
-   "entry": 120.96,
-   "sl": 120.47164285714285,
-   "tp": 121.93671428571427,
-   "zone": [
-    120.52,
-    121.16
-   ],
-   "t": 1791300600000,
-   "status": "sl",
-   "closed": 1791301500000
-  },
-  {
-   "id": "UMA/USDT:USDT|short|1791298800000",
-   "symbol": "UMA/USDT:USDT",
-   "sym": "UMA",
-   "side": "short",
-   "tf": "15m",
-   "entry": 0.4502,
-   "sl": 0.4513864285714286,
-   "tp": 0.4478271428571428,
-   "zone": [
-    0.4463,
-    0.4508
-   ],
-   "t": 1791300600000,
-   "status": "sl",
-   "closed": 1791301500000
-  },
-  {
    "id": "FIL/USDT:USDT|short|1791330300000",
    "symbol": "FIL/USDT:USDT",
    "sym": "FIL",
@@ -5097,10 +5029,75 @@
     278.61
    ],
    "t": 1793029500000,
+   "status": "sl",
+   "closed": 1793032200000
+  },
+  {
+   "id": "XAU/USDT:USDT|short|1793039400000",
+   "symbol": "XAU/USDT:USDT",
+   "sym": "XAU",
+   "side": "short",
+   "tf": "15m",
+   "entry": 4026.5,
+   "sl": 4031.8035714285716,
+   "tp": 4015.892857142857,
+   "zone": [
+    4027.0,
+    4031.5
+   ],
+   "t": 1793047500000,
+   "status": "open"
+  },
+  {
+   "id": "TAO/USDT:USDT|short|1793046600000",
+   "symbol": "TAO/USDT:USDT",
+   "sym": "TAO",
+   "side": "short",
+   "tf": "15m",
+   "entry": 249.8,
+   "sl": 251.80142857142857,
+   "tp": 245.7971428571429,
+   "zone": [
+    250.15,
+    251.69
+   ],
+   "t": 1793047500000,
+   "status": "open"
+  },
+  {
+   "id": "YFI/USDT:USDT|short|1793046600000",
+   "symbol": "YFI/USDT:USDT",
+   "sym": "YFI",
+   "side": "short",
+   "tf": "15m",
+   "entry": 2112.0,
+   "sl": 2116.55,
+   "tp": 2102.8999999999996,
+   "zone": [
+    2110.0,
+    2116.0
+   ],
+   "t": 1793047500000,
+   "status": "open"
+  },
+  {
+   "id": "ICP/USDT:USDT|short|1793046600000",
+   "symbol": "ICP/USDT:USDT",
+   "sym": "ICP",
+   "side": "short",
+   "tf": "15m",
+   "entry": 2.597,
+   "sl": 2.6103071428571427,
+   "tp": 2.5703857142857145,
+   "zone": [
+    2.594,
+    2.609
+   ],
+   "t": 1793047500000,
    "status": "open"
   }
  ],
- "updated": 1793030400000,
+ "updated": 1793048400000,
  "exchange": "okx",
  "tf": "15m"
 }
