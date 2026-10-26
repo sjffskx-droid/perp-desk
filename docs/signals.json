@@ -1,108 +1,6 @@
 {
  "signals": [
   {
-   "id": "TAO/USDT:USDT|long|1791186300000",
-   "symbol": "TAO/USDT:USDT",
-   "sym": "TAO",
-   "side": "long",
-   "tf": "15m",
-   "entry": 299.6,
-   "sl": 298.3564285714286,
-   "tp": 302.0871428571429,
-   "zone": [
-    298.6,
-    300.1
-   ],
-   "t": 1791210600000,
-   "status": "sl",
-   "closed": 1791211500000
-  },
-  {
-   "id": "LTC/USDT:USDT|long|1791208800000",
-   "symbol": "LTC/USDT:USDT",
-   "sym": "LTC",
-   "side": "long",
-   "tf": "15m",
-   "entry": 71.09,
-   "sl": 70.69742857142857,
-   "tp": 71.87514285714286,
-   "zone": [
-    70.73,
-    71.02
-   ],
-   "t": 1791210600000,
-   "status": "sl",
-   "closed": 1791214200000
-  },
-  {
-   "id": "ETH/USDT:USDT|short|1791210600000",
-   "symbol": "ETH/USDT:USDT",
-   "sym": "ETH",
-   "side": "short",
-   "tf": "15m",
-   "entry": 2714.65,
-   "sl": 2730.0892142857147,
-   "tp": 2683.771571428571,
-   "zone": [
-    2716.06,
-    2729.76
-   ],
-   "t": 1791235800000,
-   "status": "tp",
-   "closed": 1791314100000
-  },
-  {
-   "id": "STRK/USDT:USDT|long|1791234900000",
-   "symbol": "STRK/USDT:USDT",
-   "sym": "STRK",
-   "side": "long",
-   "tf": "15m",
-   "entry": 0.05317,
-   "sl": 0.05282357142857143,
-   "tp": 0.05386285714285715,
-   "zone": [
-    0.05287,
-    0.0533
-   ],
-   "t": 1791235800000,
-   "status": "sl",
-   "closed": 1791236700000
-  },
-  {
-   "id": "TAO/USDT:USDT|short|1791250200000",
-   "symbol": "TAO/USDT:USDT",
-   "sym": "TAO",
-   "side": "short",
-   "tf": "15m",
-   "entry": 304.5,
-   "sl": 306.6664285714286,
-   "tp": 300.16714285714284,
-   "zone": [
-    304.5,
-    306.5
-   ],
-   "t": 1791251100000,
-   "status": "tp",
-   "closed": 1791257400000
-  },
-  {
-   "id": "WLD/USDT:USDT|short|1791250200000",
-   "symbol": "WLD/USDT:USDT",
-   "sym": "WLD",
-   "side": "short",
-   "tf": "15m",
-   "entry": 0.5723,
-   "sl": 0.5775564285714286,
-   "tp": 0.5617871428571428,
-   "zone": [
-    0.5732,
-    0.5772
-   ],
-   "t": 1791251100000,
-   "status": "tp",
-   "closed": 1791263700000
-  },
-  {
    "id": "BNB/USDT:USDT|short|1791266400000",
    "symbol": "BNB/USDT:USDT",
    "sym": "BNB",
@@ -4943,7 +4841,8 @@
     1250.9
    ],
    "t": 1792944000000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792974600000
   },
   {
    "id": "RIVER/USDT:USDT|long|1792940400000",
@@ -5043,7 +4942,8 @@
     51.22
    ],
    "t": 1792971000000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792978200000
   },
   {
    "id": "FIL/USDT:USDT|long|1792939500000",
@@ -5059,7 +4959,8 @@
     0.9146
    ],
    "t": 1792971000000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1792978200000
   },
   {
    "id": "BCH/USDT:USDT|long|1792946700000",
@@ -5091,10 +4992,107 @@
     6.853
    ],
    "t": 1792971000000,
+   "status": "sl",
+   "closed": 1792978200000
+  },
+  {
+   "id": "TAO/USDT:USDT|long|1792939500000",
+   "symbol": "TAO/USDT:USDT",
+   "sym": "TAO",
+   "side": "long",
+   "tf": "15m",
+   "entry": 248.8,
+   "sl": 247.52357142857142,
+   "tp": 251.3528571428572,
+   "zone": [
+    247.7,
+    248.5
+   ],
+   "t": 1792982700000,
+   "status": "open"
+  },
+  {
+   "id": "SOL/USDT:USDT|short|1792981800000",
+   "symbol": "SOL/USDT:USDT",
+   "sym": "SOL",
+   "side": "short",
+   "tf": "15m",
+   "entry": 100.55,
+   "sl": 101.29628571428572,
+   "tp": 99.05742857142856,
+   "zone": [
+    100.32,
+    101.24
+   ],
+   "t": 1792982700000,
+   "status": "open"
+  },
+  {
+   "id": "ICP/USDT:USDT|short|1792981800000",
+   "symbol": "ICP/USDT:USDT",
+   "sym": "ICP",
+   "side": "short",
+   "tf": "15m",
+   "entry": 2.588,
+   "sl": 2.601714285714286,
+   "tp": 2.5605714285714285,
+   "zone": [
+    2.589,
+    2.6
+   ],
+   "t": 1792982700000,
+   "status": "open"
+  },
+  {
+   "id": "INJ/USDT:USDT|long|1792946700000",
+   "symbol": "INJ/USDT:USDT",
+   "sym": "INJ",
+   "side": "long",
+   "tf": "15m",
+   "entry": 7.664,
+   "sl": 7.61265,
+   "tp": 7.766699999999998,
+   "zone": [
+    7.621,
+    7.66
+   ],
+   "t": 1792982700000,
+   "status": "open"
+  },
+  {
+   "id": "MU/USDT:USDT|short|1792981800000",
+   "symbol": "MU/USDT:USDT",
+   "sym": "MU",
+   "side": "short",
+   "tf": "15m",
+   "entry": 879.82,
+   "sl": 888.4877857142857,
+   "tp": 862.4844285714288,
+   "zone": [
+    879.62,
+    887.91
+   ],
+   "t": 1792982700000,
+   "status": "open"
+  },
+  {
+   "id": "SKHY/USDT:USDT|short|1792981800000",
+   "symbol": "SKHY/USDT:USDT",
+   "sym": "SKHY",
+   "side": "short",
+   "tf": "15m",
+   "entry": 139.31,
+   "sl": 140.47935714285717,
+   "tp": 136.97128571428567,
+   "zone": [
+    138.99,
+    140.33
+   ],
+   "t": 1792982700000,
    "status": "open"
   }
  ],
- "updated": 1792969200000,
+ "updated": 1792983600000,
  "exchange": "okx",
  "tf": "15m"
 }
