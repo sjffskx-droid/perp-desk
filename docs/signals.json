@@ -1,40 +1,6 @@
 {
  "signals": [
   {
-   "id": "TRB/USDT:USDT|short|1791376200000",
-   "symbol": "TRB/USDT:USDT",
-   "sym": "TRB",
-   "side": "short",
-   "tf": "15m",
-   "entry": 20.01,
-   "sl": 20.240499999999997,
-   "tp": 19.54900000000001,
-   "zone": [
-    20.05,
-    20.22
-   ],
-   "t": 1791378900000,
-   "status": "tp",
-   "closed": 1791380700000
-  },
-  {
-   "id": "MU/USDT:USDT|long|1791378000000",
-   "symbol": "MU/USDT:USDT",
-   "sym": "MU",
-   "side": "long",
-   "tf": "15m",
-   "entry": 1018.53,
-   "sl": 1015.3928571428571,
-   "tp": 1024.8042857142857,
-   "zone": [
-    1015.8,
-    1019.59
-   ],
-   "t": 1791378900000,
-   "status": "sl",
-   "closed": 1791379800000
-  },
-  {
    "id": "ETH/USDT:USDT|short|1791394200000",
    "symbol": "ETH/USDT:USDT",
    "sym": "ETH",
@@ -5046,7 +5012,8 @@
     54.29
    ],
    "t": 1793059200000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1793064600000
   },
   {
    "id": "SNDK/USDT:USDT|long|1793058300000",
@@ -5062,7 +5029,8 @@
     1271.7
    ],
    "t": 1793059200000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1793069100000
   },
   {
    "id": "SOL/USDT:USDT|short|1793039400000",
@@ -5094,10 +5062,43 @@
     8.577
    ],
    "t": 1793059200000,
+   "status": "sl",
+   "closed": 1793069100000
+  },
+  {
+   "id": "BNB/USDT:USDT|short|1793075400000",
+   "symbol": "BNB/USDT:USDT",
+   "sym": "BNB",
+   "side": "short",
+   "tf": "15m",
+   "entry": 737.26,
+   "sl": 739.953357142857,
+   "tp": 731.8732857142859,
+   "zone": [
+    737.68,
+    739.8
+   ],
+   "t": 1793077200000,
+   "status": "open"
+  },
+  {
+   "id": "BTW/USDT:USDT|long|1793075400000",
+   "symbol": "BTW/USDT:USDT",
+   "sym": "BTW",
+   "side": "long",
+   "tf": "15m",
+   "entry": 1.3144,
+   "sl": 1.2711778571428571,
+   "tp": 1.4008442857142858,
+   "zone": [
+    1.2763,
+    1.3091
+   ],
+   "t": 1793077200000,
    "status": "open"
   }
  ],
- "updated": 1793059200000,
+ "updated": 1793077200000,
  "exchange": "okx",
  "tf": "15m"
 }
