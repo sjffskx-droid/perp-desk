@@ -4927,7 +4927,8 @@
     739.8
    ],
    "t": 1793077200000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1793097900000
   },
   {
    "id": "BTW/USDT:USDT|long|1793075400000",
@@ -4960,7 +4961,8 @@
     738.92
    ],
    "t": 1793097000000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1793097900000
   },
   {
    "id": "TAO/USDT:USDT|short|1793092500000",
@@ -4976,7 +4978,8 @@
     248.39
    ],
    "t": 1793097000000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1793097900000
   },
   {
    "id": "OKB/USDT:USDT|short|1793095200000",
@@ -4992,7 +4995,8 @@
     108.35
    ],
    "t": 1793097000000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1793097900000
   },
   {
    "id": "FIL/USDT:USDT|short|1793093400000",
@@ -5008,7 +5012,8 @@
     0.8979
    ],
    "t": 1793097000000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1793097900000
   },
   {
    "id": "AAVE/USDT:USDT|short|1793093400000",
@@ -5024,7 +5029,8 @@
     130.97
    ],
    "t": 1793097000000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1793097900000
   },
   {
    "id": "GIGGLE/USDT:USDT|short|1793095200000",
@@ -5040,7 +5046,8 @@
     30.12
    ],
    "t": 1793097000000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1793097900000
   },
   {
    "id": "KORU/USDT:USDT|short|1793079000000",
@@ -5056,7 +5063,8 @@
     11.57
    ],
    "t": 1793097000000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1793097900000
   },
   {
    "id": "UNI/USDT:USDT|short|1793093400000",
@@ -5072,7 +5080,8 @@
     7.035
    ],
    "t": 1793097000000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1793097900000
   },
   {
    "id": "CRCL/USDT:USDT|short|1793092500000",
@@ -5088,10 +5097,11 @@
     79.66
    ],
    "t": 1793097000000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1793097900000
   }
  ],
- "updated": 1793095200000,
+ "updated": 1793116800000,
  "exchange": "okx",
  "tf": "15m"
 }
