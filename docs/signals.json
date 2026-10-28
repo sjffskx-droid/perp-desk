@@ -1,23 +1,6 @@
 {
  "signals": [
   {
-   "id": "MET/USDT:USDT|long|1791441000000",
-   "symbol": "MET/USDT:USDT",
-   "sym": "MET",
-   "side": "long",
-   "tf": "15m",
-   "entry": 0.4766,
-   "sl": 0.4612214285714286,
-   "tp": 0.5073571428571428,
-   "zone": [
-    0.463,
-    0.4728
-   ],
-   "t": 1791458100000,
-   "status": "sl",
-   "closed": 1791462600000
-  },
-  {
    "id": "MU/USDT:USDT|short|1791457200000",
    "symbol": "MU/USDT:USDT",
    "sym": "MU",
@@ -5063,7 +5046,8 @@
     80.12
    ],
    "t": 1793206800000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1793210400000
   },
   {
    "id": "KORU/USDT:USDT|long|1793205900000",
@@ -5079,7 +5063,8 @@
     13.55
    ],
    "t": 1793206800000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1793207700000
   },
   {
    "id": "UNITREE/USDT:USDT|short|1793205900000",
@@ -5095,10 +5080,27 @@
     96.94
    ],
    "t": 1793206800000,
+   "status": "sl",
+   "closed": 1793217600000
+  },
+  {
+   "id": "ZEC/USDT:USDT|long|1793221200000",
+   "symbol": "ZEC/USDT:USDT",
+   "sym": "ZEC",
+   "side": "long",
+   "tf": "15m",
+   "entry": 1296.46,
+   "sl": 1280.759857142857,
+   "tp": 1327.860285714286,
+   "zone": [
+    1282.01,
+    1291.54
+   ],
+   "t": 1793223000000,
    "status": "open"
   }
  ],
- "updated": 1793206800000,
+ "updated": 1793221200000,
  "exchange": "okx",
  "tf": "15m"
 }
