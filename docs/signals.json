@@ -1,23 +1,6 @@
 {
  "signals": [
   {
-   "id": "UNI/USDT:USDT|long|1791413100000",
-   "symbol": "UNI/USDT:USDT",
-   "sym": "UNI",
-   "side": "long",
-   "tf": "15m",
-   "entry": 7.848,
-   "sl": 7.724057142857143,
-   "tp": 8.095885714285714,
-   "zone": [
-    7.73,
-    7.757
-   ],
-   "t": 1791432900000,
-   "status": "sl",
-   "closed": 1791438300000
-  },
-  {
    "id": "SUI/USDT:USDT|long|1791414900000",
    "symbol": "SUI/USDT:USDT",
    "sym": "SUI",
@@ -5099,9 +5082,25 @@
    "t": 1793132100000,
    "status": "sl",
    "closed": 1793143800000
+  },
+  {
+   "id": "SKHY/USDT:USDT|long|1793183400000",
+   "symbol": "SKHY/USDT:USDT",
+   "sym": "SKHY",
+   "side": "long",
+   "tf": "15m",
+   "entry": 157.16,
+   "sl": 156.25785714285715,
+   "tp": 158.9642857142857,
+   "zone": [
+    156.33,
+    156.98
+   ],
+   "t": 1793186100000,
+   "status": "open"
   }
  ],
- "updated": 1793163600000,
+ "updated": 1793185200000,
  "exchange": "okx",
  "tf": "15m"
 }
