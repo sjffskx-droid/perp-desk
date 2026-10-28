@@ -5063,7 +5063,8 @@
     1310.1
    ],
    "t": 1793132100000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1793143800000
   },
   {
    "id": "FIL/USDT:USDT|long|1793125800000",
@@ -5079,7 +5080,8 @@
     0.9
    ],
    "t": 1793132100000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1793135700000
   },
   {
    "id": "SNXX/USDT:USDT|short|1793131200000",
@@ -5095,10 +5097,11 @@
     9.086
    ],
    "t": 1793132100000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1793143800000
   }
  ],
- "updated": 1793131200000,
+ "updated": 1793145600000,
  "exchange": "okx",
  "tf": "15m"
 }
