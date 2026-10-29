@@ -5063,7 +5063,8 @@
     102.41
    ],
    "t": 1793302200000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1793303100000
   },
   {
    "id": "XPD/USDT:USDT|short|1793295900000",
@@ -5079,7 +5080,8 @@
     1010.3
    ],
    "t": 1793302200000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1793304000000
   },
   {
    "id": "SKHYNIX/USDT:USDT|short|1793296800000",
@@ -5095,10 +5097,11 @@
     1133.2
    ],
    "t": 1793302200000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1793303100000
   }
  ],
- "updated": 1793300400000,
+ "updated": 1793314800000,
  "exchange": "okx",
  "tf": "15m"
 }
