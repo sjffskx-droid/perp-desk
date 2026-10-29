@@ -1,40 +1,6 @@
 {
  "signals": [
   {
-   "id": "SKHY/USDT:USDT|long|1791496800000",
-   "symbol": "SKHY/USDT:USDT",
-   "sym": "SKHY",
-   "side": "long",
-   "tf": "15m",
-   "entry": 171.23,
-   "sl": 171.0072857142857,
-   "tp": 171.67542857142857,
-   "zone": [
-    171.04,
-    171.26
-   ],
-   "t": 1791500400000,
-   "status": "sl",
-   "closed": 1791501300000
-  },
-  {
-   "id": "AAVE/USDT:USDT|short|1791512100000",
-   "symbol": "AAVE/USDT:USDT",
-   "sym": "AAVE",
-   "side": "short",
-   "tf": "15m",
-   "entry": 165.55,
-   "sl": 167.6837857142857,
-   "tp": 161.28242857142862,
-   "zone": [
-    165.96,
-    167.57
-   ],
-   "t": 1791513900000,
-   "status": "sl",
-   "closed": 1791522900000
-  },
-  {
    "id": "UNI/USDT:USDT|short|1791503100000",
    "symbol": "UNI/USDT:USDT",
    "sym": "UNI",
@@ -5099,9 +5065,41 @@
    "t": 1793236500000,
    "status": "tp",
    "closed": 1793238300000
+  },
+  {
+   "id": "KORU/USDT:USDT|short|1793281500000",
+   "symbol": "KORU/USDT:USDT",
+   "sym": "KORU",
+   "side": "short",
+   "tf": "15m",
+   "entry": 12.74,
+   "sl": 12.757142857142858,
+   "tp": 12.705714285714285,
+   "zone": [
+    12.66,
+    12.74
+   ],
+   "t": 1793283300000,
+   "status": "open"
+  },
+  {
+   "id": "GIGGLE/USDT:USDT|long|1793277000000",
+   "symbol": "GIGGLE/USDT:USDT",
+   "sym": "GIGGLE",
+   "side": "long",
+   "tf": "15m",
+   "entry": 31.0,
+   "sl": 30.80635714285714,
+   "tp": 31.387285714285717,
+   "zone": [
+    30.82,
+    30.97
+   ],
+   "t": 1793283300000,
+   "status": "open"
   }
  ],
- "updated": 1793257200000,
+ "updated": 1793282400000,
  "exchange": "okx",
  "tf": "15m"
 }
