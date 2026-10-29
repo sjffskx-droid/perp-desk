@@ -5029,7 +5029,8 @@
     1291.54
    ],
    "t": 1793223000000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1793237400000
   },
   {
    "id": "XAU/USDT:USDT|short|1793226600000",
@@ -5045,7 +5046,8 @@
     4074.8
    ],
    "t": 1793236500000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1793237400000
   },
   {
    "id": "SPCX/USDT:USDT|long|1793232900000",
@@ -5061,7 +5063,8 @@
     144.06
    ],
    "t": 1793236500000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1793237400000
   },
   {
    "id": "GOOGL/USDT:USDT|long|1793232000000",
@@ -5077,7 +5080,8 @@
     294.34
    ],
    "t": 1793236500000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1793238300000
   },
   {
    "id": "GIGGLE/USDT:USDT|short|1793234700000",
@@ -5093,10 +5097,11 @@
     31.52
    ],
    "t": 1793236500000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1793238300000
   }
  ],
- "updated": 1793235600000,
+ "updated": 1793257200000,
  "exchange": "okx",
  "tf": "15m"
 }
