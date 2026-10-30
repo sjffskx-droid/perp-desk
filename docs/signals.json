@@ -1,23 +1,6 @@
 {
  "signals": [
   {
-   "id": "BCH/USDT:USDT|short|1791615600000",
-   "symbol": "BCH/USDT:USDT",
-   "sym": "BCH",
-   "side": "short",
-   "tf": "15m",
-   "entry": 277.7,
-   "sl": 278.7992857142857,
-   "tp": 275.50142857142856,
-   "zone": [
-    277.9,
-    278.7
-   ],
-   "t": 1791616500000,
-   "status": "sl",
-   "closed": 1791619200000
-  },
-  {
    "id": "LPT/USDT:USDT|long|1791612000000",
    "symbol": "LPT/USDT:USDT",
    "sym": "LPT",
@@ -5046,7 +5029,8 @@
     2253.95
    ],
    "t": 1793356200000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1793367000000
   },
   {
    "id": "HYPE/USDT:USDT|short|1793345400000",
@@ -5062,7 +5046,8 @@
     93.649
    ],
    "t": 1793356200000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1793360700000
   },
   {
    "id": "SUI/USDT:USDT|short|1793345400000",
@@ -5078,7 +5063,8 @@
     0.8926
    ],
    "t": 1793356200000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1793357100000
   },
   {
    "id": "LIT/USDT:USDT|short|1793351700000",
@@ -5094,10 +5080,27 @@
     2.8731
    ],
    "t": 1793356200000,
+   "status": "sl",
+   "closed": 1793370600000
+  },
+  {
+   "id": "WLD/USDT:USDT|long|1793376900000",
+   "symbol": "WLD/USDT:USDT",
+   "sym": "WLD",
+   "side": "long",
+   "tf": "15m",
+   "entry": 0.4113,
+   "sl": 0.4064085714285714,
+   "tp": 0.4210828571428572,
+   "zone": [
+    0.4069,
+    0.4106
+   ],
+   "t": 1793377800000,
    "status": "open"
   }
  ],
- "updated": 1793354400000,
+ "updated": 1793376000000,
  "exchange": "okx",
  "tf": "15m"
 }
