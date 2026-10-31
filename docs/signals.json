@@ -1,23 +1,6 @@
 {
  "signals": [
   {
-   "id": "LPT/USDT:USDT|long|1791612000000",
-   "symbol": "LPT/USDT:USDT",
-   "sym": "LPT",
-   "side": "long",
-   "tf": "15m",
-   "entry": 1.889,
-   "sl": 1.8483285714285713,
-   "tp": 1.9703428571428574,
-   "zone": [
-    1.855,
-    1.893
-   ],
-   "t": 1791616500000,
-   "status": "sl",
-   "closed": 1791617400000
-  },
-  {
    "id": "ETH/USDT:USDT|long|1791638100000",
    "symbol": "ETH/USDT:USDT",
    "sym": "ETH",
@@ -5099,9 +5082,25 @@
    "t": 1793377800000,
    "status": "sl",
    "closed": 1793384100000
+  },
+  {
+   "id": "VVV/USDT:USDT|short|1793426400000",
+   "symbol": "VVV/USDT:USDT",
+   "sym": "VVV",
+   "side": "short",
+   "tf": "15m",
+   "entry": 22.232,
+   "sl": 22.328514285714284,
+   "tp": 22.03897142857143,
+   "zone": [
+    22.26,
+    22.317
+   ],
+   "t": 1793428200000,
+   "status": "open"
   }
  ],
- "updated": 1793404800000,
+ "updated": 1793426400000,
  "exchange": "okx",
  "tf": "15m"
 }
