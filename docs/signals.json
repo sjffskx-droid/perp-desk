@@ -1,74 +1,6 @@
 {
  "signals": [
   {
-   "id": "ETH/USDT:USDT|long|1791638100000",
-   "symbol": "ETH/USDT:USDT",
-   "sym": "ETH",
-   "side": "long",
-   "tf": "15m",
-   "entry": 2496.33,
-   "sl": 2494.3007142857145,
-   "tp": 2500.3885714285707,
-   "zone": [
-    2494.51,
-    2496.45
-   ],
-   "t": 1791639000000,
-   "status": "tp",
-   "closed": 1791641700000
-  },
-  {
-   "id": "XPT/USDT:USDT|short|1791638100000",
-   "symbol": "XPT/USDT:USDT",
-   "sym": "XPT",
-   "side": "short",
-   "tf": "15m",
-   "entry": 1692.4,
-   "sl": 1692.7628571428572,
-   "tp": 1691.6742857142858,
-   "zone": [
-    1692.2,
-    1692.7
-   ],
-   "t": 1791639000000,
-   "status": "sl",
-   "closed": 1791639900000
-  },
-  {
-   "id": "STRK/USDT:USDT|long|1791638100000",
-   "symbol": "STRK/USDT:USDT",
-   "sym": "STRK",
-   "side": "long",
-   "tf": "15m",
-   "entry": 0.07259,
-   "sl": 0.07159528571428572,
-   "tp": 0.07457942857142856,
-   "zone": [
-    0.07169,
-    0.07244
-   ],
-   "t": 1791639000000,
-   "status": "tp",
-   "closed": 1791639900000
-  },
-  {
-   "id": "BTC/USDT:USDT|long|1791653400000",
-   "symbol": "BTC/USDT:USDT",
-   "sym": "BTC",
-   "side": "long",
-   "tf": "15m",
-   "entry": 83013.1,
-   "sl": 82952.82928571428,
-   "tp": 83133.64142857146,
-   "zone": [
-    82960.9,
-    83040.3
-   ],
-   "t": 1791655200000,
-   "status": "sl",
-   "closed": 1791656100000
-  },
-  {
    "id": "FIL/USDT:USDT|short|1791653400000",
    "symbol": "FIL/USDT:USDT",
    "sym": "FIL",
@@ -5097,10 +5029,75 @@
     22.317
    ],
    "t": 1793428200000,
+   "status": "sl",
+   "closed": 1793429100000
+  },
+  {
+   "id": "BNB/USDT:USDT|long|1793449800000",
+   "symbol": "BNB/USDT:USDT",
+   "sym": "BNB",
+   "side": "long",
+   "tf": "15m",
+   "entry": 705.48,
+   "sl": 704.3216428571429,
+   "tp": 707.7967142857142,
+   "zone": [
+    704.44,
+    705.39
+   ],
+   "t": 1793450700000,
+   "status": "open"
+  },
+  {
+   "id": "OKB/USDT:USDT|long|1793449800000",
+   "symbol": "OKB/USDT:USDT",
+   "sym": "OKB",
+   "side": "long",
+   "tf": "15m",
+   "entry": 110.81,
+   "sl": 110.69228571428572,
+   "tp": 111.04542857142857,
+   "zone": [
+    110.72,
+    111.0
+   ],
+   "t": 1793450700000,
+   "status": "open"
+  },
+  {
+   "id": "ICP/USDT:USDT|long|1793448900000",
+   "symbol": "ICP/USDT:USDT",
+   "sym": "ICP",
+   "side": "long",
+   "tf": "15m",
+   "entry": 2.49,
+   "sl": 2.482414285714286,
+   "tp": 2.505171428571429,
+   "zone": [
+    2.483,
+    2.489
+   ],
+   "t": 1793450700000,
+   "status": "open"
+  },
+  {
+   "id": "TRUMP/USDT:USDT|long|1793449800000",
+   "symbol": "TRUMP/USDT:USDT",
+   "sym": "TRUMP",
+   "side": "long",
+   "tf": "15m",
+   "entry": 1.583,
+   "sl": 1.5745285714285713,
+   "tp": 1.5999428571428573,
+   "zone": [
+    1.575,
+    1.581
+   ],
+   "t": 1793450700000,
    "status": "open"
   }
  ],
- "updated": 1793426400000,
+ "updated": 1793451600000,
  "exchange": "okx",
  "tf": "15m"
 }
