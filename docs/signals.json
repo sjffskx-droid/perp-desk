@@ -5080,7 +5080,8 @@
     48.12
    ],
    "t": 1793466900000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1793475900000
   },
   {
    "id": "GIGGLE/USDT:USDT|long|1793466000000",
@@ -5096,10 +5097,11 @@
     29.27
    ],
    "t": 1793466900000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1793474100000
   }
  ],
- "updated": 1793466000000,
+ "updated": 1793476800000,
  "exchange": "okx",
  "tf": "15m"
 }
