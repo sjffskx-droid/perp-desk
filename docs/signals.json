@@ -1,23 +1,6 @@
 {
  "signals": [
   {
-   "id": "XAG/USDT:USDT|short|1791676800000",
-   "symbol": "XAG/USDT:USDT",
-   "sym": "XAG",
-   "side": "short",
-   "tf": "15m",
-   "entry": 60.77,
-   "sl": 60.791714285714285,
-   "tp": 60.72657142857144,
-   "zone": [
-    60.78,
-    60.79
-   ],
-   "t": 1791677700000,
-   "status": "sl",
-   "closed": 1791699300000
-  },
-  {
    "id": "LPT/USDT:USDT|short|1791676800000",
    "symbol": "LPT/USDT:USDT",
    "sym": "LPT",
@@ -5063,7 +5046,8 @@
     111.43
    ],
    "t": 1793530800000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1793532600000
   },
   {
    "id": "BCH/USDT:USDT|short|1793529900000",
@@ -5079,7 +5063,8 @@
     283.33
    ],
    "t": 1793530800000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1793538000000
   },
   {
    "id": "LINK/USDT:USDT|short|1793526300000",
@@ -5095,10 +5080,27 @@
     11.82
    ],
    "t": 1793530800000,
+   "status": "tp",
+   "closed": 1793535300000
+  },
+  {
+   "id": "TAO/USDT:USDT|short|1793547900000",
+   "symbol": "TAO/USDT:USDT",
+   "sym": "TAO",
+   "side": "short",
+   "tf": "15m",
+   "entry": 235.56,
+   "sl": 236.1312142857143,
+   "tp": 234.41757142857142,
+   "zone": [
+    235.26,
+    236.06
+   ],
+   "t": 1793551500000,
    "status": "open"
   }
  ],
- "updated": 1793530800000,
+ "updated": 1793552400000,
  "exchange": "okx",
  "tf": "15m"
 }
