@@ -1,57 +1,6 @@
 {
  "signals": [
   {
-   "id": "LPT/USDT:USDT|short|1791676800000",
-   "symbol": "LPT/USDT:USDT",
-   "sym": "LPT",
-   "side": "short",
-   "tf": "15m",
-   "entry": 1.775,
-   "sl": 1.7918642857142857,
-   "tp": 1.7412714285714284,
-   "zone": [
-    1.782,
-    1.791
-   ],
-   "t": 1791677700000,
-   "status": "sl",
-   "closed": 1791682200000
-  },
-  {
-   "id": "BTC/USDT:USDT|long|1791719100000",
-   "symbol": "BTC/USDT:USDT",
-   "sym": "BTC",
-   "side": "long",
-   "tf": "15m",
-   "entry": 83054.0,
-   "sl": 82993.56214285715,
-   "tp": 83174.8757142857,
-   "zone": [
-    83000.0,
-    83029.5
-   ],
-   "t": 1791723600000,
-   "status": "sl",
-   "closed": 1791728100000
-  },
-  {
-   "id": "TIA/USDT:USDT|short|1791720000000",
-   "symbol": "TIA/USDT:USDT",
-   "sym": "TIA",
-   "side": "short",
-   "tf": "15m",
-   "entry": 0.5804,
-   "sl": 0.5916621428571428,
-   "tp": 0.5578757142857145,
-   "zone": [
-    0.5806,
-    0.5909
-   ],
-   "t": 1791723600000,
-   "status": "sl",
-   "closed": 1791728100000
-  },
-  {
    "id": "YFI/USDT:USDT|long|1791733500000",
    "symbol": "YFI/USDT:USDT",
    "sym": "YFI",
@@ -5097,10 +5046,59 @@
     236.06
    ],
    "t": 1793551500000,
+   "status": "tp",
+   "closed": 1793555100000
+  },
+  {
+   "id": "OKB/USDT:USDT|short|1793558700000",
+   "symbol": "OKB/USDT:USDT",
+   "sym": "OKB",
+   "side": "short",
+   "tf": "15m",
+   "entry": 114.05,
+   "sl": 114.66042857142858,
+   "tp": 112.82914285714283,
+   "zone": [
+    114.21,
+    114.62
+   ],
+   "t": 1793565900000,
+   "status": "open"
+  },
+  {
+   "id": "SKHYNIX/USDT:USDT|short|1793557800000",
+   "symbol": "SKHYNIX/USDT:USDT",
+   "sym": "SKHYNIX",
+   "side": "short",
+   "tf": "15m",
+   "entry": 1058.6,
+   "sl": 1060.6114285714286,
+   "tp": 1054.5771428571425,
+   "zone": [
+    1058.3,
+    1060.4
+   ],
+   "t": 1793565900000,
+   "status": "open"
+  },
+  {
+   "id": "MU/USDT:USDT|short|1793556000000",
+   "symbol": "MU/USDT:USDT",
+   "sym": "MU",
+   "side": "short",
+   "tf": "15m",
+   "entry": 904.42,
+   "sl": 905.5719285714285,
+   "tp": 902.1161428571428,
+   "zone": [
+    904.87,
+    905.43
+   ],
+   "t": 1793565900000,
    "status": "open"
   }
  ],
- "updated": 1793552400000,
+ "updated": 1793566800000,
  "exchange": "okx",
  "tf": "15m"
 }
