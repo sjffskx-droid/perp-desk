@@ -1,125 +1,6 @@
 {
  "signals": [
   {
-   "id": "UNI/USDT:USDT|long|1791638100000",
-   "symbol": "UNI/USDT:USDT",
-   "sym": "UNI",
-   "side": "long",
-   "tf": "15m",
-   "entry": 7.533,
-   "sl": 7.475171428571429,
-   "tp": 7.648657142857144,
-   "zone": [
-    7.479,
-    7.526
-   ],
-   "t": 1791655200000,
-   "status": "tp",
-   "closed": 1791667800000
-  },
-  {
-   "id": "NMR/USDT:USDT|short|1791653400000",
-   "symbol": "NMR/USDT:USDT",
-   "sym": "NMR",
-   "side": "short",
-   "tf": "15m",
-   "entry": 13.259,
-   "sl": 13.291992857142857,
-   "tp": 13.193014285714288,
-   "zone": [
-    13.247,
-    13.285
-   ],
-   "t": 1791655200000,
-   "status": "sl",
-   "closed": 1791657900000
-  },
-  {
-   "id": "FIL/USDT:USDT|long|1791664200000",
-   "symbol": "FIL/USDT:USDT",
-   "sym": "FIL",
-   "side": "long",
-   "tf": "15m",
-   "entry": 1.1228,
-   "sl": 1.1209571428571428,
-   "tp": 1.1264857142857145,
-   "zone": [
-    1.1214,
-    1.1246
-   ],
-   "t": 1791667800000,
-   "status": "sl",
-   "closed": 1791669600000
-  },
-  {
-   "id": "SOL/USDT:USDT|short|1791666900000",
-   "symbol": "SOL/USDT:USDT",
-   "sym": "SOL",
-   "side": "short",
-   "tf": "15m",
-   "entry": 110.23,
-   "sl": 110.40764285714286,
-   "tp": 109.87471428571429,
-   "zone": [
-    110.23,
-    110.39
-   ],
-   "t": 1791667800000,
-   "status": "sl",
-   "closed": 1791671400000
-  },
-  {
-   "id": "INJ/USDT:USDT|long|1791665100000",
-   "symbol": "INJ/USDT:USDT",
-   "sym": "INJ",
-   "side": "long",
-   "tf": "15m",
-   "entry": 7.596,
-   "sl": 7.539235714285715,
-   "tp": 7.709528571428571,
-   "zone": [
-    7.546,
-    7.593
-   ],
-   "t": 1791667800000,
-   "status": "tp",
-   "closed": 1791676800000
-  },
-  {
-   "id": "UNI/USDT:USDT|long|1791666900000",
-   "symbol": "UNI/USDT:USDT",
-   "sym": "UNI",
-   "side": "long",
-   "tf": "15m",
-   "entry": 7.639,
-   "sl": 7.552221428571428,
-   "tp": 7.812557142857144,
-   "zone": [
-    7.555,
-    7.575
-   ],
-   "t": 1791667800000,
-   "status": "sl",
-   "closed": 1791679500000
-  },
-  {
-   "id": "AXS/USDT:USDT|short|1791666900000",
-   "symbol": "AXS/USDT:USDT",
-   "sym": "AXS",
-   "side": "short",
-   "tf": "15m",
-   "entry": 1.2419,
-   "sl": 1.2460307142857143,
-   "tp": 1.2336385714285714,
-   "zone": [
-    1.243,
-    1.2457
-   ],
-   "t": 1791667800000,
-   "status": "sl",
-   "closed": 1791681300000
-  },
-  {
    "id": "MINA/USDT:USDT|short|1791648900000",
    "symbol": "MINA/USDT:USDT",
    "sym": "MINA",
@@ -5099,9 +4980,121 @@
    "t": 1793466900000,
    "status": "sl",
    "closed": 1793474100000
+  },
+  {
+   "id": "TAO/USDT:USDT|long|1793460600000",
+   "symbol": "TAO/USDT:USDT",
+   "sym": "TAO",
+   "side": "long",
+   "tf": "15m",
+   "entry": 235.08,
+   "sl": 234.84935714285714,
+   "tp": 235.54128571428575,
+   "zone": [
+    234.92,
+    235.46
+   ],
+   "t": 1793505600000,
+   "status": "open"
+  },
+  {
+   "id": "AAVE/USDT:USDT|long|1793501100000",
+   "symbol": "AAVE/USDT:USDT",
+   "sym": "AAVE",
+   "side": "long",
+   "tf": "15m",
+   "entry": 137.27,
+   "sl": 135.61664285714286,
+   "tp": 140.5767142857143,
+   "zone": [
+    135.72,
+    136.51
+   ],
+   "t": 1793505600000,
+   "status": "open"
+  },
+  {
+   "id": "CL/USDT:USDT|long|1793504700000",
+   "symbol": "CL/USDT:USDT",
+   "sym": "CL",
+   "side": "long",
+   "tf": "15m",
+   "entry": 103.02,
+   "sl": 102.88064285714286,
+   "tp": 103.29871428571427,
+   "zone": [
+    102.89,
+    103.04
+   ],
+   "t": 1793505600000,
+   "status": "open"
+  },
+  {
+   "id": "VVV/USDT:USDT|long|1793491200000",
+   "symbol": "VVV/USDT:USDT",
+   "sym": "VVV",
+   "side": "long",
+   "tf": "15m",
+   "entry": 23.463,
+   "sl": 23.34022857142857,
+   "tp": 23.70854285714286,
+   "zone": [
+    23.359,
+    23.426
+   ],
+   "t": 1793505600000,
+   "status": "open"
+  },
+  {
+   "id": "UNI/USDT:USDT|long|1793468700000",
+   "symbol": "UNI/USDT:USDT",
+   "sym": "UNI",
+   "side": "long",
+   "tf": "15m",
+   "entry": 7.023,
+   "sl": 6.989464285714286,
+   "tp": 7.090071428571427,
+   "zone": [
+    6.993,
+    7.028
+   ],
+   "t": 1793505600000,
+   "status": "open"
+  },
+  {
+   "id": "SOXL/USDT:USDT|long|1793503800000",
+   "symbol": "SOXL/USDT:USDT",
+   "sym": "SOXL",
+   "side": "long",
+   "tf": "15m",
+   "entry": 77.81,
+   "sl": 77.59457142857143,
+   "tp": 78.24085714285715,
+   "zone": [
+    77.61,
+    77.79
+   ],
+   "t": 1793505600000,
+   "status": "open"
+  },
+  {
+   "id": "OP/USDT:USDT|long|1793504700000",
+   "symbol": "OP/USDT:USDT",
+   "sym": "OP",
+   "side": "long",
+   "tf": "15m",
+   "entry": 0.11387,
+   "sl": 0.11332107142857142,
+   "tp": 0.11496785714285715,
+   "zone": [
+    0.11338,
+    0.11381
+   ],
+   "t": 1793505600000,
+   "status": "open"
   }
  ],
- "updated": 1793487600000,
+ "updated": 1793505600000,
  "exchange": "okx",
  "tf": "15m"
 }
