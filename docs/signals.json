@@ -1,57 +1,6 @@
 {
  "signals": [
   {
-   "id": "MINA/USDT:USDT|short|1791648900000",
-   "symbol": "MINA/USDT:USDT",
-   "sym": "MINA",
-   "side": "short",
-   "tf": "15m",
-   "entry": 0.08591,
-   "sl": 0.08631642857142856,
-   "tp": 0.08509714285714289,
-   "zone": [
-    0.08553,
-    0.08625
-   ],
-   "t": 1791667800000,
-   "status": "tp",
-   "closed": 1791670500000
-  },
-  {
-   "id": "ZEC/USDT:USDT|short|1791676800000",
-   "symbol": "ZEC/USDT:USDT",
-   "sym": "ZEC",
-   "side": "short",
-   "tf": "15m",
-   "entry": 1219.19,
-   "sl": 1223.5529285714285,
-   "tp": 1210.464142857143,
-   "zone": [
-    1219.53,
-    1223.21
-   ],
-   "t": 1791677700000,
-   "status": "sl",
-   "closed": 1791679500000
-  },
-  {
-   "id": "OKB/USDT:USDT|long|1791675900000",
-   "symbol": "OKB/USDT:USDT",
-   "sym": "OKB",
-   "side": "long",
-   "tf": "15m",
-   "entry": 126.09,
-   "sl": 125.88885714285713,
-   "tp": 126.49228571428574,
-   "zone": [
-    125.91,
-    126.04
-   ],
-   "t": 1791677700000,
-   "status": "sl",
-   "closed": 1791679500000
-  },
-  {
    "id": "XAG/USDT:USDT|short|1791676800000",
    "symbol": "XAG/USDT:USDT",
    "sym": "XAG",
@@ -4995,7 +4944,8 @@
     235.46
    ],
    "t": 1793505600000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1793506500000
   },
   {
    "id": "AAVE/USDT:USDT|long|1793501100000",
@@ -5011,7 +4961,8 @@
     136.51
    ],
    "t": 1793505600000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1793509200000
   },
   {
    "id": "CL/USDT:USDT|long|1793504700000",
@@ -5027,7 +4978,8 @@
     103.04
    ],
    "t": 1793505600000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1793508300000
   },
   {
    "id": "VVV/USDT:USDT|long|1793491200000",
@@ -5043,7 +4995,8 @@
     23.426
    ],
    "t": 1793505600000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1793514600000
   },
   {
    "id": "UNI/USDT:USDT|long|1793468700000",
@@ -5059,7 +5012,8 @@
     7.028
    ],
    "t": 1793505600000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1793506500000
   },
   {
    "id": "SOXL/USDT:USDT|long|1793503800000",
@@ -5075,7 +5029,8 @@
     77.79
    ],
    "t": 1793505600000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1793507400000
   },
   {
    "id": "OP/USDT:USDT|long|1793504700000",
@@ -5091,10 +5046,59 @@
     0.11381
    ],
    "t": 1793505600000,
+   "status": "tp",
+   "closed": 1793511900000
+  },
+  {
+   "id": "OKB/USDT:USDT|long|1793529900000",
+   "symbol": "OKB/USDT:USDT",
+   "sym": "OKB",
+   "side": "long",
+   "tf": "15m",
+   "entry": 111.42,
+   "sl": 111.28592857142857,
+   "tp": 111.68814285714286,
+   "zone": [
+    111.31,
+    111.43
+   ],
+   "t": 1793530800000,
+   "status": "open"
+  },
+  {
+   "id": "BCH/USDT:USDT|short|1793529900000",
+   "symbol": "BCH/USDT:USDT",
+   "sym": "BCH",
+   "side": "short",
+   "tf": "15m",
+   "entry": 282.4,
+   "sl": 283.4180714285714,
+   "tp": 280.3638571428571,
+   "zone": [
+    282.93,
+    283.33
+   ],
+   "t": 1793530800000,
+   "status": "open"
+  },
+  {
+   "id": "LINK/USDT:USDT|short|1793526300000",
+   "symbol": "LINK/USDT:USDT",
+   "sym": "LINK",
+   "side": "short",
+   "tf": "15m",
+   "entry": 11.766,
+   "sl": 11.824714285714286,
+   "tp": 11.648571428571428,
+   "zone": [
+    11.772,
+    11.82
+   ],
+   "t": 1793530800000,
    "status": "open"
   }
  ],
- "updated": 1793505600000,
+ "updated": 1793530800000,
  "exchange": "okx",
  "tf": "15m"
 }
