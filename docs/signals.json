@@ -1,23 +1,6 @@
 {
  "signals": [
   {
-   "id": "XPD/USDT:USDT|long|1791733500000",
-   "symbol": "XPD/USDT:USDT",
-   "sym": "XPD",
-   "side": "long",
-   "tf": "15m",
-   "entry": 1154.1,
-   "sl": 1152.7314285714285,
-   "tp": 1156.8371428571427,
-   "zone": [
-    1152.8,
-    1154.3
-   ],
-   "t": 1791741600000,
-   "status": "sl",
-   "closed": 1791754200000
-  },
-  {
    "id": "LPT/USDT:USDT|short|1791740700000",
    "symbol": "LPT/USDT:USDT",
    "sym": "LPT",
@@ -5080,7 +5063,8 @@
     110.22
    ],
    "t": 1793601900000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1793603700000
   },
   {
    "id": "AAVE/USDT:USDT|short|1793601000000",
@@ -5096,10 +5080,27 @@
     134.02
    ],
    "t": 1793601900000,
+   "status": "sl",
+   "closed": 1793603700000
+  },
+  {
+   "id": "UNI/USDT:USDT|short|1793634300000",
+   "symbol": "UNI/USDT:USDT",
+   "sym": "UNI",
+   "side": "short",
+   "tf": "15m",
+   "entry": 7.219,
+   "sl": 7.294757142857143,
+   "tp": 7.0674857142857155,
+   "zone": [
+    7.243,
+    7.288
+   ],
+   "t": 1793637900000,
    "status": "open"
   }
  ],
- "updated": 1793602800000,
+ "updated": 1793638800000,
  "exchange": "okx",
  "tf": "15m"
 }
