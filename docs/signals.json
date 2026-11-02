@@ -1,23 +1,6 @@
 {
  "signals": [
   {
-   "id": "LPT/USDT:USDT|short|1791740700000",
-   "symbol": "LPT/USDT:USDT",
-   "sym": "LPT",
-   "side": "short",
-   "tf": "15m",
-   "entry": 1.804,
-   "sl": 1.82115,
-   "tp": 1.7697,
-   "zone": [
-    1.812,
-    1.82
-   ],
-   "t": 1791741600000,
-   "status": "tp",
-   "closed": 1791768600000
-  },
-  {
    "id": "BTC/USDT:USDT|short|1791752400000",
    "symbol": "BTC/USDT:USDT",
    "sym": "BTC",
@@ -5097,10 +5080,27 @@
     7.288
    ],
    "t": 1793637900000,
+   "status": "tp",
+   "closed": 1793646900000
+  },
+  {
+   "id": "BCH/USDT:USDT|long|1793649600000",
+   "symbol": "BCH/USDT:USDT",
+   "sym": "BCH",
+   "side": "long",
+   "tf": "15m",
+   "entry": 276.22,
+   "sl": 274.23207142857143,
+   "tp": 280.1958571428572,
+   "zone": [
+    274.35,
+    275.89
+   ],
+   "t": 1793662200000,
    "status": "open"
   }
  ],
- "updated": 1793638800000,
+ "updated": 1793660400000,
  "exchange": "okx",
  "tf": "15m"
 }
