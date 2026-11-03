@@ -1,40 +1,6 @@
 {
  "signals": [
   {
-   "id": "BTC/USDT:USDT|short|1791752400000",
-   "symbol": "BTC/USDT:USDT",
-   "sym": "BTC",
-   "side": "short",
-   "tf": "15m",
-   "entry": 83564.8,
-   "sl": 83672.13142857143,
-   "tp": 83350.13714285714,
-   "zone": [
-    83575.6,
-    83659.6
-   ],
-   "t": 1791756000000,
-   "status": "sl",
-   "closed": 1791759600000
-  },
-  {
-   "id": "XAU/USDT:USDT|long|1791702900000",
-   "symbol": "XAU/USDT:USDT",
-   "sym": "XAU",
-   "side": "long",
-   "tf": "15m",
-   "entry": 4193.6,
-   "sl": 4193.272857142857,
-   "tp": 4194.254285714287,
-   "zone": [
-    4193.4,
-    4194.1
-   ],
-   "t": 1791756000000,
-   "status": "sl",
-   "closed": 1791756900000
-  },
-  {
    "id": "TAO/USDT:USDT|short|1791753300000",
    "symbol": "TAO/USDT:USDT",
    "sym": "TAO",
@@ -5097,10 +5063,43 @@
     275.89
    ],
    "t": 1793662200000,
+   "status": "sl",
+   "closed": 1793673900000
+  },
+  {
+   "id": "TAO/USDT:USDT|long|1793679300000",
+   "symbol": "TAO/USDT:USDT",
+   "sym": "TAO",
+   "side": "long",
+   "tf": "15m",
+   "entry": 222.64,
+   "sl": 222.199,
+   "tp": 223.52199999999993,
+   "zone": [
+    222.3,
+    223.23
+   ],
+   "t": 1793682000000,
+   "status": "open"
+  },
+  {
+   "id": "FIL/USDT:USDT|long|1793679300000",
+   "symbol": "FIL/USDT:USDT",
+   "sym": "FIL",
+   "side": "long",
+   "tf": "15m",
+   "entry": 0.866,
+   "sl": 0.8622521428571429,
+   "tp": 0.8734957142857142,
+   "zone": [
+    0.8627,
+    0.8672
+   ],
+   "t": 1793682000000,
    "status": "open"
   }
  ],
- "updated": 1793660400000,
+ "updated": 1793682000000,
  "exchange": "okx",
  "tf": "15m"
 }
