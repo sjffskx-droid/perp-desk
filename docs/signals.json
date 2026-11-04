@@ -1,40 +1,6 @@
 {
  "signals": [
   {
-   "id": "SPCX/USDT:USDT|long|1791931500000",
-   "symbol": "SPCX/USDT:USDT",
-   "sym": "SPCX",
-   "side": "long",
-   "tf": "15m",
-   "entry": 157.43,
-   "sl": 157.17442857142856,
-   "tp": 157.9411428571429,
-   "zone": [
-    157.2,
-    157.37
-   ],
-   "t": 1791932400000,
-   "status": "sl",
-   "closed": 1791934200000
-  },
-  {
-   "id": "KORU/USDT:USDT|long|1791920700000",
-   "symbol": "KORU/USDT:USDT",
-   "sym": "KORU",
-   "side": "long",
-   "tf": "15m",
-   "entry": 14.66,
-   "sl": 14.4785,
-   "tp": 15.023,
-   "zone": [
-    14.49,
-    14.6
-   ],
-   "t": 1791932400000,
-   "status": "sl",
-   "closed": 1791934200000
-  },
-  {
    "id": "XAU/USDT:USDT|short|1791941400000",
    "symbol": "XAU/USDT:USDT",
    "sym": "XAU",
@@ -5029,7 +4995,8 @@
     52.13
    ],
    "t": 1793803500000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1793807100000
   },
   {
    "id": "HYPE/USDT:USDT|short|1793793600000",
@@ -5045,7 +5012,8 @@
     87.147
    ],
    "t": 1793803500000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1793804400000
   },
   {
    "id": "SKHYNIX/USDT:USDT|short|1793793600000",
@@ -5061,7 +5029,8 @@
     1067.1
    ],
    "t": 1793803500000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1793808000000
   },
   {
    "id": "INTC/USDT:USDT|long|1793802600000",
@@ -5077,7 +5046,8 @@
     59.05
    ],
    "t": 1793803500000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1793806200000
   },
   {
    "id": "WLD/USDT:USDT|short|1793792700000",
@@ -5093,10 +5063,43 @@
     0.3926
    ],
    "t": 1793803500000,
+   "status": "sl",
+   "closed": 1793804400000
+  },
+  {
+   "id": "INJ/USDT:USDT|long|1793825100000",
+   "symbol": "INJ/USDT:USDT",
+   "sym": "INJ",
+   "side": "long",
+   "tf": "15m",
+   "entry": 7.958,
+   "sl": 7.828028571428572,
+   "tp": 8.217942857142857,
+   "zone": [
+    7.835,
+    7.923
+   ],
+   "t": 1793826000000,
+   "status": "open"
+  },
+  {
+   "id": "GOOGL/USDT:USDT|short|1793825100000",
+   "symbol": "GOOGL/USDT:USDT",
+   "sym": "GOOGL",
+   "side": "short",
+   "tf": "15m",
+   "entry": 290.97,
+   "sl": 292.14335714285716,
+   "tp": 288.62328571428577,
+   "zone": [
+    291.08,
+    292.05
+   ],
+   "t": 1793826000000,
    "status": "open"
   }
  ],
- "updated": 1793804400000,
+ "updated": 1793826000000,
  "exchange": "okx",
  "tf": "15m"
 }
