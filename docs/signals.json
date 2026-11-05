@@ -1,108 +1,6 @@
 {
  "signals": [
   {
-   "id": "XAU/USDT:USDT|short|1791941400000",
-   "symbol": "XAU/USDT:USDT",
-   "sym": "XAU",
-   "side": "short",
-   "tf": "15m",
-   "entry": 4160.3,
-   "sl": 4171.075,
-   "tp": 4138.750000000001,
-   "zone": [
-    4153.5,
-    4170.4
-   ],
-   "t": 1791942300000,
-   "status": "sl",
-   "closed": 1791945900000
-  },
-  {
-   "id": "XAG/USDT:USDT|short|1791941400000",
-   "symbol": "XAG/USDT:USDT",
-   "sym": "XAG",
-   "side": "short",
-   "tf": "15m",
-   "entry": 59.11,
-   "sl": 59.34,
-   "tp": 58.64999999999999,
-   "zone": [
-    58.9,
-    59.32
-   ],
-   "t": 1791942300000,
-   "status": "sl",
-   "closed": 1791945000000
-  },
-  {
-   "id": "QUANT/USDT:USDT|short|1791933300000",
-   "symbol": "QUANT/USDT:USDT",
-   "sym": "QUANT",
-   "side": "short",
-   "tf": "15m",
-   "entry": 214.0,
-   "sl": 216.41214285714284,
-   "tp": 209.17571428571432,
-   "zone": [
-    214.2,
-    216.2
-   ],
-   "t": 1791942300000,
-   "status": "sl",
-   "closed": 1791945900000
-  },
-  {
-   "id": "UNI/USDT:USDT|short|1791941400000",
-   "symbol": "UNI/USDT:USDT",
-   "sym": "UNI",
-   "side": "short",
-   "tf": "15m",
-   "entry": 7.509,
-   "sl": 7.575664285714286,
-   "tp": 7.3756714285714295,
-   "zone": [
-    7.528,
-    7.571
-   ],
-   "t": 1791942300000,
-   "status": "tp",
-   "closed": 1791955800000
-  },
-  {
-   "id": "OP/USDT:USDT|short|1791961200000",
-   "symbol": "OP/USDT:USDT",
-   "sym": "OP",
-   "side": "short",
-   "tf": "15m",
-   "entry": 0.15287,
-   "sl": 0.1545932857142857,
-   "tp": 0.1494234285714286,
-   "zone": [
-    0.153,
-    0.15441
-   ],
-   "t": 1791962100000,
-   "status": "tp",
-   "closed": 1791970200000
-  },
-  {
-   "id": "BZ/USDT:USDT|short|1792011600000",
-   "symbol": "BZ/USDT:USDT",
-   "sym": "BZ",
-   "side": "short",
-   "tf": "15m",
-   "entry": 103.43,
-   "sl": 103.51764285714286,
-   "tp": 103.2547142857143,
-   "zone": [
-    103.39,
-    103.5
-   ],
-   "t": 1792012500000,
-   "status": "sl",
-   "closed": 1792013400000
-  },
-  {
    "id": "CL/USDT:USDT|short|1792011600000",
    "symbol": "CL/USDT:USDT",
    "sym": "CL",
@@ -5096,10 +4994,107 @@
     292.05
    ],
    "t": 1793826000000,
+   "status": "sl",
+   "closed": 1793829600000
+  },
+  {
+   "id": "BTC/USDT:USDT|long|1793829600000",
+   "symbol": "BTC/USDT:USDT",
+   "sym": "BTC",
+   "side": "long",
+   "tf": "15m",
+   "entry": 80359.4,
+   "sl": 80041.83428571429,
+   "tp": 80994.53142857141,
+   "zone": [
+    80066.4,
+    80259.5
+   ],
+   "t": 1793841300000,
+   "status": "open"
+  },
+  {
+   "id": "HYPE/USDT:USDT|long|1793837700000",
+   "symbol": "HYPE/USDT:USDT",
+   "sym": "HYPE",
+   "side": "long",
+   "tf": "15m",
+   "entry": 84.052,
+   "sl": 83.68849999999999,
+   "tp": 84.77900000000004,
+   "zone": [
+    83.731,
+    83.959
+   ],
+   "t": 1793841300000,
+   "status": "open"
+  },
+  {
+   "id": "AAVE/USDT:USDT|long|1793828700000",
+   "symbol": "AAVE/USDT:USDT",
+   "sym": "AAVE",
+   "side": "long",
+   "tf": "15m",
+   "entry": 130.53,
+   "sl": 130.02385714285714,
+   "tp": 131.54228571428573,
+   "zone": [
+    130.1,
+    130.6
+   ],
+   "t": 1793841300000,
+   "status": "open"
+  },
+  {
+   "id": "SPCX/USDT:USDT|long|1793802600000",
+   "symbol": "SPCX/USDT:USDT",
+   "sym": "SPCX",
+   "side": "long",
+   "tf": "15m",
+   "entry": 133.17,
+   "sl": 131.7122857142857,
+   "tp": 136.08542857142854,
+   "zone": [
+    131.77,
+    132.81
+   ],
+   "t": 1793841300000,
+   "status": "open"
+  },
+  {
+   "id": "UNI/USDT:USDT|long|1793828700000",
+   "symbol": "UNI/USDT:USDT",
+   "sym": "UNI",
+   "side": "long",
+   "tf": "15m",
+   "entry": 7.63,
+   "sl": 7.551114285714286,
+   "tp": 7.7877714285714275,
+   "zone": [
+    7.557,
+    7.609
+   ],
+   "t": 1793841300000,
+   "status": "open"
+  },
+  {
+   "id": "GIGGLE/USDT:USDT|long|1793802600000",
+   "symbol": "GIGGLE/USDT:USDT",
+   "sym": "GIGGLE",
+   "side": "long",
+   "tf": "15m",
+   "entry": 30.01,
+   "sl": 29.616214285714285,
+   "tp": 30.797571428571434,
+   "zone": [
+    29.63,
+    29.86
+   ],
+   "t": 1793841300000,
    "status": "open"
   }
  ],
- "updated": 1793826000000,
+ "updated": 1793840400000,
  "exchange": "okx",
  "tf": "15m"
 }
