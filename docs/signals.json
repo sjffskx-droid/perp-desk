@@ -1,23 +1,6 @@
 {
  "signals": [
   {
-   "id": "ICP/USDT:USDT|long|1792018800000",
-   "symbol": "ICP/USDT:USDT",
-   "sym": "ICP",
-   "side": "long",
-   "tf": "15m",
-   "entry": 3.056,
-   "sl": 3.021114285714286,
-   "tp": 3.1257714285714284,
-   "zone": [
-    3.023,
-    3.05
-   ],
-   "t": 1792021500000,
-   "status": "sl",
-   "closed": 1792026900000
-  },
-  {
    "id": "TRUMP/USDT:USDT|long|1792013400000",
    "symbol": "TRUMP/USDT:USDT",
    "sym": "TRUMP",
@@ -5099,9 +5082,25 @@
    "t": 1793896200000,
    "status": "tp",
    "closed": 1793907000000
+  },
+  {
+   "id": "INTC/USDT:USDT|long|1793956500000",
+   "symbol": "INTC/USDT:USDT",
+   "sym": "INTC",
+   "side": "long",
+   "tf": "15m",
+   "entry": 54.79,
+   "sl": 54.3975,
+   "tp": 55.574999999999996,
+   "zone": [
+    54.44,
+    54.69
+   ],
+   "t": 1793959200000,
+   "status": "open"
   }
  ],
- "updated": 1793930400000,
+ "updated": 1793959200000,
  "exchange": "okx",
  "tf": "15m"
 }
