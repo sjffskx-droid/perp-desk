@@ -4825,7 +4825,7 @@
     97.17
    ],
    "t": 1794002400000,
-   "status": "open"
+   "status": "exp"
   },
   {
    "id": "HYPE/USDT:USDT|long|1794001500000",
@@ -4858,7 +4858,7 @@
     89.97
    ],
    "t": 1794002400000,
-   "status": "open"
+   "status": "exp"
   },
   {
    "id": "AAVE/USDT:USDT|long|1794001500000",
@@ -5092,10 +5092,11 @@
     1025.5
    ],
    "t": 1794078900000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1794079800000
   }
  ],
- "updated": 1794078000000,
+ "updated": 1794092400000,
  "exchange": "okx",
  "tf": "15m"
 }
