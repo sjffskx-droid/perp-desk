@@ -1,108 +1,6 @@
 {
  "signals": [
   {
-   "id": "ICP/USDT:USDT|long|1792052100000",
-   "symbol": "ICP/USDT:USDT",
-   "sym": "ICP",
-   "side": "long",
-   "tf": "15m",
-   "entry": 2.928,
-   "sl": 2.8927,
-   "tp": 2.9985999999999997,
-   "zone": [
-    2.895,
-    2.921
-   ],
-   "t": 1792054800000,
-   "status": "sl",
-   "closed": 1792058400000
-  },
-  {
-   "id": "BTC/USDT:USDT|short|1792068300000",
-   "symbol": "BTC/USDT:USDT",
-   "sym": "BTC",
-   "side": "short",
-   "tf": "15m",
-   "entry": 81021.5,
-   "sl": 81184.45357142857,
-   "tp": 80695.59285714285,
-   "zone": [
-    80933.3,
-    81142.0
-   ],
-   "t": 1792072800000,
-   "status": "sl",
-   "closed": 1792073700000
-  },
-  {
-   "id": "ETH/USDT:USDT|short|1792067400000",
-   "symbol": "ETH/USDT:USDT",
-   "sym": "ETH",
-   "side": "short",
-   "tf": "15m",
-   "entry": 2368.74,
-   "sl": 2373.238714285714,
-   "tp": 2359.742571428571,
-   "zone": [
-    2363.5,
-    2371.56
-   ],
-   "t": 1792072800000,
-   "status": "sl",
-   "closed": 1792073700000
-  },
-  {
-   "id": "BNB/USDT:USDT|short|1792068300000",
-   "symbol": "BNB/USDT:USDT",
-   "sym": "BNB",
-   "side": "short",
-   "tf": "15m",
-   "entry": 721.3,
-   "sl": 722.6178571428571,
-   "tp": 718.6642857142856,
-   "zone": [
-    720.1,
-    722.3
-   ],
-   "t": 1792072800000,
-   "status": "sl",
-   "closed": 1792073700000
-  },
-  {
-   "id": "SOL/USDT:USDT|short|1792043100000",
-   "symbol": "SOL/USDT:USDT",
-   "sym": "SOL",
-   "side": "short",
-   "tf": "15m",
-   "entry": 103.04,
-   "sl": 104.36992857142857,
-   "tp": 100.38014285714287,
-   "zone": [
-    103.59,
-    104.29
-   ],
-   "t": 1792072800000,
-   "status": "sl",
-   "closed": 1792075500000
-  },
-  {
-   "id": "FIL/USDT:USDT|short|1792069200000",
-   "symbol": "FIL/USDT:USDT",
-   "sym": "FIL",
-   "side": "short",
-   "tf": "15m",
-   "entry": 1.0271,
-   "sl": 1.0394214285714285,
-   "tp": 1.0024571428571427,
-   "zone": [
-    1.0296,
-    1.0383
-   ],
-   "t": 1792072800000,
-   "status": "sl",
-   "closed": 1792074600000
-  },
-  {
    "id": "BCH/USDT:USDT|short|1792029600000",
    "symbol": "BCH/USDT:USDT",
    "sym": "BCH",
@@ -5077,7 +4975,8 @@
     131.22
    ],
    "t": 1794002400000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1794005100000
   },
   {
    "id": "WLD/USDT:USDT|long|1794001500000",
@@ -5093,10 +4992,107 @@
     0.348
    ],
    "t": 1794002400000,
+   "status": "sl",
+   "closed": 1794003300000
+  },
+  {
+   "id": "SOXL/USDT:USDT|short|1794014100000",
+   "symbol": "SOXL/USDT:USDT",
+   "sym": "SOXL",
+   "side": "short",
+   "tf": "15m",
+   "entry": 46.56,
+   "sl": 47.316857142857145,
+   "tp": 45.046285714285716,
+   "zone": [
+    46.32,
+    47.27
+   ],
+   "t": 1794015900000,
+   "status": "open"
+  },
+  {
+   "id": "MU/USDT:USDT|short|1794014100000",
+   "symbol": "MU/USDT:USDT",
+   "sym": "MU",
+   "side": "short",
+   "tf": "15m",
+   "entry": 695.61,
+   "sl": 699.8618571428572,
+   "tp": 687.1062857142857,
+   "zone": [
+    695.48,
+    699.5
+   ],
+   "t": 1794015900000,
+   "status": "open"
+  },
+  {
+   "id": "SOXS/USDT:USDT|long|1794014100000",
+   "symbol": "SOXS/USDT:USDT",
+   "sym": "SOXS",
+   "side": "long",
+   "tf": "15m",
+   "entry": 70.35,
+   "sl": 69.08907142857143,
+   "tp": 72.87185714285712,
+   "zone": [
+    69.16,
+    70.57
+   ],
+   "t": 1794015900000,
+   "status": "open"
+  },
+  {
+   "id": "SKHY/USDT:USDT|long|1794015000000",
+   "symbol": "SKHY/USDT:USDT",
+   "sym": "SKHY",
+   "side": "long",
+   "tf": "15m",
+   "entry": 128.97,
+   "sl": 127.52235714285713,
+   "tp": 131.86528571428573,
+   "zone": [
+    127.57,
+    128.68
+   ],
+   "t": 1794015900000,
+   "status": "open"
+  },
+  {
+   "id": "KORU/USDT:USDT|long|1794015000000",
+   "symbol": "KORU/USDT:USDT",
+   "sym": "KORU",
+   "side": "long",
+   "tf": "15m",
+   "entry": 7.02,
+   "sl": 6.864857142857143,
+   "tp": 7.330285714285713,
+   "zone": [
+    6.87,
+    7.0
+   ],
+   "t": 1794015900000,
+   "status": "open"
+  },
+  {
+   "id": "AAOI/USDT:USDT|short|1794014100000",
+   "symbol": "AAOI/USDT:USDT",
+   "sym": "AAOI",
+   "side": "short",
+   "tf": "15m",
+   "entry": 50.08,
+   "sl": 50.26807142857143,
+   "tp": 49.70385714285713,
+   "zone": [
+    49.95,
+    50.24
+   ],
+   "t": 1794015900000,
    "status": "open"
   }
  ],
- "updated": 1794002400000,
+ "updated": 1794016800000,
  "exchange": "okx",
  "tf": "15m"
 }
