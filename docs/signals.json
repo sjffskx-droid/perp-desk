@@ -1,40 +1,6 @@
 {
  "signals": [
   {
-   "id": "AAVE/USDT:USDT|long|1792098000000",
-   "symbol": "AAVE/USDT:USDT",
-   "sym": "AAVE",
-   "side": "long",
-   "tf": "15m",
-   "entry": 158.03,
-   "sl": 156.048,
-   "tp": 161.994,
-   "zone": [
-    156.12,
-    157.38
-   ],
-   "t": 1792098900000,
-   "status": "tp",
-   "closed": 1792146600000
-  },
-  {
-   "id": "XAG/USDT:USDT|long|1792090800000",
-   "symbol": "XAG/USDT:USDT",
-   "sym": "XAG",
-   "side": "long",
-   "tf": "15m",
-   "entry": 57.22,
-   "sl": 57.14364285714286,
-   "tp": 57.37271428571428,
-   "zone": [
-    57.15,
-    57.21
-   ],
-   "t": 1792107000000,
-   "status": "tp",
-   "closed": 1792111500000
-  },
-  {
    "id": "XPD/USDT:USDT|short|1792106100000",
    "symbol": "XPD/USDT:USDT",
    "sym": "XPD",
@@ -4976,7 +4942,8 @@
     47.27
    ],
    "t": 1794015900000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1794041100000
   },
   {
    "id": "MU/USDT:USDT|short|1794014100000",
@@ -5009,7 +4976,8 @@
     70.57
    ],
    "t": 1794015900000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1794041100000
   },
   {
    "id": "SKHY/USDT:USDT|long|1794015000000",
@@ -5090,10 +5058,43 @@
     1317.96
    ],
    "t": 1794040200000,
+   "status": "sl",
+   "closed": 1794046500000
+  },
+  {
+   "id": "UNI/USDT:USDT|long|1794061800000",
+   "symbol": "UNI/USDT:USDT",
+   "sym": "UNI",
+   "side": "long",
+   "tf": "15m",
+   "entry": 7.047,
+   "sl": 7.017685714285714,
+   "tp": 7.1056285714285705,
+   "zone": [
+    7.021,
+    7.045
+   ],
+   "t": 1794063600000,
+   "status": "open"
+  },
+  {
+   "id": "KORU/USDT:USDT|long|1794057300000",
+   "symbol": "KORU/USDT:USDT",
+   "sym": "KORU",
+   "side": "long",
+   "tf": "15m",
+   "entry": 7.0,
+   "sl": 6.9773571428571435,
+   "tp": 7.045285714285713,
+   "zone": [
+    6.98,
+    7.01
+   ],
+   "t": 1794063600000,
    "status": "open"
   }
  ],
- "updated": 1794038400000,
+ "updated": 1794063600000,
  "exchange": "okx",
  "tf": "15m"
 }
