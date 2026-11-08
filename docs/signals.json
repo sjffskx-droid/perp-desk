@@ -5008,7 +5008,8 @@
     1965.0
    ],
    "t": 1794168000000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1794174300000
   },
   {
    "id": "SNDK/USDT:USDT|long|1794160800000",
@@ -5024,7 +5025,8 @@
     837.0
    ],
    "t": 1794168000000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1794169800000
   },
   {
    "id": "LIT/USDT:USDT|long|1794166200000",
@@ -5040,7 +5042,8 @@
     3.1854
    ],
    "t": 1794168000000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1794172500000
   },
   {
    "id": "MU/USDT:USDT|long|1794160800000",
@@ -5056,7 +5059,8 @@
     695.38
    ],
    "t": 1794168000000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1794169800000
   },
   {
    "id": "ACT/USDT:USDT|short|1794167100000",
@@ -5072,7 +5076,8 @@
     0.009874
    ],
    "t": 1794168000000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1794174300000
   },
   {
    "id": "SKHYNIX/USDT:USDT|long|1794160800000",
@@ -5088,10 +5093,11 @@
     875.9
    ],
    "t": 1794168000000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1794169800000
   }
  ],
- "updated": 1794168000000,
+ "updated": 1794178800000,
  "exchange": "okx",
  "tf": "15m"
 }
