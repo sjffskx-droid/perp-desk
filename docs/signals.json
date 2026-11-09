@@ -1,23 +1,6 @@
 {
  "signals": [
   {
-   "id": "SOL/USDT:USDT|long|1792125900000",
-   "symbol": "SOL/USDT:USDT",
-   "sym": "SOL",
-   "side": "long",
-   "tf": "15m",
-   "entry": 105.64,
-   "sl": 104.87771428571429,
-   "tp": 107.16457142857142,
-   "zone": [
-    104.93,
-    105.32
-   ],
-   "t": 1792155600000,
-   "status": "sl",
-   "closed": 1792162800000
-  },
-  {
    "id": "SOXL/USDT:USDT|short|1792154700000",
    "symbol": "SOXL/USDT:USDT",
    "sym": "SOXL",
@@ -5095,9 +5078,25 @@
    "t": 1794168000000,
    "status": "sl",
    "closed": 1794169800000
+  },
+  {
+   "id": "TAO/USDT:USDT|short|1794193200000",
+   "symbol": "TAO/USDT:USDT",
+   "sym": "TAO",
+   "side": "short",
+   "tf": "15m",
+   "entry": 217.81,
+   "sl": 219.7857857142857,
+   "tp": 213.8584285714286,
+   "zone": [
+    218.21,
+    219.64
+   ],
+   "t": 1794198600000,
+   "status": "open"
   }
  ],
- "updated": 1794178800000,
+ "updated": 1794196800000,
  "exchange": "okx",
  "tf": "15m"
 }
