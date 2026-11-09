@@ -1,40 +1,6 @@
 {
  "signals": [
   {
-   "id": "XPT/USDT:USDT|short|1792170000000",
-   "symbol": "XPT/USDT:USDT",
-   "sym": "XPT",
-   "side": "short",
-   "tf": "15m",
-   "entry": 1633.4,
-   "sl": 1635.8657142857144,
-   "tp": 1628.4685714285715,
-   "zone": [
-    1633.5,
-    1635.4
-   ],
-   "t": 1792170900000,
-   "status": "sl",
-   "closed": 1792171800000
-  },
-  {
-   "id": "SPCX/USDT:USDT|short|1792174500000",
-   "symbol": "SPCX/USDT:USDT",
-   "sym": "SPCX",
-   "side": "short",
-   "tf": "15m",
-   "entry": 146.34,
-   "sl": 146.56642857142856,
-   "tp": 145.8871428571429,
-   "zone": [
-    146.07,
-    146.48
-   ],
-   "t": 1792179900000,
-   "status": "sl",
-   "closed": 1792180800000
-  },
-  {
    "id": "RIVER/USDT:USDT|short|1792175400000",
    "symbol": "RIVER/USDT:USDT",
    "sym": "RIVER",
@@ -5059,7 +5025,8 @@
     684.4
    ],
    "t": 1794230100000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1794237300000
   },
   {
    "id": "OKB/USDT:USDT|long|1794226500000",
@@ -5075,7 +5042,8 @@
     97.52
    ],
    "t": 1794230100000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1794240900000
   },
   {
    "id": "DASH/USDT:USDT|long|1794229200000",
@@ -5091,10 +5059,43 @@
     48.0
    ],
    "t": 1794230100000,
+   "status": "sl",
+   "closed": 1794231000000
+  },
+  {
+   "id": "ZEC/USDT:USDT|long|1794263400000",
+   "symbol": "ZEC/USDT:USDT",
+   "sym": "ZEC",
+   "side": "long",
+   "tf": "15m",
+   "entry": 1174.28,
+   "sl": 1164.3312857142857,
+   "tp": 1194.1774285714284,
+   "zone": [
+    1165.52,
+    1177.72
+   ],
+   "t": 1794264300000,
+   "status": "open"
+  },
+  {
+   "id": "TAO/USDT:USDT|short|1794256200000",
+   "symbol": "TAO/USDT:USDT",
+   "sym": "TAO",
+   "side": "short",
+   "tf": "15m",
+   "entry": 223.56,
+   "sl": 225.02814285714285,
+   "tp": 220.6237142857143,
+   "zone": [
+    223.92,
+    224.92
+   ],
+   "t": 1794264300000,
    "status": "open"
   }
  ],
- "updated": 1794229200000,
+ "updated": 1794265200000,
  "exchange": "okx",
  "tf": "15m"
 }
