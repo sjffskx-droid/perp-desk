@@ -1,91 +1,6 @@
 {
  "signals": [
   {
-   "id": "RIVER/USDT:USDT|short|1792175400000",
-   "symbol": "RIVER/USDT:USDT",
-   "sym": "RIVER",
-   "side": "short",
-   "tf": "15m",
-   "entry": 1.086,
-   "sl": 1.1078857142857144,
-   "tp": 1.0422285714285715,
-   "zone": [
-    1.093,
-    1.106
-   ],
-   "t": 1792179900000,
-   "status": "sl",
-   "closed": 1792186200000
-  },
-  {
-   "id": "AAVE/USDT:USDT|short|1792187100000",
-   "symbol": "AAVE/USDT:USDT",
-   "sym": "AAVE",
-   "side": "short",
-   "tf": "15m",
-   "entry": 154.95,
-   "sl": 155.672,
-   "tp": 153.50599999999997,
-   "zone": [
-    155.17,
-    155.6
-   ],
-   "t": 1792189800000,
-   "status": "sl",
-   "closed": 1792206900000
-  },
-  {
-   "id": "ETH/USDT:USDT|long|1792188000000",
-   "symbol": "ETH/USDT:USDT",
-   "sym": "ETH",
-   "side": "long",
-   "tf": "15m",
-   "entry": 2422.26,
-   "sl": 2414.659357142857,
-   "tp": 2437.4612857142865,
-   "zone": [
-    2415.08,
-    2418.05
-   ],
-   "t": 1792197900000,
-   "status": "tp",
-   "closed": 1792222200000
-  },
-  {
-   "id": "YFI/USDT:USDT|short|1792197000000",
-   "symbol": "YFI/USDT:USDT",
-   "sym": "YFI",
-   "side": "short",
-   "tf": "15m",
-   "entry": 2302.0,
-   "sl": 2308.5857142857144,
-   "tp": 2288.828571428571,
-   "zone": [
-    2299.0,
-    2308.0
-   ],
-   "t": 1792197900000,
-   "status": "tp",
-   "closed": 1792204200000
-  },
-  {
-   "id": "XPT/USDT:USDT|long|1792196100000",
-   "symbol": "XPT/USDT:USDT",
-   "sym": "XPT",
-   "side": "long",
-   "tf": "15m",
-   "entry": 1638.7,
-   "sl": 1638.315,
-   "tp": 1639.47,
-   "zone": [
-    1638.4,
-    1639.3
-   ],
-   "t": 1792197900000,
-   "status": "sl",
-   "closed": 1792198800000
-  },
-  {
    "id": "XAG/USDT:USDT|long|1792207800000",
    "symbol": "XAG/USDT:USDT",
    "sym": "XAG",
@@ -5076,7 +4991,8 @@
     1177.72
    ],
    "t": 1794264300000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1794265200000
   },
   {
    "id": "TAO/USDT:USDT|short|1794256200000",
@@ -5092,10 +5008,91 @@
     224.92
    ],
    "t": 1794264300000,
+   "status": "tp",
+   "closed": 1794276000000
+  },
+  {
+   "id": "BTC/USDT:USDT|short|1794280500000",
+   "symbol": "BTC/USDT:USDT",
+   "sym": "BTC",
+   "side": "short",
+   "tf": "15m",
+   "entry": 74808.8,
+   "sl": 74955.69142857142,
+   "tp": 74515.01714285718,
+   "zone": [
+    74800.0,
+    74936.4
+   ],
+   "t": 1794284100000,
+   "status": "open"
+  },
+  {
+   "id": "XAG/USDT:USDT|short|1794278700000",
+   "symbol": "XAG/USDT:USDT",
+   "sym": "XAG",
+   "side": "short",
+   "tf": "15m",
+   "entry": 53.26,
+   "sl": 53.37007142857143,
+   "tp": 53.03985714285714,
+   "zone": [
+    53.24,
+    53.35
+   ],
+   "t": 1794284100000,
+   "status": "open"
+  },
+  {
+   "id": "TRUMP/USDT:USDT|long|1794283200000",
+   "symbol": "TRUMP/USDT:USDT",
+   "sym": "TRUMP",
+   "side": "long",
+   "tf": "15m",
+   "entry": 1.123,
+   "sl": 1.115157142857143,
+   "tp": 1.138685714285714,
+   "zone": [
+    1.116,
+    1.128
+   ],
+   "t": 1794284100000,
+   "status": "open"
+  },
+  {
+   "id": "MU/USDT:USDT|short|1794283200000",
+   "symbol": "MU/USDT:USDT",
+   "sym": "MU",
+   "side": "short",
+   "tf": "15m",
+   "entry": 728.4,
+   "sl": 729.3282857142857,
+   "tp": 726.5434285714285,
+   "zone": [
+    725.22,
+    728.86
+   ],
+   "t": 1794284100000,
+   "status": "open"
+  },
+  {
+   "id": "AVAX/USDT:USDT|short|1794283200000",
+   "symbol": "AVAX/USDT:USDT",
+   "sym": "AVAX",
+   "side": "short",
+   "tf": "15m",
+   "entry": 8.571,
+   "sl": 8.620478571428572,
+   "tp": 8.472042857142855,
+   "zone": [
+    8.565,
+    8.615
+   ],
+   "t": 1794284100000,
    "status": "open"
   }
  ],
- "updated": 1794265200000,
+ "updated": 1794283200000,
  "exchange": "okx",
  "tf": "15m"
 }
