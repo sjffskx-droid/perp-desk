@@ -1,57 +1,6 @@
 {
  "signals": [
   {
-   "id": "ZEC/USDT:USDT|long|1792213200000",
-   "symbol": "ZEC/USDT:USDT",
-   "sym": "ZEC",
-   "side": "long",
-   "tf": "15m",
-   "entry": 1158.08,
-   "sl": 1149.4552142857142,
-   "tp": 1175.3295714285714,
-   "zone": [
-    1150.1,
-    1157.49
-   ],
-   "t": 1792241100000,
-   "status": "tp",
-   "closed": 1792246500000
-  },
-  {
-   "id": "SKHYNIX/USDT:USDT|long|1792194300000",
-   "symbol": "SKHYNIX/USDT:USDT",
-   "sym": "SKHYNIX",
-   "side": "long",
-   "tf": "15m",
-   "entry": 920.2,
-   "sl": 915.2049999999999,
-   "tp": 930.1900000000003,
-   "zone": [
-    915.4,
-    917.3
-   ],
-   "t": 1792241100000,
-   "status": "sl",
-   "closed": 1792250100000
-  },
-  {
-   "id": "TSLA/USDT:USDT|short|1792240200000",
-   "symbol": "TSLA/USDT:USDT",
-   "sym": "TSLA",
-   "side": "short",
-   "tf": "15m",
-   "entry": 353.15,
-   "sl": 353.729,
-   "tp": 351.99199999999996,
-   "zone": [
-    353.45,
-    353.69
-   ],
-   "t": 1792241100000,
-   "status": "tp",
-   "closed": 1792251000000
-  },
-  {
    "id": "YFI/USDT:USDT|short|1792251900000",
    "symbol": "YFI/USDT:USDT",
    "sym": "YFI",
@@ -5042,7 +4991,8 @@
     71.768
    ],
    "t": 1794340800000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1794362400000
   },
   {
    "id": "INJ/USDT:USDT|short|1794324600000",
@@ -5058,7 +5008,8 @@
     8.249
    ],
    "t": 1794340800000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1794360600000
   },
   {
    "id": "XAU/USDT:USDT|long|1794354300000",
@@ -5074,7 +5025,8 @@
     4043.7
    ],
    "t": 1794357000000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1794358800000
   },
   {
    "id": "INJ/USDT:USDT|short|1794351600000",
@@ -5090,10 +5042,59 @@
     8.153
    ],
    "t": 1794357000000,
+   "status": "sl",
+   "closed": 1794359700000
+  },
+  {
+   "id": "BZ/USDT:USDT|long|1794364200000",
+   "symbol": "BZ/USDT:USDT",
+   "sym": "BZ",
+   "side": "long",
+   "tf": "15m",
+   "entry": 90.84,
+   "sl": 90.57971428571427,
+   "tp": 91.36057142857146,
+   "zone": [
+    90.6,
+    90.76
+   ],
+   "t": 1794380400000,
+   "status": "open"
+  },
+  {
+   "id": "TAO/USDT:USDT|long|1794357000000",
+   "symbol": "TAO/USDT:USDT",
+   "sym": "TAO",
+   "side": "long",
+   "tf": "15m",
+   "entry": 217.11,
+   "sl": 216.00185714285715,
+   "tp": 219.32628571428575,
+   "zone": [
+    216.11,
+    217.08
+   ],
+   "t": 1794380400000,
+   "status": "open"
+  },
+  {
+   "id": "NVDA/USDT:USDT|long|1794366000000",
+   "symbol": "NVDA/USDT:USDT",
+   "sym": "NVDA",
+   "side": "long",
+   "tf": "15m",
+   "entry": 172.19,
+   "sl": 171.79085714285713,
+   "tp": 172.98828571428572,
+   "zone": [
+    171.85,
+    172.28
+   ],
+   "t": 1794380400000,
    "status": "open"
   }
  ],
- "updated": 1794355200000,
+ "updated": 1794380400000,
  "exchange": "okx",
  "tf": "15m"
 }
