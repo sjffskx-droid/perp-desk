@@ -1,23 +1,6 @@
 {
  "signals": [
   {
-   "id": "BCH/USDT:USDT|short|1792255500000",
-   "symbol": "BCH/USDT:USDT",
-   "sym": "BCH",
-   "side": "short",
-   "tf": "15m",
-   "entry": 274.4,
-   "sl": 275.415,
-   "tp": 272.3699999999999,
-   "zone": [
-    274.6,
-    275.3
-   ],
-   "t": 1792260900000,
-   "status": "sl",
-   "closed": 1792262700000
-  },
-  {
    "id": "SKHYNIX/USDT:USDT|short|1792251000000",
    "symbol": "SKHYNIX/USDT:USDT",
    "sym": "SKHYNIX",
@@ -5042,7 +5025,8 @@
     72.323
    ],
    "t": 1794410100000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1794436200000
   },
   {
    "id": "BCH/USDT:USDT|long|1794403800000",
@@ -5092,10 +5076,27 @@
     62.73
    ],
    "t": 1794434400000,
+   "status": "tp",
+   "closed": 1794436200000
+  },
+  {
+   "id": "DASH/USDT:USDT|long|1794449700000",
+   "symbol": "DASH/USDT:USDT",
+   "sym": "DASH",
+   "side": "long",
+   "tf": "15m",
+   "entry": 42.39,
+   "sl": 42.164857142857144,
+   "tp": 42.84028571428571,
+   "zone": [
+    42.2,
+    42.48
+   ],
+   "t": 1794451500000,
    "status": "open"
   }
  ],
- "updated": 1794434400000,
+ "updated": 1794452400000,
  "exchange": "okx",
  "tf": "15m"
 }
