@@ -1,23 +1,6 @@
 {
  "signals": [
   {
-   "id": "STRK/USDT:USDT|short|1792271700000",
-   "symbol": "STRK/USDT:USDT",
-   "sym": "STRK",
-   "side": "short",
-   "tf": "15m",
-   "entry": 0.06486,
-   "sl": 0.06559392857142857,
-   "tp": 0.06339214285714287,
-   "zone": [
-    0.06506,
-    0.06552
-   ],
-   "t": 1792277100000,
-   "status": "tp",
-   "closed": 1792290600000
-  },
-  {
    "id": "ETH/USDT:USDT|long|1792292400000",
    "symbol": "ETH/USDT:USDT",
    "sym": "ETH",
@@ -5059,7 +5042,8 @@
     51.3
    ],
    "t": 1794481200000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1794482100000
   },
   {
    "id": "NVDA/USDT:USDT|long|1794475800000",
@@ -5075,7 +5059,8 @@
     162.6
    ],
    "t": 1794481200000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1794482100000
   },
   {
    "id": "INTC/USDT:USDT|long|1794474900000",
@@ -5091,10 +5076,27 @@
     60.98
    ],
    "t": 1794481200000,
+   "status": "sl",
+   "closed": 1794487500000
+  },
+  {
+   "id": "TRUMP/USDT:USDT|short|1794483000000",
+   "symbol": "TRUMP/USDT:USDT",
+   "sym": "TRUMP",
+   "side": "short",
+   "tf": "15m",
+   "entry": 1.115,
+   "sl": 1.1229642857142859,
+   "tp": 1.0990714285714283,
+   "zone": [
+    1.114,
+    1.122
+   ],
+   "t": 1794509100000,
    "status": "open"
   }
  ],
- "updated": 1794481200000,
+ "updated": 1794510000000,
  "exchange": "okx",
  "tf": "15m"
 }
