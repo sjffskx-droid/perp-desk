@@ -1,57 +1,6 @@
 {
  "signals": [
   {
-   "id": "SKHYNIX/USDT:USDT|short|1792251000000",
-   "symbol": "SKHYNIX/USDT:USDT",
-   "sym": "SKHYNIX",
-   "side": "short",
-   "tf": "15m",
-   "entry": 918.6,
-   "sl": 919.4192857142857,
-   "tp": 916.9614285714287,
-   "zone": [
-    918.4,
-    919.2
-   ],
-   "t": 1792260900000,
-   "status": "sl",
-   "closed": 1792261800000
-  },
-  {
-   "id": "BNB/USDT:USDT|short|1792250100000",
-   "symbol": "BNB/USDT:USDT",
-   "sym": "BNB",
-   "side": "short",
-   "tf": "15m",
-   "entry": 719.6,
-   "sl": 722.6164285714285,
-   "tp": 713.567142857143,
-   "zone": [
-    720.5,
-    722.5
-   ],
-   "t": 1792269900000,
-   "status": "tp",
-   "closed": 1792272600000
-  },
-  {
-   "id": "CL/USDT:USDT|long|1792272600000",
-   "symbol": "CL/USDT:USDT",
-   "sym": "CL",
-   "side": "long",
-   "tf": "15m",
-   "entry": 99.15,
-   "sl": 99.06478571428572,
-   "tp": 99.32042857142858,
-   "zone": [
-    99.08,
-    99.15
-   ],
-   "t": 1792277100000,
-   "status": "sl",
-   "closed": 1792278900000
-  },
-  {
    "id": "STRK/USDT:USDT|short|1792271700000",
    "symbol": "STRK/USDT:USDT",
    "sym": "STRK",
@@ -5093,10 +5042,59 @@
     42.48
    ],
    "t": 1794451500000,
+   "status": "sl",
+   "closed": 1794453300000
+  },
+  {
+   "id": "XAG/USDT:USDT|long|1794480300000",
+   "symbol": "XAG/USDT:USDT",
+   "sym": "XAG",
+   "side": "long",
+   "tf": "15m",
+   "entry": 51.27,
+   "sl": 51.16978571428571,
+   "tp": 51.47042857142859,
+   "zone": [
+    51.19,
+    51.3
+   ],
+   "t": 1794481200000,
+   "status": "open"
+  },
+  {
+   "id": "NVDA/USDT:USDT|long|1794475800000",
+   "symbol": "NVDA/USDT:USDT",
+   "sym": "NVDA",
+   "side": "long",
+   "tf": "15m",
+   "entry": 162.03,
+   "sl": 161.18142857142857,
+   "tp": 163.72714285714287,
+   "zone": [
+    161.3,
+    162.6
+   ],
+   "t": 1794481200000,
+   "status": "open"
+  },
+  {
+   "id": "INTC/USDT:USDT|long|1794474900000",
+   "symbol": "INTC/USDT:USDT",
+   "sym": "INTC",
+   "side": "long",
+   "tf": "15m",
+   "entry": 61.25,
+   "sl": 60.5405,
+   "tp": 62.669,
+   "zone": [
+    60.57,
+    60.98
+   ],
+   "t": 1794481200000,
    "status": "open"
   }
  ],
- "updated": 1794452400000,
+ "updated": 1794481200000,
  "exchange": "okx",
  "tf": "15m"
 }
