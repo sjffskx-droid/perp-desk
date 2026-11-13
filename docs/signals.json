@@ -1,40 +1,6 @@
 {
  "signals": [
   {
-   "id": "ETH/USDT:USDT|long|1792292400000",
-   "symbol": "ETH/USDT:USDT",
-   "sym": "ETH",
-   "side": "long",
-   "tf": "15m",
-   "entry": 2406.76,
-   "sl": 2403.9507857142858,
-   "tp": 2412.378428571429,
-   "zone": [
-    2404.52,
-    2410.27
-   ],
-   "t": 1792301400000,
-   "status": "tp",
-   "closed": 1792303200000
-  },
-  {
-   "id": "SOXL/USDT:USDT|long|1792298700000",
-   "symbol": "SOXL/USDT:USDT",
-   "sym": "SOXL",
-   "side": "long",
-   "tf": "15m",
-   "entry": 92.05,
-   "sl": 91.37114285714287,
-   "tp": 93.40771428571425,
-   "zone": [
-    91.43,
-    91.69
-   ],
-   "t": 1792301400000,
-   "status": "sl",
-   "closed": 1792330200000
-  },
-  {
    "id": "TIA/USDT:USDT|short|1792300500000",
    "symbol": "TIA/USDT:USDT",
    "sym": "TIA",
@@ -5093,10 +5059,43 @@
     1.122
    ],
    "t": 1794509100000,
+   "status": "sl",
+   "closed": 1794510900000
+  },
+  {
+   "id": "XAU/USDT:USDT|long|1794527100000",
+   "symbol": "XAU/USDT:USDT",
+   "sym": "XAU",
+   "side": "long",
+   "tf": "15m",
+   "entry": 3895.0,
+   "sl": 3883.327857142857,
+   "tp": 3918.3442857142863,
+   "zone": [
+    3883.7,
+    3888.2
+   ],
+   "t": 1794528000000,
+   "status": "open"
+  },
+  {
+   "id": "XAG/USDT:USDT|long|1794527100000",
+   "symbol": "XAG/USDT:USDT",
+   "sym": "XAG",
+   "side": "long",
+   "tf": "15m",
+   "entry": 50.31,
+   "sl": 50.10328571428571,
+   "tp": 50.723428571428585,
+   "zone": [
+    50.11,
+    50.19
+   ],
+   "t": 1794528000000,
    "status": "open"
   }
  ],
- "updated": 1794510000000,
+ "updated": 1794528000000,
  "exchange": "okx",
  "tf": "15m"
 }
