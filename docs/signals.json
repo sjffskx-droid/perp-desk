@@ -1,23 +1,6 @@
 {
  "signals": [
   {
-   "id": "OKB/USDT:USDT|short|1792350000000",
-   "symbol": "OKB/USDT:USDT",
-   "sym": "OKB",
-   "side": "short",
-   "tf": "15m",
-   "entry": 110.56,
-   "sl": 112.21392857142857,
-   "tp": 107.25214285714287,
-   "zone": [
-    111.51,
-    112.17
-   ],
-   "t": 1792350900000,
-   "status": "sl",
-   "closed": 1792360800000
-  },
-  {
    "id": "CL/USDT:USDT|long|1792350000000",
    "symbol": "CL/USDT:USDT",
    "sym": "CL",
@@ -4923,7 +4906,8 @@
     1798.0
    ],
    "t": 1794552300000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1794608100000
   },
   {
    "id": "AAVE/USDT:USDT|long|1794550500000",
@@ -5074,7 +5058,8 @@
     0.7143
    ],
    "t": 1794604500000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1794605400000
   },
   {
    "id": "GIGGLE/USDT:USDT|short|1794603600000",
@@ -5090,10 +5075,27 @@
     25.52
    ],
    "t": 1794604500000,
+   "status": "tp",
+   "closed": 1794605400000
+  },
+  {
+   "id": "MU/USDT:USDT|short|1794617100000",
+   "symbol": "MU/USDT:USDT",
+   "sym": "MU",
+   "side": "short",
+   "tf": "15m",
+   "entry": 764.65,
+   "sl": 766.9987857142858,
+   "tp": 759.9524285714284,
+   "zone": [
+    764.89,
+    766.76
+   ],
+   "t": 1794618900000,
    "status": "open"
   }
  ],
- "updated": 1794603600000,
+ "updated": 1794618000000,
  "exchange": "okx",
  "tf": "15m"
 }
