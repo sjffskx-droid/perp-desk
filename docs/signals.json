@@ -1,57 +1,6 @@
 {
  "signals": [
   {
-   "id": "BTC/USDT:USDT|short|1792351800000",
-   "symbol": "BTC/USDT:USDT",
-   "sym": "BTC",
-   "side": "short",
-   "tf": "15m",
-   "entry": 81105.5,
-   "sl": 81197.9992857143,
-   "tp": 80920.50142857141,
-   "zone": [
-    81097.5,
-    81181.8
-   ],
-   "t": 1792359000000,
-   "status": "sl",
-   "closed": 1792359900000
-  },
-  {
-   "id": "ETH/USDT:USDT|short|1792350900000",
-   "symbol": "ETH/USDT:USDT",
-   "sym": "ETH",
-   "side": "short",
-   "tf": "15m",
-   "entry": 2363.85,
-   "sl": 2369.175142857143,
-   "tp": 2353.199714285714,
-   "zone": [
-    2363.1,
-    2368.12
-   ],
-   "t": 1792359000000,
-   "status": "sl",
-   "closed": 1792359900000
-  },
-  {
-   "id": "VVV/USDT:USDT|long|1792365300000",
-   "symbol": "VVV/USDT:USDT",
-   "sym": "VVV",
-   "side": "long",
-   "tf": "15m",
-   "entry": 22.61,
-   "sl": 22.383364285714286,
-   "tp": 23.063271428571426,
-   "zone": [
-    22.411,
-    22.643
-   ],
-   "t": 1792366200000,
-   "status": "tp",
-   "closed": 1792373400000
-  },
-  {
    "id": "HYPE/USDT:USDT|long|1792377900000",
    "symbol": "HYPE/USDT:USDT",
    "sym": "HYPE",
@@ -4923,7 +4872,7 @@
     70187.7
    ],
    "t": 1794582000000,
-   "status": "open"
+   "status": "exp"
   },
   {
    "id": "ETH/USDT:USDT|long|1794564000000",
@@ -5092,10 +5041,59 @@
     40.05
    ],
    "t": 1794642300000,
+   "status": "tp",
+   "closed": 1794661200000
+  },
+  {
+   "id": "SOXL/USDT:USDT|short|1794661200000",
+   "symbol": "SOXL/USDT:USDT",
+   "sym": "SOXL",
+   "side": "short",
+   "tf": "15m",
+   "entry": 56.0,
+   "sl": 56.033142857142856,
+   "tp": 55.93371428571429,
+   "zone": [
+    55.94,
+    56.01
+   ],
+   "t": 1794667500000,
+   "status": "open"
+  },
+  {
+   "id": "BERA/USDT:USDT|short|1794665700000",
+   "symbol": "BERA/USDT:USDT",
+   "sym": "BERA",
+   "side": "short",
+   "tf": "15m",
+   "entry": 0.1029,
+   "sl": 0.10433428571428571,
+   "tp": 0.10003142857142859,
+   "zone": [
+    0.103,
+    0.1042
+   ],
+   "t": 1794667500000,
+   "status": "open"
+  },
+  {
+   "id": "SNXX/USDT:USDT|short|1794666600000",
+   "symbol": "SNXX/USDT:USDT",
+   "sym": "SNXX",
+   "side": "short",
+   "tf": "15m",
+   "entry": 3.381,
+   "sl": 3.4210142857142856,
+   "tp": 3.3009714285714282,
+   "zone": [
+    3.352,
+    3.419
+   ],
+   "t": 1794667500000,
    "status": "open"
   }
  ],
- "updated": 1794643200000,
+ "updated": 1794668400000,
  "exchange": "okx",
  "tf": "15m"
 }
