@@ -1,23 +1,6 @@
 {
  "signals": [
   {
-   "id": "HYPE/USDT:USDT|long|1792377900000",
-   "symbol": "HYPE/USDT:USDT",
-   "sym": "HYPE",
-   "side": "long",
-   "tf": "15m",
-   "entry": 79.476,
-   "sl": 79.07184285714285,
-   "tp": 80.28431428571429,
-   "zone": [
-    79.103,
-    79.442
-   ],
-   "t": 1792378800000,
-   "status": "tp",
-   "closed": 1792391400000
-  },
-  {
    "id": "QUANT/USDT:USDT|long|1792373400000",
    "symbol": "QUANT/USDT:USDT",
    "sym": "QUANT",
@@ -5058,7 +5041,8 @@
     56.01
    ],
    "t": 1794667500000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1794668400000
   },
   {
    "id": "BERA/USDT:USDT|short|1794665700000",
@@ -5074,7 +5058,8 @@
     0.1042
    ],
    "t": 1794667500000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1794669300000
   },
   {
    "id": "SNXX/USDT:USDT|short|1794666600000",
@@ -5090,10 +5075,27 @@
     3.419
    ],
    "t": 1794667500000,
+   "status": "tp",
+   "closed": 1794672000000
+  },
+  {
+   "id": "AAVE/USDT:USDT|short|1794683700000",
+   "symbol": "AAVE/USDT:USDT",
+   "sym": "AAVE",
+   "side": "short",
+   "tf": "15m",
+   "entry": 102.23,
+   "sl": 102.47864285714286,
+   "tp": 101.7327142857143,
+   "zone": [
+    101.92,
+    102.38
+   ],
+   "t": 1794684600000,
    "status": "open"
   }
  ],
- "updated": 1794668400000,
+ "updated": 1794682800000,
  "exchange": "okx",
  "tf": "15m"
 }
