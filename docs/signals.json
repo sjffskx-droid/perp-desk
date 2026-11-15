@@ -1,40 +1,6 @@
 {
  "signals": [
   {
-   "id": "XAU/USDT:USDT|short|1792424700000",
-   "symbol": "XAU/USDT:USDT",
-   "sym": "XAU",
-   "side": "short",
-   "tf": "15m",
-   "entry": 4152.1,
-   "sl": 4157.674285714285,
-   "tp": 4140.95142857143,
-   "zone": [
-    4151.4,
-    4157.0
-   ],
-   "t": 1792425600000,
-   "status": "tp",
-   "closed": 1792453500000
-  },
-  {
-   "id": "SKHYNIX/USDT:USDT|long|1792423800000",
-   "symbol": "SKHYNIX/USDT:USDT",
-   "sym": "SKHYNIX",
-   "side": "long",
-   "tf": "15m",
-   "entry": 978.7,
-   "sl": 970.3928571428571,
-   "tp": 995.3142857142859,
-   "zone": [
-    971.1,
-    977.9
-   ],
-   "t": 1792425600000,
-   "status": "sl",
-   "closed": 1792428300000
-  },
-  {
    "id": "SKHY/USDT:USDT|long|1792422900000",
    "symbol": "SKHY/USDT:USDT",
    "sym": "SKHY",
@@ -5075,7 +5041,8 @@
     6.933
    ],
    "t": 1794762900000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1794763800000
   },
   {
    "id": "CL/USDT:USDT|short|1794762000000",
@@ -5091,10 +5058,43 @@
     87.58
    ],
    "t": 1794762900000,
+   "status": "sl",
+   "closed": 1794766500000
+  },
+  {
+   "id": "FIL/USDT:USDT|short|1794777300000",
+   "symbol": "FIL/USDT:USDT",
+   "sym": "FIL",
+   "side": "short",
+   "tf": "15m",
+   "entry": 0.6081,
+   "sl": 0.6145821428571429,
+   "tp": 0.5951357142857142,
+   "zone": [
+    0.6106,
+    0.6142
+   ],
+   "t": 1794779100000,
+   "status": "open"
+  },
+  {
+   "id": "UNI/USDT:USDT|short|1794777300000",
+   "symbol": "UNI/USDT:USDT",
+   "sym": "UNI",
+   "side": "short",
+   "tf": "15m",
+   "entry": 5.148,
+   "sl": 5.218228571428571,
+   "tp": 5.007542857142857,
+   "zone": [
+    5.168,
+    5.215
+   ],
+   "t": 1794779100000,
    "status": "open"
   }
  ],
- "updated": 1794762000000,
+ "updated": 1794780000000,
  "exchange": "okx",
  "tf": "15m"
 }
