@@ -1,23 +1,6 @@
 {
  "signals": [
   {
-   "id": "QUANT/USDT:USDT|long|1792373400000",
-   "symbol": "QUANT/USDT:USDT",
-   "sym": "QUANT",
-   "side": "long",
-   "tf": "15m",
-   "entry": 193.1,
-   "sl": 189.84571428571428,
-   "tp": 199.60857142857142,
-   "zone": [
-    190.0,
-    191.6
-   ],
-   "t": 1792378800000,
-   "status": "tp",
-   "closed": 1792391400000
-  },
-  {
    "id": "XAU/USDT:USDT|short|1792398600000",
    "symbol": "XAU/USDT:USDT",
    "sym": "XAU",
@@ -5094,9 +5077,25 @@
    "t": 1794684600000,
    "status": "tp",
    "closed": 1794685500000
+  },
+  {
+   "id": "VVV/USDT:USDT|short|1794661200000",
+   "symbol": "VVV/USDT:USDT",
+   "sym": "VVV",
+   "side": "short",
+   "tf": "15m",
+   "entry": 18.291,
+   "sl": 18.35609285714286,
+   "tp": 18.160814285714284,
+   "zone": [
+    18.274,
+    18.324
+   ],
+   "t": 1794710700000,
+   "status": "open"
   }
  ],
- "updated": 1794697200000,
+ "updated": 1794711600000,
  "exchange": "okx",
  "tf": "15m"
 }
