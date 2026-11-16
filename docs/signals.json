@@ -1,23 +1,6 @@
 {
  "signals": [
   {
-   "id": "GIGGLE/USDT:USDT|long|1792444500000",
-   "symbol": "GIGGLE/USDT:USDT",
-   "sym": "GIGGLE",
-   "side": "long",
-   "tf": "15m",
-   "entry": 31.94,
-   "sl": 31.794571428571427,
-   "tp": 32.23085714285715,
-   "zone": [
-    31.81,
-    31.94
-   ],
-   "t": 1792454400000,
-   "status": "sl",
-   "closed": 1792455300000
-  },
-  {
    "id": "ZEC/USDT:USDT|long|1792470600000",
    "symbol": "ZEC/USDT:USDT",
    "sym": "ZEC",
@@ -4990,7 +4973,8 @@
     590.4
    ],
    "t": 1794820500000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1794824100000
   },
   {
    "id": "TAO/USDT:USDT|short|1794819600000",
@@ -5006,7 +4990,8 @@
     189.67
    ],
    "t": 1794820500000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1794824100000
   },
   {
    "id": "SOL/USDT:USDT|short|1794819600000",
@@ -5022,7 +5007,8 @@
     71.04
    ],
    "t": 1794820500000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1794823200000
   },
   {
    "id": "TRUMP/USDT:USDT|short|1794816900000",
@@ -5038,7 +5024,8 @@
     0.942
    ],
    "t": 1794820500000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1794824100000
   },
   {
    "id": "GIGGLE/USDT:USDT|short|1794818700000",
@@ -5054,7 +5041,8 @@
     22.68
    ],
    "t": 1794820500000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1794826800000
   },
   {
    "id": "UNI/USDT:USDT|short|1794819600000",
@@ -5070,7 +5058,8 @@
     5.186
    ],
    "t": 1794820500000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1794839400000
   },
   {
    "id": "SKHY/USDT:USDT|short|1794819600000",
@@ -5086,10 +5075,27 @@
     126.89
    ],
    "t": 1794820500000,
+   "status": "tp",
+   "closed": 1794831300000
+  },
+  {
+   "id": "QUANT/USDT:USDT|long|1794847500000",
+   "symbol": "QUANT/USDT:USDT",
+   "sym": "QUANT",
+   "side": "long",
+   "tf": "15m",
+   "entry": 155.3,
+   "sl": 153.83357142857142,
+   "tp": 158.2328571428572,
+   "zone": [
+    154.0,
+    155.2
+   ],
+   "t": 1794857400000,
    "status": "open"
   }
  ],
- "updated": 1794819600000,
+ "updated": 1794855600000,
  "exchange": "okx",
  "tf": "15m"
 }
