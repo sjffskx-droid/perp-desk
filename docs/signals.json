@@ -1,125 +1,6 @@
 {
  "signals": [
   {
-   "id": "BTC/USDT:USDT|short|1792453500000",
-   "symbol": "BTC/USDT:USDT",
-   "sym": "BTC",
-   "side": "short",
-   "tf": "15m",
-   "entry": 81760.0,
-   "sl": 82086.70785714286,
-   "tp": 81106.58428571429,
-   "zone": [
-    81975.3,
-    82074.7
-   ],
-   "t": 1792454400000,
-   "status": "sl",
-   "closed": 1792467900000
-  },
-  {
-   "id": "ETH/USDT:USDT|long|1792447200000",
-   "symbol": "ETH/USDT:USDT",
-   "sym": "ETH",
-   "side": "long",
-   "tf": "15m",
-   "entry": 2400.82,
-   "sl": 2399.0955714285715,
-   "tp": 2404.2688571428575,
-   "zone": [
-    2399.67,
-    2402.76
-   ],
-   "t": 1792454400000,
-   "status": "sl",
-   "closed": 1792455300000
-  },
-  {
-   "id": "BNB/USDT:USDT|long|1792447200000",
-   "symbol": "BNB/USDT:USDT",
-   "sym": "BNB",
-   "side": "long",
-   "tf": "15m",
-   "entry": 730.0,
-   "sl": 728.7507142857143,
-   "tp": 732.4985714285715,
-   "zone": [
-    728.9,
-    729.8
-   ],
-   "t": 1792454400000,
-   "status": "sl",
-   "closed": 1792455300000
-  },
-  {
-   "id": "YFI/USDT:USDT|long|1792447200000",
-   "symbol": "YFI/USDT:USDT",
-   "sym": "YFI",
-   "side": "long",
-   "tf": "15m",
-   "entry": 2200.0,
-   "sl": 2197.464285714286,
-   "tp": 2205.0714285714284,
-   "zone": [
-    2198.0,
-    2202.0
-   ],
-   "t": 1792454400000,
-   "status": "sl",
-   "closed": 1792455300000
-  },
-  {
-   "id": "OKB/USDT:USDT|long|1792447200000",
-   "symbol": "OKB/USDT:USDT",
-   "sym": "OKB",
-   "side": "long",
-   "tf": "15m",
-   "entry": 113.58,
-   "sl": 113.34221428571429,
-   "tp": 114.05557142857141,
-   "zone": [
-    113.37,
-    113.61
-   ],
-   "t": 1792454400000,
-   "status": "sl",
-   "closed": 1792455300000
-  },
-  {
-   "id": "SOL/USDT:USDT|long|1792447200000",
-   "symbol": "SOL/USDT:USDT",
-   "sym": "SOL",
-   "side": "long",
-   "tf": "15m",
-   "entry": 104.67,
-   "sl": 104.52771428571428,
-   "tp": 104.95457142857144,
-   "zone": [
-    104.56,
-    104.72
-   ],
-   "t": 1792454400000,
-   "status": "sl",
-   "closed": 1792455300000
-  },
-  {
-   "id": "BCH/USDT:USDT|long|1792452600000",
-   "symbol": "BCH/USDT:USDT",
-   "sym": "BCH",
-   "side": "long",
-   "tf": "15m",
-   "entry": 279.8,
-   "sl": 279.21000000000004,
-   "tp": 280.97999999999996,
-   "zone": [
-    279.3,
-    279.5
-   ],
-   "t": 1792454400000,
-   "status": "sl",
-   "closed": 1792455300000
-  },
-  {
    "id": "GIGGLE/USDT:USDT|long|1792444500000",
    "symbol": "GIGGLE/USDT:USDT",
    "sym": "GIGGLE",
@@ -5024,7 +4905,8 @@
     0.6142
    ],
    "t": 1794779100000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1794812400000
   },
   {
    "id": "UNI/USDT:USDT|short|1794777300000",
@@ -5040,7 +4922,8 @@
     5.215
    ],
    "t": 1794779100000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1794795300000
   },
   {
    "id": "OKB/USDT:USDT|short|1794792600000",
@@ -5056,7 +4939,8 @@
     88.05
    ],
    "t": 1794793500000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1794795300000
   },
   {
    "id": "VVV/USDT:USDT|short|1794791700000",
@@ -5072,7 +4956,8 @@
     20.126
    ],
    "t": 1794793500000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1794794400000
   },
   {
    "id": "GIGGLE/USDT:USDT|short|1794792600000",
@@ -5088,10 +4973,123 @@
     22.72
    ],
    "t": 1794793500000,
+   "status": "sl",
+   "closed": 1794794400000
+  },
+  {
+   "id": "BNB/USDT:USDT|short|1794819600000",
+   "symbol": "BNB/USDT:USDT",
+   "sym": "BNB",
+   "side": "short",
+   "tf": "15m",
+   "entry": 588.98,
+   "sl": 590.6132857142857,
+   "tp": 585.7134285714287,
+   "zone": [
+    589.26,
+    590.4
+   ],
+   "t": 1794820500000,
+   "status": "open"
+  },
+  {
+   "id": "TAO/USDT:USDT|short|1794819600000",
+   "symbol": "TAO/USDT:USDT",
+   "sym": "TAO",
+   "side": "short",
+   "tf": "15m",
+   "entry": 188.54,
+   "sl": 189.81657142857142,
+   "tp": 185.98685714285713,
+   "zone": [
+    188.62,
+    189.67
+   ],
+   "t": 1794820500000,
+   "status": "open"
+  },
+  {
+   "id": "SOL/USDT:USDT|short|1794819600000",
+   "symbol": "SOL/USDT:USDT",
+   "sym": "SOL",
+   "side": "short",
+   "tf": "15m",
+   "entry": 70.75,
+   "sl": 71.08592857142858,
+   "tp": 70.07814285714284,
+   "zone": [
+    70.68,
+    71.04
+   ],
+   "t": 1794820500000,
+   "status": "open"
+  },
+  {
+   "id": "TRUMP/USDT:USDT|short|1794816900000",
+   "symbol": "TRUMP/USDT:USDT",
+   "sym": "TRUMP",
+   "side": "short",
+   "tf": "15m",
+   "entry": 0.934,
+   "sl": 0.9427571428571428,
+   "tp": 0.9164857142857145,
+   "zone": [
+    0.937,
+    0.942
+   ],
+   "t": 1794820500000,
+   "status": "open"
+  },
+  {
+   "id": "GIGGLE/USDT:USDT|short|1794818700000",
+   "symbol": "GIGGLE/USDT:USDT",
+   "sym": "GIGGLE",
+   "side": "short",
+   "tf": "15m",
+   "entry": 22.54,
+   "sl": 22.693785714285713,
+   "tp": 22.23242857142857,
+   "zone": [
+    22.53,
+    22.68
+   ],
+   "t": 1794820500000,
+   "status": "open"
+  },
+  {
+   "id": "UNI/USDT:USDT|short|1794819600000",
+   "symbol": "UNI/USDT:USDT",
+   "sym": "UNI",
+   "side": "short",
+   "tf": "15m",
+   "entry": 5.128,
+   "sl": 5.1900571428571425,
+   "tp": 5.003885714285715,
+   "zone": [
+    5.136,
+    5.186
+   ],
+   "t": 1794820500000,
+   "status": "open"
+  },
+  {
+   "id": "SKHY/USDT:USDT|short|1794819600000",
+   "symbol": "SKHY/USDT:USDT",
+   "sym": "SKHY",
+   "side": "short",
+   "tf": "15m",
+   "entry": 125.9,
+   "sl": 126.956,
+   "tp": 123.78800000000001,
+   "zone": [
+    126.19,
+    126.89
+   ],
+   "t": 1794820500000,
    "status": "open"
   }
  ],
- "updated": 1794794400000,
+ "updated": 1794819600000,
  "exchange": "okx",
  "tf": "15m"
 }
