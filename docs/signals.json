@@ -1,57 +1,6 @@
 {
  "signals": [
   {
-   "id": "SKHY/USDT:USDT|long|1792422900000",
-   "symbol": "SKHY/USDT:USDT",
-   "sym": "SKHY",
-   "side": "long",
-   "tf": "15m",
-   "entry": 145.05,
-   "sl": 143.7214285714286,
-   "tp": 147.70714285714286,
-   "zone": [
-    143.83,
-    144.82
-   ],
-   "t": 1792425600000,
-   "status": "sl",
-   "closed": 1792429200000
-  },
-  {
-   "id": "BNB/USDT:USDT|long|1792440900000",
-   "symbol": "BNB/USDT:USDT",
-   "sym": "BNB",
-   "side": "long",
-   "tf": "15m",
-   "entry": 728.3,
-   "sl": 726.1835714285713,
-   "tp": 732.5328571428572,
-   "zone": [
-    726.3,
-    727.9
-   ],
-   "t": 1792442700000,
-   "status": "tp",
-   "closed": 1792447200000
-  },
-  {
-   "id": "VVV/USDT:USDT|long|1792435500000",
-   "symbol": "VVV/USDT:USDT",
-   "sym": "VVV",
-   "side": "long",
-   "tf": "15m",
-   "entry": 24.081,
-   "sl": 23.82655714285714,
-   "tp": 24.589885714285717,
-   "zone": [
-    23.848,
-    24.058
-   ],
-   "t": 1792442700000,
-   "status": "sl",
-   "closed": 1792458000000
-  },
-  {
    "id": "BTC/USDT:USDT|short|1792453500000",
    "symbol": "BTC/USDT:USDT",
    "sym": "BTC",
@@ -5092,9 +5041,57 @@
    ],
    "t": 1794779100000,
    "status": "open"
+  },
+  {
+   "id": "OKB/USDT:USDT|short|1794792600000",
+   "symbol": "OKB/USDT:USDT",
+   "sym": "OKB",
+   "side": "short",
+   "tf": "15m",
+   "entry": 86.97,
+   "sl": 88.10692857142857,
+   "tp": 84.69614285714286,
+   "zone": [
+    87.39,
+    88.05
+   ],
+   "t": 1794793500000,
+   "status": "open"
+  },
+  {
+   "id": "VVV/USDT:USDT|short|1794791700000",
+   "symbol": "VVV/USDT:USDT",
+   "sym": "VVV",
+   "side": "short",
+   "tf": "15m",
+   "entry": 19.962,
+   "sl": 20.148014285714286,
+   "tp": 19.589971428571427,
+   "zone": [
+    19.953,
+    20.126
+   ],
+   "t": 1794793500000,
+   "status": "open"
+  },
+  {
+   "id": "GIGGLE/USDT:USDT|short|1794792600000",
+   "symbol": "GIGGLE/USDT:USDT",
+   "sym": "GIGGLE",
+   "side": "short",
+   "tf": "15m",
+   "entry": 22.52,
+   "sl": 22.733214285714286,
+   "tp": 22.093571428571426,
+   "zone": [
+    22.57,
+    22.72
+   ],
+   "t": 1794793500000,
+   "status": "open"
   }
  ],
- "updated": 1794780000000,
+ "updated": 1794794400000,
  "exchange": "okx",
  "tf": "15m"
 }
