@@ -1,40 +1,6 @@
 {
  "signals": [
   {
-   "id": "ZEC/USDT:USDT|long|1792470600000",
-   "symbol": "ZEC/USDT:USDT",
-   "sym": "ZEC",
-   "side": "long",
-   "tf": "15m",
-   "entry": 1149.01,
-   "sl": 1140.0890714285715,
-   "tp": 1166.851857142857,
-   "zone": [
-    1141.0,
-    1149.49
-   ],
-   "t": 1792471500000,
-   "status": "sl",
-   "closed": 1792474200000
-  },
-  {
-   "id": "HYPE/USDT:USDT|long|1792470600000",
-   "symbol": "HYPE/USDT:USDT",
-   "sym": "HYPE",
-   "side": "long",
-   "tf": "15m",
-   "entry": 79.485,
-   "sl": 79.34962857142857,
-   "tp": 79.75574285714286,
-   "zone": [
-    79.378,
-    79.6
-   ],
-   "t": 1792471500000,
-   "status": "sl",
-   "closed": 1792472400000
-  },
-  {
    "id": "FIL/USDT:USDT|long|1792467900000",
    "symbol": "FIL/USDT:USDT",
    "sym": "FIL",
@@ -5092,10 +5058,43 @@
     155.2
    ],
    "t": 1794857400000,
+   "status": "sl",
+   "closed": 1794861000000
+  },
+  {
+   "id": "BTC/USDT:USDT|short|1794881700000",
+   "symbol": "BTC/USDT:USDT",
+   "sym": "BTC",
+   "side": "short",
+   "tf": "15m",
+   "entry": 64493.9,
+   "sl": 64883.913571428566,
+   "tp": 63713.87285714287,
+   "zone": [
+    64510.8,
+    64859.7
+   ],
+   "t": 1794882600000,
+   "status": "open"
+  },
+  {
+   "id": "MSTR/USDT:USDT|short|1794881700000",
+   "symbol": "MSTR/USDT:USDT",
+   "sym": "MSTR",
+   "side": "short",
+   "tf": "15m",
+   "entry": 102.77,
+   "sl": 103.60207142857143,
+   "tp": 101.10585714285712,
+   "zone": [
+    102.37,
+    103.54
+   ],
+   "t": 1794882600000,
    "status": "open"
   }
  ],
- "updated": 1794855600000,
+ "updated": 1794880800000,
  "exchange": "okx",
  "tf": "15m"
 }
