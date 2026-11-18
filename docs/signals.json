@@ -1,40 +1,6 @@
 {
  "signals": [
   {
-   "id": "HYPE/USDT:USDT|long|1792566000000",
-   "symbol": "HYPE/USDT:USDT",
-   "sym": "HYPE",
-   "side": "long",
-   "tf": "15m",
-   "entry": 80.76,
-   "sl": 80.53045714285713,
-   "tp": 81.21908571428575,
-   "zone": [
-    80.564,
-    80.847
-   ],
-   "t": 1792577700000,
-   "status": "tp",
-   "closed": 1792578600000
-  },
-  {
-   "id": "ICP/USDT:USDT|long|1792565100000",
-   "symbol": "ICP/USDT:USDT",
-   "sym": "ICP",
-   "side": "long",
-   "tf": "15m",
-   "entry": 2.923,
-   "sl": 2.9006857142857143,
-   "tp": 2.9676285714285715,
-   "zone": [
-    2.902,
-    2.913
-   ],
-   "t": 1792577700000,
-   "status": "tp",
-   "closed": 1792597500000
-  },
-  {
    "id": "QUANT/USDT:USDT|long|1792563300000",
    "symbol": "QUANT/USDT:USDT",
    "sym": "QUANT",
@@ -5058,7 +5024,8 @@
     1760.0
    ],
    "t": 1794967200000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1794980700000
   },
   {
    "id": "MU/USDT:USDT|long|1794954600000",
@@ -5090,10 +5057,43 @@
     0.09877
    ],
    "t": 1794967200000,
+   "status": "sl",
+   "closed": 1794989700000
+  },
+  {
+   "id": "ZEC/USDT:USDT|long|1794953700000",
+   "symbol": "ZEC/USDT:USDT",
+   "sym": "ZEC",
+   "side": "long",
+   "tf": "15m",
+   "entry": 937.08,
+   "sl": 929.3182857142857,
+   "tp": 952.6034285714287,
+   "zone": [
+    930.0,
+    938.94
+   ],
+   "t": 1794996900000,
+   "status": "open"
+  },
+  {
+   "id": "CL/USDT:USDT|long|1794996000000",
+   "symbol": "CL/USDT:USDT",
+   "sym": "CL",
+   "side": "long",
+   "tf": "15m",
+   "entry": 83.47,
+   "sl": 83.07314285714286,
+   "tp": 84.26371428571429,
+   "zone": [
+    83.11,
+    83.39
+   ],
+   "t": 1794996900000,
    "status": "open"
   }
  ],
- "updated": 1794967200000,
+ "updated": 1794996000000,
  "exchange": "okx",
  "tf": "15m"
 }
