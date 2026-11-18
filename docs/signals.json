@@ -1,57 +1,6 @@
 {
  "signals": [
   {
-   "id": "XAU/USDT:USDT|short|1792576800000",
-   "symbol": "XAU/USDT:USDT",
-   "sym": "XAU",
-   "side": "short",
-   "tf": "15m",
-   "entry": 4128.1,
-   "sl": 4131.967857142858,
-   "tp": 4120.364285714286,
-   "zone": [
-    4126.1,
-    4131.5
-   ],
-   "t": 1792577700000,
-   "status": "sl",
-   "closed": 1792578600000
-  },
-  {
-   "id": "ZEC/USDT:USDT|short|1792576800000",
-   "symbol": "ZEC/USDT:USDT",
-   "sym": "ZEC",
-   "side": "short",
-   "tf": "15m",
-   "entry": 1262.43,
-   "sl": 1273.5478571428573,
-   "tp": 1240.1942857142856,
-   "zone": [
-    1262.2,
-    1272.67
-   ],
-   "t": 1792577700000,
-   "status": "sl",
-   "closed": 1792578600000
-  },
-  {
-   "id": "YFI/USDT:USDT|short|1792576800000",
-   "symbol": "YFI/USDT:USDT",
-   "sym": "YFI",
-   "side": "short",
-   "tf": "15m",
-   "entry": 2232.0,
-   "sl": 2238.7714285714287,
-   "tp": 2218.4571428571426,
-   "zone": [
-    2231.0,
-    2238.0
-   ],
-   "t": 1792577700000,
-   "status": "sl",
-   "closed": 1792583100000
-  },
-  {
    "id": "HYPE/USDT:USDT|long|1792566000000",
    "symbol": "HYPE/USDT:USDT",
    "sym": "HYPE",
@@ -5075,7 +5024,8 @@
     3863.3
    ],
    "t": 1794943800000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1794951000000
   },
   {
    "id": "SKHYNIX/USDT:USDT|long|1794942000000",
@@ -5091,10 +5041,59 @@
     823.3
    ],
    "t": 1794943800000,
+   "status": "tp",
+   "closed": 1794950100000
+  },
+  {
+   "id": "YFI/USDT:USDT|short|1794965400000",
+   "symbol": "YFI/USDT:USDT",
+   "sym": "YFI",
+   "side": "short",
+   "tf": "15m",
+   "entry": 1754.0,
+   "sl": 1760.6785714285713,
+   "tp": 1740.6428571428573,
+   "zone": [
+    1754.0,
+    1760.0
+   ],
+   "t": 1794967200000,
+   "status": "open"
+  },
+  {
+   "id": "MU/USDT:USDT|long|1794954600000",
+   "symbol": "MU/USDT:USDT",
+   "sym": "MU",
+   "side": "long",
+   "tf": "15m",
+   "entry": 724.93,
+   "sl": 715.1798571428571,
+   "tp": 744.4302857142856,
+   "zone": [
+    715.92,
+    725.0
+   ],
+   "t": 1794967200000,
+   "status": "open"
+  },
+  {
+   "id": "BREV/USDT:USDT|long|1794945600000",
+   "symbol": "BREV/USDT:USDT",
+   "sym": "BREV",
+   "side": "long",
+   "tf": "15m",
+   "entry": 0.10845,
+   "sl": 0.09339428571428571,
+   "tp": 0.1385614285714286,
+   "zone": [
+    0.09422,
+    0.09877
+   ],
+   "t": 1794967200000,
    "status": "open"
   }
  ],
- "updated": 1794942000000,
+ "updated": 1794967200000,
  "exchange": "okx",
  "tf": "15m"
 }
