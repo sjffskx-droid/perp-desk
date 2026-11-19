@@ -1,74 +1,6 @@
 {
  "signals": [
   {
-   "id": "WLD/USDT:USDT|short|1792576800000",
-   "symbol": "WLD/USDT:USDT",
-   "sym": "WLD",
-   "side": "short",
-   "tf": "15m",
-   "entry": 0.5789,
-   "sl": 0.5829007142857143,
-   "tp": 0.5708985714285713,
-   "zone": [
-    0.5794,
-    0.5825
-   ],
-   "t": 1792577700000,
-   "status": "sl",
-   "closed": 1792578600000
-  },
-  {
-   "id": "SKHY/USDT:USDT|short|1792576800000",
-   "symbol": "SKHY/USDT:USDT",
-   "sym": "SKHY",
-   "side": "short",
-   "tf": "15m",
-   "entry": 144.22,
-   "sl": 144.76257142857142,
-   "tp": 143.13485714285716,
-   "zone": [
-    144.25,
-    144.69
-   ],
-   "t": 1792577700000,
-   "status": "sl",
-   "closed": 1792579500000
-  },
-  {
-   "id": "BNB/USDT:USDT|long|1792594800000",
-   "symbol": "BNB/USDT:USDT",
-   "sym": "BNB",
-   "side": "long",
-   "tf": "15m",
-   "entry": 748.3,
-   "sl": 744.1028571428571,
-   "tp": 756.6942857142856,
-   "zone": [
-    744.3,
-    747.0
-   ],
-   "t": 1792595700000,
-   "status": "sl",
-   "closed": 1792632600000
-  },
-  {
-   "id": "SKHYNIX/USDT:USDT|short|1792608300000",
-   "symbol": "SKHYNIX/USDT:USDT",
-   "sym": "SKHYNIX",
-   "side": "short",
-   "tf": "15m",
-   "entry": 969.3,
-   "sl": 971.7492857142856,
-   "tp": 964.4014285714286,
-   "zone": [
-    968.8,
-    971.3
-   ],
-   "t": 1792610100000,
-   "status": "tp",
-   "closed": 1792612800000
-  },
-  {
    "id": "KORU/USDT:USDT|short|1792608300000",
    "symbol": "KORU/USDT:USDT",
    "sym": "KORU",
@@ -5094,9 +5026,73 @@
    "t": 1795049100000,
    "status": "sl",
    "closed": 1795050000000
+  },
+  {
+   "id": "XPD/USDT:USDT|short|1795107600000",
+   "symbol": "XPD/USDT:USDT",
+   "sym": "XPD",
+   "side": "short",
+   "tf": "15m",
+   "entry": 923.9,
+   "sl": 927.5571428571428,
+   "tp": 916.5857142857143,
+   "zone": [
+    924.5,
+    927.0
+   ],
+   "t": 1795109400000,
+   "status": "open"
+  },
+  {
+   "id": "HYPE/USDT:USDT|short|1795102200000",
+   "symbol": "HYPE/USDT:USDT",
+   "sym": "HYPE",
+   "side": "short",
+   "tf": "15m",
+   "entry": 68.356,
+   "sl": 69.28444999999999,
+   "tp": 66.4991,
+   "zone": [
+    68.455,
+    69.21
+   ],
+   "t": 1795109400000,
+   "status": "open"
+  },
+  {
+   "id": "BCH/USDT:USDT|short|1795102200000",
+   "symbol": "BCH/USDT:USDT",
+   "sym": "BCH",
+   "side": "short",
+   "tf": "15m",
+   "entry": 206.96,
+   "sl": 208.87342857142858,
+   "tp": 203.13314285714287,
+   "zone": [
+    207.56,
+    208.72
+   ],
+   "t": 1795109400000,
+   "status": "open"
+  },
+  {
+   "id": "GIGGLE/USDT:USDT|short|1795106700000",
+   "symbol": "GIGGLE/USDT:USDT",
+   "sym": "GIGGLE",
+   "side": "short",
+   "tf": "15m",
+   "entry": 22.79,
+   "sl": 22.938285714285715,
+   "tp": 22.493428571428566,
+   "zone": [
+    22.79,
+    22.92
+   ],
+   "t": 1795109400000,
+   "status": "open"
   }
  ],
- "updated": 1795075200000,
+ "updated": 1795107600000,
  "exchange": "okx",
  "tf": "15m"
 }
