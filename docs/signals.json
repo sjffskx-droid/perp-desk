@@ -5075,7 +5075,8 @@
     110.9
    ],
    "t": 1795049100000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1795056300000
   },
   {
    "id": "SKHYNIX/USDT:USDT|short|1795005000000",
@@ -5091,10 +5092,11 @@
     866.4
    ],
    "t": 1795049100000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1795050000000
   }
  ],
- "updated": 1795050000000,
+ "updated": 1795075200000,
  "exchange": "okx",
  "tf": "15m"
 }
