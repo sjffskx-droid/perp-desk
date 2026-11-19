@@ -1,40 +1,6 @@
 {
  "signals": [
   {
-   "id": "QUANT/USDT:USDT|long|1792563300000",
-   "symbol": "QUANT/USDT:USDT",
-   "sym": "QUANT",
-   "side": "long",
-   "tf": "15m",
-   "entry": 197.5,
-   "sl": 194.96285714285713,
-   "tp": 202.57428571428574,
-   "zone": [
-    195.1,
-    196.4
-   ],
-   "t": 1792577700000,
-   "status": "sl",
-   "closed": 1792589400000
-  },
-  {
-   "id": "INJ/USDT:USDT|short|1792576800000",
-   "symbol": "INJ/USDT:USDT",
-   "sym": "INJ",
-   "side": "short",
-   "tf": "15m",
-   "entry": 8.702,
-   "sl": 8.782221428571429,
-   "tp": 8.541557142857142,
-   "zone": [
-    8.705,
-    8.776
-   ],
-   "t": 1792577700000,
-   "status": "sl",
-   "closed": 1792580400000
-  },
-  {
    "id": "WLD/USDT:USDT|short|1792576800000",
    "symbol": "WLD/USDT:USDT",
    "sym": "WLD",
@@ -5094,9 +5060,41 @@
    "t": 1794996900000,
    "status": "tp",
    "closed": 1795004100000
+  },
+  {
+   "id": "AAVE/USDT:USDT|short|1795008600000",
+   "symbol": "AAVE/USDT:USDT",
+   "sym": "AAVE",
+   "side": "short",
+   "tf": "15m",
+   "entry": 110.09,
+   "sl": 110.97692857142857,
+   "tp": 108.31614285714286,
+   "zone": [
+    110.43,
+    110.9
+   ],
+   "t": 1795049100000,
+   "status": "open"
+  },
+  {
+   "id": "SKHYNIX/USDT:USDT|short|1795005000000",
+   "symbol": "SKHYNIX/USDT:USDT",
+   "sym": "SKHYNIX",
+   "side": "short",
+   "tf": "15m",
+   "entry": 865.8,
+   "sl": 866.9407142857143,
+   "tp": 863.5185714285712,
+   "zone": [
+    862.2,
+    866.4
+   ],
+   "t": 1795049100000,
+   "status": "open"
   }
  ],
- "updated": 1795028400000,
+ "updated": 1795050000000,
  "exchange": "okx",
  "tf": "15m"
 }
