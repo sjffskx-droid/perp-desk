@@ -1,57 +1,6 @@
 {
  "signals": [
   {
-   "id": "SUI/USDT:USDT|long|1792593900000",
-   "symbol": "SUI/USDT:USDT",
-   "sym": "SUI",
-   "side": "long",
-   "tf": "15m",
-   "entry": 1.0338,
-   "sl": 1.0266471428571426,
-   "tp": 1.0481057142857149,
-   "zone": [
-    1.0271,
-    1.0333
-   ],
-   "t": 1792621800000,
-   "status": "sl",
-   "closed": 1792623600000
-  },
-  {
-   "id": "ETH/USDT:USDT|short|1792647000000",
-   "symbol": "ETH/USDT:USDT",
-   "sym": "ETH",
-   "side": "short",
-   "tf": "15m",
-   "entry": 2437.75,
-   "sl": 2447.5747857142856,
-   "tp": 2418.100428571429,
-   "zone": [
-    2439.0,
-    2446.89
-   ],
-   "t": 1792647900000,
-   "status": "tp",
-   "closed": 1792656000000
-  },
-  {
-   "id": "SNDK/USDT:USDT|short|1792647000000",
-   "symbol": "SNDK/USDT:USDT",
-   "sym": "SNDK",
-   "side": "short",
-   "tf": "15m",
-   "entry": 1335.9,
-   "sl": 1339.2864285714286,
-   "tp": 1329.127142857143,
-   "zone": [
-    1332.6,
-    1338.7
-   ],
-   "t": 1792647900000,
-   "status": "tp",
-   "closed": 1792652400000
-  },
-  {
    "id": "AAVE/USDT:USDT|short|1792647000000",
    "symbol": "AAVE/USDT:USDT",
    "sym": "AAVE",
@@ -5093,9 +5042,57 @@
    ],
    "t": 1795190400000,
    "status": "open"
+  },
+  {
+   "id": "SOXL/USDT:USDT|short|1795202100000",
+   "symbol": "SOXL/USDT:USDT",
+   "sym": "SOXL",
+   "side": "short",
+   "tf": "15m",
+   "entry": 33.81,
+   "sl": 35.813785714285714,
+   "tp": 29.802428571428578,
+   "zone": [
+    33.52,
+    35.71
+   ],
+   "t": 1795213800000,
+   "status": "open"
+  },
+  {
+   "id": "QUANT/USDT:USDT|long|1795212000000",
+   "symbol": "QUANT/USDT:USDT",
+   "sym": "QUANT",
+   "side": "long",
+   "tf": "15m",
+   "entry": 139.0,
+   "sl": 136.74857142857144,
+   "tp": 143.50285714285712,
+   "zone": [
+    136.9,
+    137.6
+   ],
+   "t": 1795213800000,
+   "status": "open"
+  },
+  {
+   "id": "SKHY/USDT:USDT|short|1795201200000",
+   "symbol": "SKHY/USDT:USDT",
+   "sym": "SKHY",
+   "side": "short",
+   "tf": "15m",
+   "entry": 106.39,
+   "sl": 108.43978571428572,
+   "tp": 102.29042857142856,
+   "zone": [
+    106.36,
+    108.33
+   ],
+   "t": 1795213800000,
+   "status": "open"
   }
  ],
- "updated": 1795190400000,
+ "updated": 1795212000000,
  "exchange": "okx",
  "tf": "15m"
 }
