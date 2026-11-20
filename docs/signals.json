@@ -1,23 +1,6 @@
 {
  "signals": [
   {
-   "id": "KORU/USDT:USDT|short|1792608300000",
-   "symbol": "KORU/USDT:USDT",
-   "sym": "KORU",
-   "side": "short",
-   "tf": "15m",
-   "entry": 12.0,
-   "sl": 12.113714285714286,
-   "tp": 11.772571428571428,
-   "zone": [
-    11.97,
-    12.1
-   ],
-   "t": 1792610100000,
-   "status": "tp",
-   "closed": 1792618200000
-  },
-  {
    "id": "XAU/USDT:USDT|long|1792615500000",
    "symbol": "XAU/USDT:USDT",
    "sym": "XAU",
@@ -5094,9 +5077,25 @@
    "t": 1795109400000,
    "status": "sl",
    "closed": 1795117500000
+  },
+  {
+   "id": "BNB/USDT:USDT|short|1795148100000",
+   "symbol": "BNB/USDT:USDT",
+   "sym": "BNB",
+   "side": "short",
+   "tf": "15m",
+   "entry": 570.09,
+   "sl": 575.5916428571429,
+   "tp": 559.0867142857143,
+   "zone": [
+    572.86,
+    575.35
+   ],
+   "t": 1795158900000,
+   "status": "open"
   }
  ],
- "updated": 1795132800000,
+ "updated": 1795158000000,
  "exchange": "okx",
  "tf": "15m"
 }
