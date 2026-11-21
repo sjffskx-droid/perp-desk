@@ -1,23 +1,6 @@
 {
  "signals": [
   {
-   "id": "AAVE/USDT:USDT|short|1792647000000",
-   "symbol": "AAVE/USDT:USDT",
-   "sym": "AAVE",
-   "side": "short",
-   "tf": "15m",
-   "entry": 149.36,
-   "sl": 150.43757142857143,
-   "tp": 147.20485714285718,
-   "zone": [
-    149.62,
-    150.36
-   ],
-   "t": 1792647900000,
-   "status": "tp",
-   "closed": 1792659600000
-  },
-  {
    "id": "ZEC/USDT:USDT|short|1792657800000",
    "symbol": "ZEC/USDT:USDT",
    "sym": "ZEC",
@@ -5073,7 +5056,8 @@
     137.6
    ],
    "t": 1795213800000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1795228200000
   },
   {
    "id": "SKHY/USDT:USDT|short|1795201200000",
@@ -5090,9 +5074,25 @@
    ],
    "t": 1795213800000,
    "status": "open"
+  },
+  {
+   "id": "TAO/USDT:USDT|long|1795212000000",
+   "symbol": "TAO/USDT:USDT",
+   "sym": "TAO",
+   "side": "long",
+   "tf": "15m",
+   "entry": 175.93,
+   "sl": 174.07342857142856,
+   "tp": 179.6431428571429,
+   "zone": [
+    174.19,
+    175.93
+   ],
+   "t": 1795230900000,
+   "status": "open"
   }
  ],
- "updated": 1795212000000,
+ "updated": 1795230000000,
  "exchange": "okx",
  "tf": "15m"
 }
