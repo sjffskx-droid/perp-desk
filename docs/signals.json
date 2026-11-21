@@ -1,40 +1,6 @@
 {
  "signals": [
   {
-   "id": "ZEC/USDT:USDT|short|1792657800000",
-   "symbol": "ZEC/USDT:USDT",
-   "sym": "ZEC",
-   "side": "short",
-   "tf": "15m",
-   "entry": 1259.91,
-   "sl": 1285.4945,
-   "tp": 1208.7410000000002,
-   "zone": [
-    1266.98,
-    1284.3
-   ],
-   "t": 1792668600000,
-   "status": "tp",
-   "closed": 1792687500000
-  },
-  {
-   "id": "VVV/USDT:USDT|short|1792665900000",
-   "symbol": "VVV/USDT:USDT",
-   "sym": "VVV",
-   "side": "short",
-   "tf": "15m",
-   "entry": 27.761,
-   "sl": 27.81037142857143,
-   "tp": 27.66225714285714,
-   "zone": [
-    27.62,
-    27.776
-   ],
-   "t": 1792668600000,
-   "status": "tp",
-   "closed": 1792669500000
-  },
-  {
    "id": "ICP/USDT:USDT|short|1792697400000",
    "symbol": "ICP/USDT:USDT",
    "sym": "ICP",
@@ -5024,7 +4990,8 @@
     895.8
    ],
    "t": 1795190400000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1795248900000
   },
   {
    "id": "SOXL/USDT:USDT|short|1795202100000",
@@ -5089,10 +5056,43 @@
     175.93
    ],
    "t": 1795230900000,
+   "status": "sl",
+   "closed": 1795231800000
+  },
+  {
+   "id": "DASH/USDT:USDT|long|1795259700000",
+   "symbol": "DASH/USDT:USDT",
+   "sym": "DASH",
+   "side": "long",
+   "tf": "15m",
+   "entry": 32.47,
+   "sl": 32.185428571428574,
+   "tp": 33.03914285714285,
+   "zone": [
+    32.21,
+    32.42
+   ],
+   "t": 1795260600000,
+   "status": "open"
+  },
+  {
+   "id": "QUANT/USDT:USDT|short|1795231800000",
+   "symbol": "QUANT/USDT:USDT",
+   "sym": "QUANT",
+   "side": "short",
+   "tf": "15m",
+   "entry": 134.8,
+   "sl": 135.92928571428573,
+   "tp": 132.54142857142858,
+   "zone": [
+    134.7,
+    135.8
+   ],
+   "t": 1795260600000,
    "status": "open"
   }
  ],
- "updated": 1795230000000,
+ "updated": 1795258800000,
  "exchange": "okx",
  "tf": "15m"
 }
