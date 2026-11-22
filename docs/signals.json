@@ -5056,7 +5056,8 @@
     69.31
    ],
    "t": 1795316400000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1795324500000
   },
   {
    "id": "QUANT/USDT:USDT|long|1795280400000",
@@ -5072,7 +5073,8 @@
     140.2
    ],
    "t": 1795316400000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1795323600000
   },
   {
    "id": "INJ/USDT:USDT|short|1795314600000",
@@ -5088,10 +5090,11 @@
     5.978
    ],
    "t": 1795316400000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1795334400000
   }
  ],
- "updated": 1795316400000,
+ "updated": 1795345200000,
  "exchange": "okx",
  "tf": "15m"
 }
