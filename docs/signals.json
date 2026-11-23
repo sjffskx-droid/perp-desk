@@ -1,40 +1,6 @@
 {
  "signals": [
   {
-   "id": "CL/USDT:USDT|long|1792796400000",
-   "symbol": "CL/USDT:USDT",
-   "sym": "CL",
-   "side": "long",
-   "tf": "15m",
-   "entry": 103.85,
-   "sl": 103.4515,
-   "tp": 104.64699999999999,
-   "zone": [
-    103.49,
-    103.72
-   ],
-   "t": 1792797300000,
-   "status": "sl",
-   "closed": 1792806300000
-  },
-  {
-   "id": "VVV/USDT:USDT|short|1792794600000",
-   "symbol": "VVV/USDT:USDT",
-   "sym": "VVV",
-   "side": "short",
-   "tf": "15m",
-   "entry": 24.949,
-   "sl": 25.13567857142857,
-   "tp": 24.575642857142864,
-   "zone": [
-    24.982,
-    25.117
-   ],
-   "t": 1792797300000,
-   "status": "sl",
-   "closed": 1792800000000
-  },
-  {
    "id": "QUANT/USDT:USDT|short|1792796400000",
    "symbol": "QUANT/USDT:USDT",
    "sym": "QUANT",
@@ -5039,7 +5005,8 @@
     796.51
    ],
    "t": 1795392000000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1795395600000
   },
   {
    "id": "VVV/USDT:USDT|long|1795391100000",
@@ -5055,7 +5022,8 @@
     26.568
    ],
    "t": 1795392000000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1795393800000
   },
   {
    "id": "ENSO/USDT:USDT|short|1795345200000",
@@ -5071,7 +5039,8 @@
     0.488
    ],
    "t": 1795392000000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1795392900000
   },
   {
    "id": "QQQ/USDT:USDT|long|1795391100000",
@@ -5087,10 +5056,43 @@
     629.96
    ],
    "t": 1795392000000,
+   "status": "sl",
+   "closed": 1795400100000
+  },
+  {
+   "id": "XAU/USDT:USDT|long|1795417200000",
+   "symbol": "XAU/USDT:USDT",
+   "sym": "XAU",
+   "side": "long",
+   "tf": "15m",
+   "entry": 3632.6,
+   "sl": 3627.3864285714285,
+   "tp": 3643.0271428571427,
+   "zone": [
+    3628.2,
+    3634.3
+   ],
+   "t": 1795419000000,
+   "status": "open"
+  },
+  {
+   "id": "XAG/USDT:USDT|long|1795417200000",
+   "symbol": "XAG/USDT:USDT",
+   "sym": "XAG",
+   "side": "long",
+   "tf": "15m",
+   "entry": 42.76,
+   "sl": 42.673071428571426,
+   "tp": 42.93385714285714,
+   "zone": [
+    42.69,
+    42.81
+   ],
+   "t": 1795419000000,
    "status": "open"
   }
  ],
- "updated": 1795392000000,
+ "updated": 1795417200000,
  "exchange": "okx",
  "tf": "15m"
 }
