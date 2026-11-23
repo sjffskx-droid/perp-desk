@@ -1,57 +1,6 @@
 {
  "signals": [
   {
-   "id": "QUANT/USDT:USDT|short|1792796400000",
-   "symbol": "QUANT/USDT:USDT",
-   "sym": "QUANT",
-   "side": "short",
-   "tf": "15m",
-   "entry": 182.7,
-   "sl": 185.06428571428572,
-   "tp": 177.97142857142853,
-   "zone": [
-    183.5,
-    184.9
-   ],
-   "t": 1792806300000,
-   "status": "tp",
-   "closed": 1792833300000
-  },
-  {
-   "id": "SNXX/USDT:USDT|short|1792823400000",
-   "symbol": "SNXX/USDT:USDT",
-   "sym": "SNXX",
-   "side": "short",
-   "tf": "15m",
-   "entry": 8.167,
-   "sl": 8.211278571428572,
-   "tp": 8.078442857142855,
-   "zone": [
-    8.134,
-    8.208
-   ],
-   "t": 1792824300000,
-   "status": "tp",
-   "closed": 1792833300000
-  },
-  {
-   "id": "BCH/USDT:USDT|short|1792826100000",
-   "symbol": "BCH/USDT:USDT",
-   "sym": "BCH",
-   "side": "short",
-   "tf": "15m",
-   "entry": 277.6,
-   "sl": 278.6985714285714,
-   "tp": 275.4028571428572,
-   "zone": [
-    277.8,
-    278.6
-   ],
-   "t": 1792842300000,
-   "status": "sl",
-   "closed": 1792844100000
-  },
-  {
    "id": "INJ/USDT:USDT|short|1792854900000",
    "symbol": "INJ/USDT:USDT",
    "sym": "INJ",
@@ -5073,7 +5022,8 @@
     3634.3
    ],
    "t": 1795419000000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1795419900000
   },
   {
    "id": "XAG/USDT:USDT|long|1795417200000",
@@ -5089,10 +5039,59 @@
     42.81
    ],
    "t": 1795419000000,
+   "status": "sl",
+   "closed": 1795419900000
+  },
+  {
+   "id": "BNB/USDT:USDT|short|1795462200000",
+   "symbol": "BNB/USDT:USDT",
+   "sym": "BNB",
+   "side": "short",
+   "tf": "15m",
+   "entry": 559.12,
+   "sl": 562.8477142857143,
+   "tp": 551.6645714285713,
+   "zone": [
+    559.04,
+    562.49
+   ],
+   "t": 1795463100000,
+   "status": "open"
+  },
+  {
+   "id": "SKHYNIX/USDT:USDT|short|1795462200000",
+   "symbol": "SKHYNIX/USDT:USDT",
+   "sym": "SKHYNIX",
+   "side": "short",
+   "tf": "15m",
+   "entry": 876.8,
+   "sl": 882.9335714285714,
+   "tp": 864.532857142857,
+   "zone": [
+    872.7,
+    882.2
+   ],
+   "t": 1795463100000,
+   "status": "open"
+  },
+  {
+   "id": "SKHY/USDT:USDT|short|1795462200000",
+   "symbol": "SKHY/USDT:USDT",
+   "sym": "SKHY",
+   "side": "short",
+   "tf": "15m",
+   "entry": 123.81,
+   "sl": 124.87349999999999,
+   "tp": 121.68300000000002,
+   "zone": [
+    123.55,
+    124.77
+   ],
+   "t": 1795463100000,
    "status": "open"
   }
  ],
- "updated": 1795417200000,
+ "updated": 1795464000000,
  "exchange": "okx",
  "tf": "15m"
 }
