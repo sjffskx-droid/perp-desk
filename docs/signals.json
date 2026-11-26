@@ -1,108 +1,6 @@
 {
  "signals": [
   {
-   "id": "ZEC/USDT:USDT|short|1792906200000",
-   "symbol": "ZEC/USDT:USDT",
-   "sym": "ZEC",
-   "side": "short",
-   "tf": "15m",
-   "entry": 1218.52,
-   "sl": 1222.8697142857143,
-   "tp": 1209.8205714285714,
-   "zone": [
-    1214.78,
-    1222.0
-   ],
-   "t": 1792928700000,
-   "status": "tp",
-   "closed": 1792930500000
-  },
-  {
-   "id": "XAU/USDT:USDT|long|1792926900000",
-   "symbol": "XAU/USDT:USDT",
-   "sym": "XAU",
-   "side": "long",
-   "tf": "15m",
-   "entry": 3995.6,
-   "sl": 3994.787142857143,
-   "tp": 3997.225714285714,
-   "zone": [
-    3994.9,
-    3995.8
-   ],
-   "t": 1792928700000,
-   "status": "tp",
-   "closed": 1792935000000
-  },
-  {
-   "id": "QUANT/USDT:USDT|short|1792916100000",
-   "symbol": "QUANT/USDT:USDT",
-   "sym": "QUANT",
-   "side": "short",
-   "tf": "15m",
-   "entry": 182.7,
-   "sl": 185.23142857142855,
-   "tp": 177.63714285714286,
-   "zone": [
-    183.0,
-    185.1
-   ],
-   "t": 1792928700000,
-   "status": "sl",
-   "closed": 1792939500000
-  },
-  {
-   "id": "TRUMP/USDT:USDT|short|1792916100000",
-   "symbol": "TRUMP/USDT:USDT",
-   "sym": "TRUMP",
-   "side": "short",
-   "tf": "15m",
-   "entry": 1.655,
-   "sl": 1.6608214285714284,
-   "tp": 1.6433571428571432,
-   "zone": [
-    1.654,
-    1.66
-   ],
-   "t": 1792928700000,
-   "status": "tp",
-   "closed": 1792930500000
-  },
-  {
-   "id": "ICP/USDT:USDT|short|1792916100000",
-   "symbol": "ICP/USDT:USDT",
-   "sym": "ICP",
-   "side": "short",
-   "tf": "15m",
-   "entry": 2.614,
-   "sl": 2.621057142857143,
-   "tp": 2.5998857142857137,
-   "zone": [
-    2.605,
-    2.62
-   ],
-   "t": 1792928700000,
-   "status": "sl",
-   "closed": 1792935000000
-  },
-  {
-   "id": "BCH/USDT:USDT|short|1792916100000",
-   "symbol": "BCH/USDT:USDT",
-   "sym": "BCH",
-   "side": "short",
-   "tf": "15m",
-   "entry": 273.8,
-   "sl": 275.3042857142857,
-   "tp": 270.79142857142864,
-   "zone": [
-    274.3,
-    275.2
-   ],
-   "t": 1792928700000,
-   "status": "sl",
-   "closed": 1792940400000
-  },
-  {
    "id": "AAVE/USDT:USDT|short|1792916100000",
    "symbol": "AAVE/USDT:USDT",
    "sym": "AAVE",
@@ -5071,7 +4969,8 @@
     41.62
    ],
    "t": 1795657500000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1795658400000
   },
   {
    "id": "TAO/USDT:USDT|long|1795656600000",
@@ -5087,10 +4986,107 @@
     185.42
    ],
    "t": 1795657500000,
+   "status": "sl",
+   "closed": 1795674600000
+  },
+  {
+   "id": "XPD/USDT:USDT|long|1795681800000",
+   "symbol": "XPD/USDT:USDT",
+   "sym": "XPD",
+   "side": "long",
+   "tf": "15m",
+   "entry": 879.3,
+   "sl": 877.8107142857143,
+   "tp": 882.2785714285712,
+   "zone": [
+    878.1,
+    881.4
+   ],
+   "t": 1795689000000,
+   "status": "open"
+  },
+  {
+   "id": "HYPE/USDT:USDT|long|1795682700000",
+   "symbol": "HYPE/USDT:USDT",
+   "sym": "HYPE",
+   "side": "long",
+   "tf": "15m",
+   "entry": 61.043,
+   "sl": 60.98323571428571,
+   "tp": 61.162528571428574,
+   "zone": [
+    61.013,
+    61.229
+   ],
+   "t": 1795689000000,
+   "status": "open"
+  },
+  {
+   "id": "ICP/USDT:USDT|long|1795681800000",
+   "symbol": "ICP/USDT:USDT",
+   "sym": "ICP",
+   "side": "long",
+   "tf": "15m",
+   "entry": 2.009,
+   "sl": 2.0030071428571428,
+   "tp": 2.020985714285714,
+   "zone": [
+    2.004,
+    2.009
+   ],
+   "t": 1795689000000,
+   "status": "open"
+  },
+  {
+   "id": "FIL/USDT:USDT|long|1795682700000",
+   "symbol": "FIL/USDT:USDT",
+   "sym": "FIL",
+   "side": "long",
+   "tf": "15m",
+   "entry": 0.5464,
+   "sl": 0.5437678571428571,
+   "tp": 0.5516642857142857,
+   "zone": [
+    0.544,
+    0.5456
+   ],
+   "t": 1795689000000,
+   "status": "open"
+  },
+  {
+   "id": "INJ/USDT:USDT|long|1795681800000",
+   "symbol": "INJ/USDT:USDT",
+   "sym": "INJ",
+   "side": "long",
+   "tf": "15m",
+   "entry": 6.171,
+   "sl": 6.143378571428571,
+   "tp": 6.226242857142858,
+   "zone": [
+    6.148,
+    6.182
+   ],
+   "t": 1795689000000,
+   "status": "open"
+  },
+  {
+   "id": "SKHY/USDT:USDT|long|1795639500000",
+   "symbol": "SKHY/USDT:USDT",
+   "sym": "SKHY",
+   "side": "long",
+   "tf": "15m",
+   "entry": 110.21,
+   "sl": 108.61592857142857,
+   "tp": 113.39814285714284,
+   "zone": [
+    108.66,
+    110.17
+   ],
+   "t": 1795689000000,
    "status": "open"
   }
  ],
- "updated": 1795658400000,
+ "updated": 1795687200000,
  "exchange": "okx",
  "tf": "15m"
 }
