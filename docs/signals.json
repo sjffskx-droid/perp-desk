@@ -1,40 +1,6 @@
 {
  "signals": [
   {
-   "id": "TRB/USDT:USDT|short|1792908000000",
-   "symbol": "TRB/USDT:USDT",
-   "sym": "TRB",
-   "side": "short",
-   "tf": "15m",
-   "entry": 17.56,
-   "sl": 17.67721428571429,
-   "tp": 17.32557142857142,
-   "zone": [
-    17.58,
-    17.67
-   ],
-   "t": 1792908900000,
-   "status": "tp",
-   "closed": 1792918800000
-  },
-  {
-   "id": "BTC/USDT:USDT|short|1792916100000",
-   "symbol": "BTC/USDT:USDT",
-   "sym": "BTC",
-   "side": "short",
-   "tf": "15m",
-   "entry": 80543.3,
-   "sl": 80704.13928571428,
-   "tp": 80221.62142857145,
-   "zone": [
-    80561.2,
-    80690.5
-   ],
-   "t": 1792928700000,
-   "status": "tp",
-   "closed": 1792934100000
-  },
-  {
    "id": "ZEC/USDT:USDT|short|1792906200000",
    "symbol": "ZEC/USDT:USDT",
    "sym": "ZEC",
@@ -5022,7 +4988,8 @@
     1579.0
    ],
    "t": 1795631400000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1795633200000
   },
   {
    "id": "SOXL/USDT:USDT|long|1795630500000",
@@ -5054,7 +5021,8 @@
     80.81
    ],
    "t": 1795631400000,
-   "status": "open"
+   "status": "tp",
+   "closed": 1795641300000
   },
   {
    "id": "SOXS/USDT:USDT|short|1795630500000",
@@ -5086,10 +5054,43 @@
     770.3
    ],
    "t": 1795631400000,
+   "status": "sl",
+   "closed": 1795632300000
+  },
+  {
+   "id": "XAG/USDT:USDT|short|1795656600000",
+   "symbol": "XAG/USDT:USDT",
+   "sym": "XAG",
+   "side": "short",
+   "tf": "15m",
+   "entry": 41.29,
+   "sl": 41.64707142857143,
+   "tp": 40.57585714285714,
+   "zone": [
+    41.01,
+    41.62
+   ],
+   "t": 1795657500000,
+   "status": "open"
+  },
+  {
+   "id": "TAO/USDT:USDT|long|1795656600000",
+   "symbol": "TAO/USDT:USDT",
+   "sym": "TAO",
+   "side": "long",
+   "tf": "15m",
+   "entry": 184.7,
+   "sl": 182.87692857142855,
+   "tp": 188.34614285714287,
+   "zone": [
+    182.98,
+    185.42
+   ],
+   "t": 1795657500000,
    "status": "open"
   }
  ],
- "updated": 1795629600000,
+ "updated": 1795658400000,
  "exchange": "okx",
  "tf": "15m"
 }
