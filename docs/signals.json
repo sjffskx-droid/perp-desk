@@ -1,57 +1,6 @@
 {
  "signals": [
   {
-   "id": "INJ/USDT:USDT|short|1792916100000",
-   "symbol": "INJ/USDT:USDT",
-   "sym": "INJ",
-   "side": "short",
-   "tf": "15m",
-   "entry": 7.649,
-   "sl": 7.684614285714286,
-   "tp": 7.577771428571428,
-   "zone": [
-    7.639,
-    7.68
-   ],
-   "t": 1792928700000,
-   "status": "tp",
-   "closed": 1792933200000
-  },
-  {
-   "id": "SUI/USDT:USDT|short|1792916100000",
-   "symbol": "SUI/USDT:USDT",
-   "sym": "SUI",
-   "side": "short",
-   "tf": "15m",
-   "entry": 0.919,
-   "sl": 0.9215214285714286,
-   "tp": 0.9139571428571429,
-   "zone": [
-    0.9165,
-    0.9211
-   ],
-   "t": 1792928700000,
-   "status": "tp",
-   "closed": 1792930500000
-  },
-  {
-   "id": "UNI/USDT:USDT|short|1792916100000",
-   "symbol": "UNI/USDT:USDT",
-   "sym": "UNI",
-   "side": "short",
-   "tf": "15m",
-   "entry": 6.756,
-   "sl": 6.788307142857143,
-   "tp": 6.691385714285715,
-   "zone": [
-    6.746,
-    6.785
-   ],
-   "t": 1792928700000,
-   "status": "tp",
-   "closed": 1792930500000
-  },
-  {
    "id": "VVV/USDT:USDT|short|1792916100000",
    "symbol": "VVV/USDT:USDT",
    "sym": "VVV",
@@ -5088,10 +5037,59 @@
     150.4
    ],
    "t": 1795777200000,
+   "status": "sl",
+   "closed": 1795787100000
+  },
+  {
+   "id": "DASH/USDT:USDT|long|1795806900000",
+   "symbol": "DASH/USDT:USDT",
+   "sym": "DASH",
+   "side": "long",
+   "tf": "15m",
+   "entry": 35.98,
+   "sl": 35.859857142857145,
+   "tp": 36.2202857142857,
+   "zone": [
+    35.88,
+    35.99
+   ],
+   "t": 1795808700000,
+   "status": "open"
+  },
+  {
+   "id": "AAVE/USDT:USDT|long|1795807800000",
+   "symbol": "AAVE/USDT:USDT",
+   "sym": "AAVE",
+   "side": "long",
+   "tf": "15m",
+   "entry": 95.11,
+   "sl": 94.63157142857142,
+   "tp": 96.06685714285716,
+   "zone": [
+    94.69,
+    95.08
+   ],
+   "t": 1795808700000,
+   "status": "open"
+  },
+  {
+   "id": "ZHONGJI/USDT:USDT|long|1795806900000",
+   "symbol": "ZHONGJI/USDT:USDT",
+   "sym": "ZHONGJI",
+   "side": "long",
+   "tf": "15m",
+   "entry": 77.47,
+   "sl": 77.25907142857143,
+   "tp": 77.89185714285713,
+   "zone": [
+    77.29,
+    77.44
+   ],
+   "t": 1795808700000,
    "status": "open"
   }
  ],
- "updated": 1795777200000,
+ "updated": 1795809600000,
  "exchange": "okx",
  "tf": "15m"
 }
