@@ -1,23 +1,6 @@
 {
  "signals": [
   {
-   "id": "SNDK/USDT:USDT|long|1792927800000",
-   "symbol": "SNDK/USDT:USDT",
-   "sym": "SNDK",
-   "side": "long",
-   "tf": "15m",
-   "entry": 1242.5,
-   "sl": 1236.310714285714,
-   "tp": 1254.8785714285718,
-   "zone": [
-    1236.6,
-    1240.7
-   ],
-   "t": 1792928700000,
-   "status": "tp",
-   "closed": 1792944000000
-  },
-  {
    "id": "INJ/USDT:USDT|short|1792916100000",
    "symbol": "INJ/USDT:USDT",
    "sym": "INJ",
@@ -5090,9 +5073,25 @@
    "t": 1795721400000,
    "status": "tp",
    "closed": 1795744800000
+  },
+  {
+   "id": "QUANT/USDT:USDT|long|1795775400000",
+   "symbol": "QUANT/USDT:USDT",
+   "sym": "QUANT",
+   "side": "long",
+   "tf": "15m",
+   "entry": 150.8,
+   "sl": 149.83714285714285,
+   "tp": 152.72571428571433,
+   "zone": [
+    149.9,
+    150.4
+   ],
+   "t": 1795777200000,
+   "status": "open"
   }
  ],
- "updated": 1795744800000,
+ "updated": 1795777200000,
  "exchange": "okx",
  "tf": "15m"
 }
