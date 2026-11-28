@@ -1,40 +1,6 @@
 {
  "signals": [
   {
-   "id": "BERA/USDT:USDT|short|1792925100000",
-   "symbol": "BERA/USDT:USDT",
-   "sym": "BERA",
-   "side": "short",
-   "tf": "15m",
-   "entry": 0.1504,
-   "sl": 0.15088571428571426,
-   "tp": 0.1494285714285715,
-   "zone": [
-    0.1502,
-    0.1508
-   ],
-   "t": 1792928700000,
-   "status": "sl",
-   "closed": 1792929600000
-  },
-  {
-   "id": "DASH/USDT:USDT|long|1792932300000",
-   "symbol": "DASH/USDT:USDT",
-   "sym": "DASH",
-   "side": "long",
-   "tf": "15m",
-   "entry": 52.21,
-   "sl": 51.784000000000006,
-   "tp": 53.06199999999999,
-   "zone": [
-    51.84,
-    52.35
-   ],
-   "t": 1792944000000,
-   "status": "sl",
-   "closed": 1792960200000
-  },
-  {
    "id": "FIL/USDT:USDT|long|1792942200000",
    "symbol": "FIL/USDT:USDT",
    "sym": "FIL",
@@ -5037,7 +5003,8 @@
     95.08
    ],
    "t": 1795808700000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1795833000000
   },
   {
    "id": "ZHONGJI/USDT:USDT|long|1795806900000",
@@ -5070,7 +5037,8 @@
     903.7
    ],
    "t": 1795832100000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1795833000000
   },
   {
    "id": "UNI/USDT:USDT|long|1795825800000",
@@ -5086,10 +5054,43 @@
     4.815
    ],
    "t": 1795832100000,
+   "status": "sl",
+   "closed": 1795833000000
+  },
+  {
+   "id": "XAG/USDT:USDT|long|1795860000000",
+   "symbol": "XAG/USDT:USDT",
+   "sym": "XAG",
+   "side": "long",
+   "tf": "15m",
+   "entry": 43.94,
+   "sl": 43.876357142857145,
+   "tp": 44.0672857142857,
+   "zone": [
+    43.88,
+    43.91
+   ],
+   "t": 1795861800000,
+   "status": "open"
+  },
+  {
+   "id": "QQQ/USDT:USDT|short|1795860900000",
+   "symbol": "QQQ/USDT:USDT",
+   "sym": "QQQ",
+   "side": "short",
+   "tf": "15m",
+   "entry": 648.08,
+   "sl": 649.2425714285715,
+   "tp": 645.7548571428571,
+   "zone": [
+    648.55,
+    649.19
+   ],
+   "t": 1795861800000,
    "status": "open"
   }
  ],
- "updated": 1795831200000,
+ "updated": 1795860000000,
  "exchange": "okx",
  "tf": "15m"
 }
