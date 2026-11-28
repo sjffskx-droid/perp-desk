@@ -1,40 +1,6 @@
 {
  "signals": [
   {
-   "id": "VVV/USDT:USDT|short|1792916100000",
-   "symbol": "VVV/USDT:USDT",
-   "sym": "VVV",
-   "side": "short",
-   "tf": "15m",
-   "entry": 24.688,
-   "sl": 24.743942857142855,
-   "tp": 24.576114285714286,
-   "zone": [
-    24.543,
-    24.729
-   ],
-   "t": 1792928700000,
-   "status": "sl",
-   "closed": 1792929600000
-  },
-  {
-   "id": "STRK/USDT:USDT|short|1792916100000",
-   "symbol": "STRK/USDT:USDT",
-   "sym": "STRK",
-   "side": "short",
-   "tf": "15m",
-   "entry": 0.04578,
-   "sl": 0.04664857142857143,
-   "tp": 0.04404285714285715,
-   "zone": [
-    0.04618,
-    0.04661
-   ],
-   "t": 1792928700000,
-   "status": "sl",
-   "closed": 1793027700000
-  },
-  {
    "id": "BERA/USDT:USDT|short|1792925100000",
    "symbol": "BERA/USDT:USDT",
    "sym": "BERA",
@@ -5054,7 +5020,8 @@
     35.99
    ],
    "t": 1795808700000,
-   "status": "open"
+   "status": "sl",
+   "closed": 1795809600000
   },
   {
    "id": "AAVE/USDT:USDT|long|1795807800000",
@@ -5086,10 +5053,43 @@
     77.44
    ],
    "t": 1795808700000,
+   "status": "sl",
+   "closed": 1795811400000
+  },
+  {
+   "id": "XPD/USDT:USDT|short|1795829400000",
+   "symbol": "XPD/USDT:USDT",
+   "sym": "XPD",
+   "side": "short",
+   "tf": "15m",
+   "entry": 903.5,
+   "sl": 903.8335714285714,
+   "tp": 902.8328571428572,
+   "zone": [
+    903.3,
+    903.7
+   ],
+   "t": 1795832100000,
+   "status": "open"
+  },
+  {
+   "id": "UNI/USDT:USDT|long|1795825800000",
+   "symbol": "UNI/USDT:USDT",
+   "sym": "UNI",
+   "side": "long",
+   "tf": "15m",
+   "entry": 4.812,
+   "sl": 4.7955,
+   "tp": 4.8450000000000015,
+   "zone": [
+    4.798,
+    4.815
+   ],
+   "t": 1795832100000,
    "status": "open"
   }
  ],
- "updated": 1795809600000,
+ "updated": 1795831200000,
  "exchange": "okx",
  "tf": "15m"
 }
